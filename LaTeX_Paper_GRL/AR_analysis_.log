@@ -1,0 +1,1704 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.19)  23 APR 2024 12:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**AR_analysis_
+(./AR_analysis_.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (./AR_analysis_.cls
+Document Class: AR_analysis_ 01/14/2019
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count167
+\output=\toks15
+\linenoprevgraf=\count168
+\linenumbersep=\dimen136
+\linenumberwidth=\dimen137
+\c@linenumber=\count169
+\c@pagewiselinenumber=\count170
+\c@LN@truepage=\count171
+\c@internallinenumber=\count172
+\c@internallinenumbers=\count173
+\quotelinenumbersep=\dimen138
+\bframerule=\dimen139
+\bframesep=\dimen140
+\bframebox=\box45
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip47
+\RaggedLeftLeftskip=\skip48
+\RaggedRightLeftskip=\skip49
+\CenteringRightskip=\skip50
+\RaggedLeftRightskip=\skip51
+\RaggedRightRightskip=\skip52
+\CenteringParfillskip=\skip53
+\RaggedLeftParfillskip=\skip54
+\RaggedRightParfillskip=\skip55
+\JustifyingParfillskip=\skip56
+\CenteringParindent=\skip57
+\RaggedLeftParindent=\skip58
+\RaggedRightParindent=\skip59
+\JustifyingParindent=\skip60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count174
+\rotFPtop=\skip61
+\rotFPbot=\skip62
+\rot@float@box=\box46
+\rot@mess@toks=\toks16
+)
+\draftskip=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip63
+\belowcaptionskip=\skip64
+\c@appendnum=\count183
+\bibindent=\dimen141
+
+(/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count184
+\bibleftmargin=\skip65
+\bibindent=\skip66
+\bibparsep=\skip67
+\bibitemsep=\skip68
+\biblabelsep=\skip69
+))
+(./trackchanges.sty
+Package: trackchanges 2009/04/22 v0.7.0 TrackChanges file 
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count185
+\calc@Bcount=\count186
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count187
+\calc@Cskip=\skip72
+)
+(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks17
+\SOUL@lasttoken=\toks18
+\SOUL@cmds=\toks19
+\SOUL@buffer=\toks20
+\SOUL@token=\toks21
+\SOUL@spaceskip=\skip73
+\SOUL@ttwidth=\dimen144
+\SOUL@uldp=\dimen145
+\SOUL@ulht=\dimen146
+)
+(/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+Package morefloats Info: Maximum number of possible floats asked for: 36
+(morefloats)             (i.e. 18 more floats).
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+)
+\c@userid=\count188
+\c@changenumber=\count189
+\c@storefootnote=\count190
+\c@numeditors=\count191
+\c@maxeditors=\count192
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count193
+\float@exts=\toks22
+\float@box=\box47
+\@float@everytoks=\toks23
+\@floatcapt=\box48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip74
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen147
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip17
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks25
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks26
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks27
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count272
+\l_MT_multwidth_dim=\dimen156
+\origjot=\skip77
+\l_MT_shortvdotswithinadjustabove_dim=\dimen157
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen158
+\l_MT_above_intertext_sep=\dimen159
+\l_MT_below_intertext_sep=\dimen160
+\l_MT_above_shortintertext_sep=\dimen161
+\l_MT_below_shortintertext_sep=\dimen162
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen163
+\ar@mcellbox=\box51
+\extrarowheight=\dimen164
+\NC@list=\toks29
+\extratabsurround=\skip78
+\backup@length=\skip79
+\ar@cellbox=\box52
+)
+\TX@col@width=\dimen165
+\TX@old@table=\dimen166
+\TX@old@col=\dimen167
+\TX@target=\dimen168
+\TX@delta=\dimen169
+\TX@cols=\count273
+\TX@ftn=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen170
+\c@nlinenum=\count274
+\TeXr@lab=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen171
+\pgfutil@tempdimb=\dimen172
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box53
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen173
+\pgf@y=\dimen174
+\pgf@xa=\dimen175
+\pgf@ya=\dimen176
+\pgf@xb=\dimen177
+\pgf@yb=\dimen178
+\pgf@xc=\dimen179
+\pgf@yc=\dimen180
+\pgf@xd=\dimen181
+\pgf@yd=\dimen182
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count275
+\c@pgf@countb=\count276
+\c@pgf@countc=\count277
+\c@pgf@countd=\count278
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count279
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count280
+\pgfsyssoftpath@bigbuffer@items=\count281
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen183
+\pgfmath@count=\count282
+\pgfmath@box=\box54
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count283
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen184
+\pgf@picmaxx=\dimen185
+\pgf@picminy=\dimen186
+\pgf@picmaxy=\dimen187
+\pgf@pathminx=\dimen188
+\pgf@pathmaxx=\dimen189
+\pgf@pathminy=\dimen190
+\pgf@pathmaxy=\dimen191
+\pgf@xx=\dimen192
+\pgf@xy=\dimen193
+\pgf@yx=\dimen194
+\pgf@yy=\dimen195
+\pgf@zx=\dimen196
+\pgf@zy=\dimen197
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen198
+\pgf@path@lasty=\dimen199
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen256
+\pgf@shorten@start@additional=\dimen257
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count284
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen258
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen259
+\pgf@pt@y=\dimen260
+\pgf@pt@temp=\dimen261
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen262
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen263
+\pgf@sys@shading@range@num=\count285
+\pgf@shadingcount=\count286
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box58
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box59
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen264
+\pgf@nodesepend=\dimen265
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen266
+\pgffor@skip=\dimen267
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count287
+\pgfplotmarksize=\dimen268
+)
+\tikz@lastx=\dimen269
+\tikz@lasty=\dimen270
+\tikz@lastxsaved=\dimen271
+\tikz@lastysaved=\dimen272
+\tikz@lastmovetox=\dimen273
+\tikz@lastmovetoy=\dimen274
+\tikzleveldistance=\dimen275
+\tikzsiblingdistance=\dimen276
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count288
+\tikznumberofchildren=\count289
+\tikznumberofcurrentchild=\count290
+\tikz@fig@count=\count291
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count292
+\pgfmatrixcurrentcolumn=\count293
+\pgf@matrix@numberofcolumns=\count294
+)
+\tikz@expandcount=\count295
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+Package: tikz-cd 2018/11/19 v0.9f Commutative diagrams with TikZ
+
+(/usr/share/texlive/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen277
+\pgfarrowlength=\dimen278
+\pgfarrowwidth=\dimen279
+\pgfarrowlinewidth=\dimen280
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks44
+\t@pgfplots@tokb=\toks45
+\t@pgfplots@tokc=\toks46
+\pgfplots@tmpa=\dimen281
+\c@pgfplots@coordindex=\count296
+\c@pgfplots@scanlineindex=\count297
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count298
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count299
+\t@pgfplotstable@a=\toks47
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count300
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen282
+\pgfdecoratedremainingdistance=\dimen283
+\pgfdecoratedinputsegmentcompleteddistance=\dimen284
+\pgfdecoratedinputsegmentremainingdistance=\dimen285
+\pgf@decorate@distancetomove=\dimen286
+\pgf@decorate@repeatstate=\count301
+\pgfdecorationsegmentamplitude=\dimen287
+\pgfdecorationsegmentlength=\dimen288
+)
+\tikz@lib@dec@box=\box64
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count302
+\pgfplots@xmin@reg=\dimen289
+\pgfplots@xmax@reg=\dimen290
+\pgfplots@ymin@reg=\dimen291
+\pgfplots@ymax@reg=\dimen292
+\pgfplots@zmin@reg=\dimen293
+\pgfplots@zmax@reg=\dimen294
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count303
+\l__pdf_internal_box=\box65
+)
+(./AR_analysis_.aux)
+\openout1 = `AR_analysis_.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count304
+\scratchdimen=\dimen295
+\scratchbox=\box66
+\nofMPsegments=\count305
+\nofMParguments=\count306
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count307
+\MPscratchDim=\dimen296
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
+\everyMPtoPDFconversion=\toks49
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 93.
+\c@maskedRefs=\count310
+
+(/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+\symgns@font=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 93.
+Package gensymb Info: Math companion symbols declared on input line 93.
+LaTeX Info: Redefining \degree on input line 93.
+LaTeX Info: Redefining \celsius on input line 93.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 93.
+LaTeX Info: Redefining \ohm on input line 93.
+Package gensymb Info: Using \textohm for \ohm on input line 93.
+Package gensymb Info: Using \textmu for \micro on input line 93.
+
+ABD: EveryShipout initializing macros
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.16} (current compat level: 1.14).
+
+
+Overfull \hbox (17.09889pt too wide) in paragraph at lines 160--161
+[]\OT1/cmr/m/n/10 Atmospheric Rivers (ARs) cor-re-late to a one week in-crease 
+in daily min-i-mum tem- 
+ []
+
+
+Overfull \hbox (10.68233pt too wide) in paragraph at lines 162--164
+[]\OT1/cmr/m/n/10 Robust ARs oc-cur-ing dur-ing the cold-est pe-riod of the yea
+r ap-pear to pro-long the 
+ []
+
+
+Overfull \hbox (7.62688pt too wide) in paragraph at lines 165--167
+[]\OT1/cmr/m/n/10 ARs ac-count for about one third (36%) of to-tal pre-cip-i-ta
+-tion and ex-plain al-most 
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (6.57123pt too wide) in paragraph at lines 194--207
+[]\OT1/cmr/m/n/10 Atmospheric rivers (ARs) trans-port vast amounts of mois-ture
+ from low lat-i-tudes, 
+ []
+
+
+Overfull \hbox (5.84908pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 mainly the Trop-ics, to high lat-i-tude re-gions. One re-gion p
+ar-tic-u-larly im-pacted by ARs 
+ []
+
+
+Overfull \hbox (10.96008pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 is Alaska USA. We an-a-lyze the role of ARs in rais-ing lo-cal 
+tem-per-a-tures, their ef-fect on 
+ []
+
+
+Overfull \hbox (8.09909pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 pre-cip-i-ta-tion vari-abil-ity, and their in-flu-ence on the a
+n-nual river ice breakup date for 25 
+ []
+
+
+Overfull \hbox (3.68234pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 lo-ca-tions. Pre-cip-i-ta-tion and tem-per-a-ture records were 
+pro-vided by Daymet, with ARs 
+ []
+
+
+Overfull \hbox (6.77957pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 de-ter-mined from the Guan and Waliser track-ing al-go-rithm. W
+e found ARs in-crease lo- 
+ []
+
+
+Overfull \hbox (7.15459pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 cal tem-per-a-tures for as long as one week post land-fall, ac-
+count for 36% of to-tal pre-cip- 
+ []
+
+
+Overfull \hbox (6.12697pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 i-ta-tion and ex-plain 48% of pre-cip-i-ta-tion vari-abil-ity. 
+Cal-cu-lat-ing the heat trans-port be- 
+ []
+
+
+Overfull \hbox (8.32115pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 tween ARs and river ice, fused with a tem-po-ral bias, we con-c
+lude that heavy pre-cip-i-ta- 
+ []
+
+
+Overfull \hbox (16.09903pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 tion events (HPEs) dur-ing the cold-est pe-riod of the year pro
+-long river ice breakup dates, 
+ []
+
+
+Overfull \hbox (3.4046pt too wide) in paragraph at lines 194--207
+\OT1/cmr/m/n/10 while HPEs oc-cur-ring close to the breakup date have lit-tle i
+m-pact on breakup tim-ing.  
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 211.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 211.
+
+
+Overfull \hbox (12.57115pt too wide) in paragraph at lines 213--228
+[]\OT1/cmr/m/n/10 We strate-gi-cally se-lected 25 lo-ca-tions with an-nual rive
+r ice breakup dates recorded 
+ []
+
+
+Overfull \hbox (8.87686pt too wide) in paragraph at lines 213--228
+\OT1/cmr/m/n/10 through-out In-te-rior Alaska. Across all lo-ca-tions, we de-te
+r-mined that daily tem-per-a-ture 
+ []
+
+
+Overfull \hbox (1.68227pt too wide) in paragraph at lines 213--228
+\OT1/cmr/m/n/10 in-creases by up to one week post an at-mo-spheric river (AR). 
+We also found that ARs 
+ []
+
+
+Overfull \hbox (10.76587pt too wide) in paragraph at lines 213--228
+\OT1/cmr/m/n/10 ac-count for 36% of to-tal an-nual pre-cip-i-ta-tion from 1980 
+to 2023 and ex-plain 48% of the 
+ []
+
+
+Overfull \hbox (4.48792pt too wide) in paragraph at lines 213--228
+\OT1/cmr/m/n/10 vari-abil-ity of pre-cip-i-ta-tion. We then cal-cu-lated the to
+-tal heat trans-fer be-tween pre-cip- 
+ []
+
+
+Overfull \hbox (10.09908pt too wide) in paragraph at lines 213--228
+\OT1/cmr/m/n/10 i-ta-tion and river ice while tak-ing into ac-count a bias func
+-tion for time. Sur-pris-ingly, we 
+ []
+
+
+Overfull \hbox (1.8769pt too wide) in paragraph at lines 213--228
+\OT1/cmr/m/n/10 found that heavy pre-cip-i-ta-tion events (HPEs), both lo-cal p
+re-cip-i-ta-tion and ARs, that 
+ []
+
+
+Overfull \hbox (1.01564pt too wide) in paragraph at lines 213--228
+\OT1/cmr/m/n/10 oc-cur rel-a-tively close to river ice breakup dates, have lit-
+tle cor-re-la-tion to the breakup 
+ []
+
+
+Overfull \hbox (16.07123pt too wide) in paragraph at lines 213--228
+\OT1/cmr/m/n/10 date. How-ever, HPEs that oc-cur dur-ing the cold-est pe-riod o
+f the year (typ-i-cally late De- 
+ []
+
+
+Overfull \hbox (9.82126pt too wide) in paragraph at lines 213--228
+\OT1/cmr/m/n/10 cem-ber to mid-January) are strongly in-versely cor-re-lated wi
+th river ice breakup tim-ing, 
+ []
+
+
+Overfull \hbox (21.34895pt too wide) in paragraph at lines 262--304
+[]\OT1/cmr/m/n/10 Atmospheric rivers (ARs) are nar-row cor-ri-dors of in-tense 
+wa-ter va-por trans-port that 
+ []
+
+
+Overfull \hbox (5.8213pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 sig-nif-i-cantly in-flu-ence hy-dro-logic events and trans-port
+ most of the wa-ter va-por out-side 
+ []
+
+
+Overfull \hbox (9.01561pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 of the Trop-ics []USDOC, 2023). It is es-ti-mated that ARs are 
+re-spon-si-ble for as much as 
+ []
+
+
+Overfull \hbox (13.90462pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 90% of pole-ward wa-ter va-por trans-port at mid-lat-i-tudes []
+Zhu & Newell, 1998). ARs con- 
+ []
+
+
+Overfull \hbox (13.43231pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 tribute to ex-treme pre-cip-i-ta-tion events across var-i-ous r
+e-gions world-wide, in-clud-ing west- 
+ []
+
+
+Overfull \hbox (12.80739pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 ern North Amer-ica []Dettinger et al.[], 2004; Guan et al.[], 2
+010; Paul J. et al.[], 2011; Ralph 
+ []
+
+
+Overfull \hbox (3.62685pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 et al.[], 2006; F. Mar-tin et al.[], 2019; Det-tinger et al.[],
+ 2011) Eu-rope []Lavers et al.[], 2013; 
+ []
+
+
+Overfull \hbox (23.79347pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 Har-ald & An-dreas, 2013), and west-ern South Amer-ica []Viale 
+et al.[], 2018). In re-cent years, 
+ []
+
+
+Overfull \hbox (17.84898pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 the im-pacts of ARs on the cryosphere have been more ex-ten-siv
+ely an-layzed. It was found 
+ []
+
+
+Overfull \hbox (0.18237pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 that be-tween 1981 and 2020 at-mo-spheric mois-ture con-tent an
+-ti-cor-re-lates sig-nif-i-cantly 
+ []
+
+
+Overfull \hbox (19.87672pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 with sea ice con-cen-tra-tion over al-most the en-tire Arc-tic 
+Ocean []Li et al.[], 2022). For those 
+ []
+
+
+Overfull \hbox (15.57126pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 same years, an-other anal-y-sis found that 100% of ex-treme tem
+-per-a-ture events in the Arc- 
+ []
+
+
+Overfull \hbox (7.76619pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 tic (above 0 $\TS1/cmr/m/n/10 °\OML/cmm/m/it/10 C$\OT1/cmr/m/n/
+10 ) co-in-cided with ARs []Ma et al.[], 2023). Many anal-y-ses have noted a re
+- 
+ []
+
+
+Overfull \hbox (1.57118pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 la-tion-ship be-tween heavy AR ac-tiv-ity and sea ice loss, as 
+a re-sult of in-creased rain-fall 
+ []
+
+
+Overfull \hbox (9.29344pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 from lower lat-i-tudues []Zhang et al.[], 2023; Maclen-nan et a
+l.[], 2022). How-ever Arc-tic sys- 
+ []
+
+
+Overfull \hbox (1.96005pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 tems are com-pli-cated, as the in-tense mois-ture trans-port wi
+thin ARs can also re-sult in 
+ []
+
+
+Overfull \hbox (8.76573pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 heavy snow-fall events, thus con-tribut-ing to the ac-cu-mu-la-
+tion of snow-pack, es-pe-cially in 
+ []
+
+
+Overfull \hbox (5.6963pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 moun-tain-ous re-gions []Saavedra et al.[], 2020; Guan et al.[]
+, 2010). Un-der the right con-di- 
+ []
+
+
+Overfull \hbox (0.23788pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 tions, this re-la-tion-ship has been found to in-crease the mas
+s bal-ance of glaciers []Little 
+ []
+
+
+Overfull \hbox (5.96004pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 et al.[], 2019). Un-der-stand-ing the role of ARs in the cryosp
+here is es-sen-tial for as-sess-ing 
+ []
+
+
+Overfull \hbox (13.29344pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 their broader im-pact on re-gional wa-ter re-sources and glacie
+r dy-nam-ics in a chang-ing cli- 
+ []
+
+
+Overfull \hbox (15.59895pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 mate. While a num-ber of works have ex-plored the re-la-tion-sh
+ip be-tween ARs and sea ice, 
+ []
+
+
+Overfull \hbox (10.09904pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 to our knowl-edge there haven't been any anal-y-ses that look a
+t the re-la-tion-ship be-tween 
+ []
+
+
+Overfull \hbox (3.6822pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 ARs and Arc-tic river ice. Many works have used physics based p
+ro-cesses and al-lo-met- 
+ []
+
+
+Overfull \hbox (8.84906pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 rics to model the an-nual breakup tim-ing and con-di-tions of A
+rc-tic river ice []Paily et al.[], 
+ []
+
+
+Overfull \hbox (14.01573pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 1974; Ash-ton, 1986; Prowse et al.[], 2007; Jasek, 1998; Shen, 
+2010). While it is rec-og-nized 
+ []
+
+
+Overfull \hbox (1.34908pt too wide) in paragraph at lines 262--304
+[]\OT1/cmr/m/n/10 Ashton, 1986), the re-la-tion-ship pre-cip-i-ta-tion and to t
+hat end AR tim-ing has on Arc- 
+ []
+
+
+Overfull \hbox (13.43225pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 tic river ice has yet to be ex-am-ined. This anal-y-sis sets ou
+t to an-swer the fol-low-ing ques- 
+ []
+
+
+Overfull \hbox (1.599pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 tions: 1.) Is there a change in air tem-per-a-ture for each lo-
+ca-tion, cor-re-spond-ing to the 
+ []
+
+
+Overfull \hbox (12.93242pt too wide) in paragraph at lines 262--304
+\OT1/cmr/m/n/10 tim-ing of ARs? 2.) How do ARs con-tribute to pre-cip-i-ta-tion
+ through-out in-te-rior Alaska? 
+ []
+
+[2]
+<./images/concatenated_maps_precip_temp_plot.png, id=26, 1300.86pt x 1011.78pt>
+
+File: ./images/concatenated_maps_precip_temp_plot.png Graphic file (type png)
+<use ./images/concatenated_maps_precip_temp_plot.png>
+Package pdftex.def Info: ./images/concatenated_maps_precip_temp_plot.png  used 
+on input line 309.
+(pdftex.def)             Requested size: 397.48499pt x 309.15594pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[]\OT1/cmr/bx/n/9 Figure  1. \OT1/cmr/m/n/9 Top: (left) map show-ing sum-mated 
+pre-cip-i-ta-tion for the year 2021; (right) map of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+\OT1/cmr/m/n/9 av-er-age tem-per-a-ture for 2021. Bot-tom: One of the 25 lo-ca-
+tions (Crooked Creek on the Kuskok-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+\OT1/cmr/m/n/9 wim River) for the year 2021. Yel-low, or-ange, red rep-re-sents
+ the tem-per-a-ture pro-files (fill plot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+\OT1/cmr/m/n/9 of tmin - tmax) from NCEP tem-per-a-ture data at 850, 925 and 10
+00mb re-spec-tively. Light green
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+\OT1/cmr/m/n/9 rep-re-sents Daymet tem-per-a-ture pro-file. Dark blue shows mod
+-eled pre-cip-i-ta-tion from Daymet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+\OT1/cmr/m/n/9 while the light blue stem plots de-pict AR events. The pur-ple d
+ashed line shows the breakup date
+ []
+
+<./images/tmin_vs_tmax_subplots.png, id=28, 1084.05pt x 361.35pt>
+File: ./images/tmin_vs_tmax_subplots.png Graphic file (type png)
+<use ./images/tmin_vs_tmax_subplots.png>
+Package pdftex.def Info: ./images/tmin_vs_tmax_subplots.png  used on input line
+ 330.
+(pdftex.def)             Requested size: 397.48499pt x 132.4954pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+[]\OT1/cmr/bx/n/9 Figure  2. \OT1/cmr/m/n/9 Top: the p-value of the paired t-te
+st given the win-dow size sur-round-ing the AR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+\OT1/cmr/m/n/9 event date. Dashed lines rep-re-sent the mean p-value over the s
+tudy area while the color tran-si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+\OT1/cmr/m/n/9 tion de-picts the IQR of p-values Bot-tom: the av-er-age in-crea
+se in tem-per-a-ture from the look-back
+ []
+
+<./images/IVT_Precip_proportion_over_time.png, id=29, 1084.05pt x 578.16pt>
+File: ./images/IVT_Precip_proportion_over_time.png Graphic file (type png)
+<use ./images/IVT_Precip_proportion_over_time.png>
+Package pdftex.def Info: ./images/IVT_Precip_proportion_over_time.png  used on 
+input line 341.
+(pdftex.def)             Requested size: 397.48499pt x 211.99265pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]\OT1/cmr/bx/n/9 Figure  3. \OT1/cmr/m/n/9 Top: time se-ries of IVT ag-gre-gat
+ed over all lo-ca-tions. Mid-dle: time se-ries of pre-cip-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/cmr/m/n/9 i-ta-tion ag-gre-gated monthly over all lo-ca-tions. Bot-tom: pr
+o-por-tion of pre-cip-i-ta-tion ac-counted for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/cmr/m/n/9 by ARs, fill col-ors de-pict IQR while dashed line de-picts the 
+mean, ag-gre-gated over all lo-ca-tions
+ []
+
+<./images/concatenated_precip_var_plots.png, id=30, 1589.94pt x 578.16pt>
+File: ./images/concatenated_precip_var_plots.png Graphic file (type png)
+<use ./images/concatenated_precip_var_plots.png>
+Package pdftex.def Info: ./images/concatenated_precip_var_plots.png  used on in
+put line 352.
+(pdftex.def)             Requested size: 397.48499pt x 144.53964pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]\OT1/cmr/bx/n/9 Figure  4. \OT1/cmr/m/n/9 Left: ker-nel den-sity plots show-i
+ng the dis-tri-bu-tion of lo-cal pre-cip-i-ta-tion (dark
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+\OT1/cmr/m/n/9 blue) and pre-cip-i-ta-tion from ARs (light blue). Right: orinda
+ry least squares re-gres-sion plot us-ing
+ []
+
+<./images/concatenated_corr_plots.png, id=31, 1084.05pt x 722.7pt>
+File: ./images/concatenated_corr_plots.png Graphic file (type png)
+<use ./images/concatenated_corr_plots.png>
+Package pdftex.def Info: ./images/concatenated_corr_plots.png  used on input li
+ne 363.
+(pdftex.def)             Requested size: 397.48499pt x 264.99081pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]\OT1/cmr/bx/n/9 Figure  5. \OT1/cmr/m/n/9 Top: (left) scat-ter plot be-tween 
+ther-mal en-ergy trans-fer and DOY; (mid-dle) scat-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+\OT1/cmr/m/n/9 plot of the num-ber of ARs that oc-cured in the 6 months prior t
+o the breakup date and DOY
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+\OT1/cmr/m/n/9 (right) tem-po-ral bias curve for the year 2021 with the breakup
+ date rep-re-sented by the ver-ti-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+\OT1/cmr/m/n/9 dashed ilne. Bot-tom: same as the top ex-cept de-pict-ing when t
+he bias curve is not op-ti-mally
+ []
+
+
+Overfull \hbox (9.82117pt too wide) in paragraph at lines 384--390
+[]\OT1/cmr/m/n/10 This sec-tion MUST con-tain a state-ment that de-scribes wher
+e the data sup-port-ing 
+ []
+
+
+Overfull \hbox (5.90463pt too wide) in paragraph at lines 384--390
+\OT1/cmr/m/n/10 the con-clu-sions can be ob-tained. Data can-not be listed as '
+'Avail-able from au-thors'' or 
+ []
+
+
+Overfull \hbox (4.4047pt too wide) in paragraph at lines 384--390
+\OT1/cmr/m/n/10 stored solely in sup-port-ing in-for-ma-tion. Ci-ta-tions to ar
+chived data should be in-cluded 
+ []
+
+
+Overfull \hbox (18.51564pt too wide) in paragraph at lines 384--390
+\OT1/cmr/m/n/10 in your ref-er-ence list. Wi-ley will pub-lish it as a sep-a-ra
+te sec-tion on the pa-per's page. Ex- 
+ []
+
+
+Overfull \hbox (71.11316pt too wide) in paragraph at lines 384--390
+\OT1/cmr/m/n/10 am-ples and com-plete in-for-ma-tion are here: https://www.agu.
+org/Publish with AGU/Publish/Author 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./images/concatenated_maps_precip_temp_plot.png>] [4 <./images/tmin_vs_tma
+x_subplots.png> <./images/IVT_Precip_proportion_over_time.png>] [5 <./images/co
+ncatenated_precip_var_plots.png> <./images/concatenated_corr_plots.png>]
+Overfull \hbox (8.65456pt too wide) in paragraph at lines 392--395
+\OT1/cmr/m/n/10 Enter ac-knowl-edg-ments here. This sec-tion is to ac-knowl-edg
+e fund-ing, thank col-leagues, 
+ []
+
+(./AR_analysis_.bbl
+Underfull \hbox (badness 1990) in paragraph at lines 43--65
+[]\OT1/cmr/m/n/10 Dettinger, M. D., Cayan, D. R., Meyer, M. K., & Je-ton, A. E.
+  (2004).  Sim-u-lated 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--65
+\OT1/cmr/m/n/10 hy-dro-logic re-sponses to cli-mate vari-a-tions and change in 
+the merced, car-son, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--65
+\OT1/cmr/m/n/10 and amer-i-can river basins, sierra nevada, cal-i-for-nia, 1900
+{2099.  \OT1/cmr/m/it/10 Cli-matic 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--65
+\OT1/cmr/m/it/10 Change\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 62\OT1/cmr/m/n/10 (1)
+, 283--317.  Re-trieved from $\OT1/cmtt/m/n/10 https :// doi [] .org / 10 [] .1
+023 / B : 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--102
+[]\OT1/cmr/m/n/10 Dettinger, M. D., Ralph, F. M., Das, T., Neiman, P. J., & Cay
+an, D. R.  (2011). 
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 81--102
+\OT1/cmr/m/n/10 At-mo-spheric rivers, floods and the wa-ter re-sources of cal-i
+-for-nia.  \OT1/cmr/m/it/10 Wa-ter\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 3\OT1/cmr/
+m/n/10 (2), 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--139
+[]\OT1/cmr/m/n/10 F. Mar-tin, R., Jonathan J., R., Ja-son M., C., Michael, D., 
+Michael, A., David, R., 
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 114--139
+\OT1/cmr/m/n/10 spheric rivers.  \OT1/cmr/m/it/10 Bul-letin of the Amer-i-can M
+e-te-o-ro-log-i-cal So-ci-ety\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 100\OT1/cmr/m/n
+/10 (2), 269 - 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--178
+[]\OT1/cmr/m/n/10 Guan, B., Molotch, N. P., Waliser, D. E., Fet-zer, E. J., & N
+eiman, P. J.  (2010). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--178
+\OT1/cmr/m/n/10 Ex-treme snow-fall events linked to at-mo-spheric rivers and su
+r-face air tem- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--178
+\OT1/cmr/m/n/10 per-a-ture via satel-lite mea-sure-ments.  \OT1/cmr/m/it/10 Geo
+-phys-i-cal Re-search Let-ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 37\OT1/cmr/m/n
+/10 (20). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--178
+\OT1/cmr/m/n/10 Re-trieved from $\OT1/cmtt/m/n/10 https :// agupubs [] .onlinel
+ibrary [] .wiley [] .com / doi / abs / 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--212
+[]\OT1/cmr/m/n/10 Harald, S., & An-dreas, S.  (2013).  Mois-ture ori-gin and me
+rid-ional trans- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--212
+\OT1/cmr/m/n/10 port in at-mo-spheric rivers and their as-so-ci-a-tion with mul
+-ti-ple cy-clones. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--212
+\OT1/cmr/m/it/10 Monthly Weather Re-view\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 141\
+OT1/cmr/m/n/10 (8), 2850 - 2868.  Re-trieved from $\OT1/cmtt/m/n/10 https :// 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--212
+\OT1/cmtt/m/n/10 journals [] .ametsoc [] .org / view / journals / mwre / 141 / 
+8 / mwr [] -d [] -12 [] -00256 [] .1 [] .xml$ 
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 224--241
+\OT1/cmr/m/n/10 { did el ni~no and cli-mate change play a role?  In H. Shen (Ed
+.[]), \OT1/cmr/m/it/10 Ice in sur-face 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--241
+\OT1/cmr/m/it/10 wa-ters: Pro-ceed-ings of the 14th in-ter-na-tional sym-po-siu
+m on ice \OT1/cmr/m/n/10 (pp.[] 761--768). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--275
+[]\OT1/cmr/m/n/10 Lavers, D. A., Al-lan, R. P., Vil-lar-ini, G., Lloyd-Hughes, 
+B., Brayshaw, D. J., & 
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 253--275
+\OT1/cmr/m/n/10 Wade, A. J.  (2013).  Fu-ture changes in at-mo-spheric rivers a
+nd their im-pli- 
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 253--275
+\OT1/cmr/m/n/10 ca-tions for win-ter flood-ing in britain.  \OT1/cmr/m/it/10 En
+-vi-ron-men-tal Re-search Let-ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 8\OT1/cmr/
+m/n/10 (3). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--275
+\OT1/cmr/m/n/10 Re-trieved from $\OT1/cmtt/m/n/10 https :// doi [] .org / 10 []
+ .1088 / 1748 [] -9326 / 8 / 3 / 034010$   \OT1/cmr/m/n/10 doi: 
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 287--310
+[]\OT1/cmr/m/n/10 Li, L., Can-non, F., Ma-zloff, M. R., Sub-ra-ma-nian, A. C., 
+Wil-son, A. M., & Ralph, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--310
+\OT1/cmr/m/it/10 sphere\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 2022\OT1/cmr/m/n/10 ,
+ 1--21.  Re-trieved from $\OT1/cmtt/m/n/10 https :// egusphere [] .copernicus [
+] .org / 
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 325--347
+[]\OT1/cmr/m/n/10 Little, K., Kingston, D. G., Cullen, N. J., & Gib-son, P. B. 
+ (2019).  The role of at- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--347
+\OT1/cmr/m/n/10 mo-spheric rivers for ex-treme ab-la-tion and snow-fall events 
+in the south-ern alps 
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 325--347
+\OT1/cmr/m/n/10 of new zealand.  \OT1/cmr/m/it/10 Geo-phys-i-cal Re-search Let-
+ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 46\OT1/cmr/m/n/10 (5), 2761-2771.  Re-tr
+ieved 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--347
+\OT1/cmr/m/n/10 from $\OT1/cmtt/m/n/10 https :// agupubs [] .onlinelibrary [] .
+wiley [] .com / doi / abs / 10 [] .1029 / 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--385
+[]\OT1/cmr/m/n/10 Ma, W., Wang, H., Chen, G., Qian, Y., Bax-ter, I., Huo, Y., &
+ Seefeldt, M. W. 
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 359--385
+\OT1/cmr/m/n/10 drivers, trends, and the role of at-mo-spheric rivers.  \OT1/cm
+r/m/it/10 EGU-sphere\OT1/cmr/m/n/10 .  Re-trieved 
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 359--385
+\OT1/cmr/m/n/10 from $\OT1/cmtt/m/n/10 https :// doi [] .org / 10 [] .5194 / eg
+usphere [] -2023 [] -2018$   \OT1/cmr/m/n/10 (Preprint)  doi: 
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 400--421
+[]\OT1/cmr/m/n/10 Maclennan, M. L., Lenaerts, J. T. M., Shields, C., & Wille, J
+. D.  (2022).  Con-tri- 
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 400--421
+\OT1/cmr/m/it/10 Let-ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 49\OT1/cmr/m/n/10 (
+18).  Re-trieved 2024-04-16, from $\OT1/cmtt/m/n/10 https :// onlinelibrary [] 
+.wiley [] 
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 435--452
+[]\OT1/cmr/m/n/10 Paily, P., Macagno, E., & Kennedy, J.  (1974, 3).  Winter-reg
+ime sur-face heat loss 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--490
+[]\OT1/cmr/m/n/10 Paul J., N., Lawrence J., S., F. Mar-tin, R., Mimi, H., & Gar
+y A., W.  (2011). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--490
+\OT1/cmr/m/n/10 Flood-ing in west-ern wash-ing-ton: The con-nec-tion to at-mo-s
+pheric rivers. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--490
+\OT1/cmr/m/it/10 Jour-nal of Hy-drom-e-te-o-rol-ogy\OT1/cmr/m/n/10 , \OT1/cmr/m
+/it/10 12\OT1/cmr/m/n/10 (6), 1337 - 1358.  Re-trieved from $\OT1/cmtt/m/n/10 h
+ttps :// 
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 505--523
+\OT1/cmr/m/n/10 up: a re-view of cli-matic drivers, his-tor-i-cal trends and fu
+-ture pre-dic-tions.  \OT1/cmr/m/it/10 An- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--559
+[]\OT1/cmr/m/n/10 Ralph, F. M., Neiman, P. J., Wick, G. A., Gut-man, S. I., Det
+-tinger, M. D., Cayan, 
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 535--559
+\OT1/cmr/m/n/10 D. R., & White, A. B.  (2006).  Flood-ing on cal-i-for-nia's ru
+s-sian river: Role 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--559
+\OT1/cmr/m/n/10 of at-mo-spheric rivers.  \OT1/cmr/m/it/10 Geo-phys-i-cal Re-se
+arch Let-ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 33\OT1/cmr/m/n/10 (13).  Re-tri
+eved 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--559
+\OT1/cmr/m/n/10 from $\OT1/cmtt/m/n/10 https :// agupubs [] .onlinelibrary [] .
+wiley [] .com / doi / abs / 10 [] .1029 / 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--598
+[]\OT1/cmr/m/n/10 Saavedra, F., Cort^^Ses, G., Viale, M., Mar-gulis, S., & McPh
+ee, J.  (2020).  At- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--598
+\OT1/cmr/m/n/10 mo-spheric rivers con-tri-bu-tion to the snow ac-cu-mu-la-tion 
+over the south-ern 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--598
+\OT1/cmr/m/n/10 an-des (26.5\TS1/cmr/m/n/10 ° \OT1/cmr/m/n/10 s{37.5\TS1/cmr/m/
+n/10 ° \OT1/cmr/m/n/10 s).  \OT1/cmr/m/it/10 Fron-tiers in Earth Sci-ence\OT1/c
+mr/m/n/10 , \OT1/cmr/m/it/10 8\OT1/cmr/m/n/10 .  Re-trieved from 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--598
+\OT1/cmtt/m/n/10 https :// www [] .frontiersin [] .org / articles / 10 [] .3389
+ / feart [] .2020 [] .00261$ 
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 610--628
+[]\OT1/cmr/m/n/10 Shen, H. T.  (2010).  Math-e-mat-i-cal mod-el-ing of river ic
+e pro-cesses.  \OT1/cmr/m/it/10 Cold Re- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--628
+\OT1/cmr/m/it/10 gions Sci-ence and Tech-nol-ogy\OT1/cmr/m/n/10 , \OT1/cmr/m/it
+/10 62\OT1/cmr/m/n/10 (1), 3-13.  Re-trieved from $\OT1/cmtt/m/n/10 https :// 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--628
+\OT1/cmtt/m/n/10 www [] .sciencedirect [] .com / science / article / pii / S016
+5232X10000339$   \OT1/cmr/m/n/10 doi: 
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 640--654
+[]\OT1/cmr/m/n/10 USDOC.  (2023, 3).  \OT1/cmr/m/it/10 What are at-mo-spheric r
+ivers?  \OT1/cmr/m/n/10 Na-tional Oceanic and At- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--690
+[]\OT1/cmr/m/n/10 Viale, M., Valen-zuela, R., Gar-reaud, R. D., & Ralph, F. M. 
+ (2018).  Im-pacts 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--690
+\OT1/cmr/m/n/10 of at-mo-spheric rivers on pre-cip-i-ta-tion in south-ern south
+ amer-ica.  \OT1/cmr/m/it/10 Jour- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--690
+\OT1/cmr/m/it/10 nal of Hy-drom-e-te-o-rol-ogy\OT1/cmr/m/n/10 , \OT1/cmr/m/it/1
+0 19\OT1/cmr/m/n/10 (10), 1671 - 1687.  Re-trieved from $\OT1/cmtt/m/n/10 https
+ :// 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--690
+\OT1/cmtt/m/n/10 journals [] .ametsoc [] .org / view / journals / hydr / 19 / 1
+0 / jhm [] -d [] -18 [] -0006 [] []1 [] .xml$ 
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 702--724
+[]\OT1/cmr/m/n/10 Zhang, P., Chen, G., Ting, M., Ruby Le-ung, L., Guan, B., & L
+i, L.  (2023, March). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 702--724
+\OT1/cmr/m/n/10 More fre-quent at-mo-spheric rivers slow the sea-sonal re-cov-e
+ry of arc-tic sea ice. 
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 702--724
+\OT1/cmr/m/it/10 Na-ture Cli-mate Change\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 13\O
+T1/cmr/m/n/10 (3), 266--273.  Re-trieved from $\OT1/cmtt/m/n/10 https :// doi [
+] .org / 
+ []
+
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 738--758
+[]\OT1/cmr/m/n/10 Zhu, Y., & Newell, R. E.  (1998).  A pro-posed al-go-rithm fo
+r mois-ture fluxes 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 738--758
+\OT1/cmr/m/n/10 from at-mo-spheric rivers.  \OT1/cmr/m/it/10 Monthly Weather Re
+-view\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 126\OT1/cmr/m/n/10 (3), 725 - 735. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 738--758
+\OT1/cmr/m/n/10 Re-trieved from $\OT1/cmtt/m/n/10 https :// journals [] .ametso
+c [] .org / view / journals / mwre / 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 738--758
+\OT1/cmtt/m/n/10 126 / 3 / 1520 [] -0493 [] []1998 [] []126 [] []0725 [] []apaf
+mf [] []2 [] .0 [] .co [] []2 [] .xml$   \OT1/cmr/m/n/10 doi: $10 [] .1175 / 
+ []
+
+) [8] (./AR_analysis_.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.45pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 25355 strings out of 481239
+ 642464 string characters out of 5920377
+ 1037935 words of memory out of 5000000
+ 40166 multiletter control sequences out of 15000+600000
+ 540858 words of font info for 54 fonts, out of 8000000 for 9000
+ 1147 hyphenation exceptions out of 8191
+ 64i,8n,111p,729b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.
+pfb>
+Output written on AR_analysis_.pdf (8 pages, 10866820 bytes).
+PDF statistics:
+ 118 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+

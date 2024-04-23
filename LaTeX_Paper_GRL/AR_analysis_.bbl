@@ -1,0 +1,759 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Ashton%
+}{%
+Ashton%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+ashton1986river}
+\APACinsertmetastar {%
+ashton1986river}%
+\begin{APACrefauthors}%
+Ashton, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1986}.
+\newblock
+\APACrefbtitle {River and Lake Ice Engineering} {River and lake ice
+  engineering}.
+\newblock
+\APACaddressPublisher{}{Water Resources Publications}.
+\newblock
+\begin{APACrefURL} \url{https://books.google.com/books?id=xglYVjAsnt8C}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dettinger%
+, Cayan%
+, Meyer%
+\BCBL {}\ \BBA {} Jeton%
+}{%
+Dettinger%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+Dettinger2004}
+\APACinsertmetastar {%
+Dettinger2004}%
+\begin{APACrefauthors}%
+Dettinger, M\BPBI D.%
+, Cayan, D\BPBI R.%
+, Meyer, M\BPBI K.%
+\BCBL {}\ \BBA {} Jeton, A\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Simulated Hydrologic Responses to Climate Variations and
+  Change in the Merced, Carson, and American River Basins, Sierra Nevada,
+  California, 1900–2099} {Simulated hydrologic responses to climate
+  variations and change in the merced, carson, and american river basins,
+  sierra nevada, california, 1900–2099}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Climatic Change}{62}{1}{283--317}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1023/B:CLIM.0000013683.13346.4f}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1023/B:CLIM.0000013683.13346.4f} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dettinger%
+, Ralph%
+, Das%
+, Neiman%
+\BCBL {}\ \BBA {} Cayan%
+}{%
+Dettinger%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+ARs_CA}
+\APACinsertmetastar {%
+ARs_CA}%
+\begin{APACrefauthors}%
+Dettinger, M\BPBI D.%
+, Ralph, F\BPBI M.%
+, Das, T.%
+, Neiman, P\BPBI J.%
+\BCBL {}\ \BBA {} Cayan, D\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Atmospheric Rivers, Floods and the Water Resources of
+  California} {Atmospheric rivers, floods and the water resources of
+  california}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water}{3}{2}{445--478}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2073-4441/3/2/445}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/w3020445} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+F.~Martin%
+\ \protect \BOthers {.}}{%
+F.~Martin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Ralph2013}
+\APACinsertmetastar {%
+Ralph2013}%
+\begin{APACrefauthors}%
+F.~Martin, R.%
+, Jonathan~J., R.%
+, Jason~M., C.%
+, Michael, D.%
+, Michael, A.%
+, David, R.%
+\BDBL {}Chris, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Scale to Characterize the Strength and Impacts of
+  Atmospheric Rivers} {A scale to characterize the strength and impacts of
+  atmospheric rivers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin of the American Meteorological
+  Society}{100}{2}{269 - 289}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/bams/100/2/bams-d-18-0023.1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/BAMS-D-18-0023.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guan%
+, Molotch%
+, Waliser%
+, Fetzer%
+\BCBL {}\ \BBA {} Neiman%
+}{%
+Guan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Guan2010}
+\APACinsertmetastar {%
+Guan2010}%
+\begin{APACrefauthors}%
+Guan, B.%
+, Molotch, N\BPBI P.%
+, Waliser, D\BPBI E.%
+, Fetzer, E\BPBI J.%
+\BCBL {}\ \BBA {} Neiman, P\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Extreme snowfall events linked to atmospheric rivers and
+  surface air temperature via satellite measurements} {Extreme snowfall events
+  linked to atmospheric rivers and surface air temperature via satellite
+  measurements}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{37}{20}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2010GL044696}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/2010GL044696} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Harald%
+\ \BBA {} Andreas%
+}{%
+Harald%
+\ \BBA {} Andreas%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+ARs_impact_Norway}
+\APACinsertmetastar {%
+ARs_impact_Norway}%
+\begin{APACrefauthors}%
+Harald, S.%
+\BCBT {}\ \BBA {} Andreas, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Moisture Origin and Meridional Transport in Atmospheric
+  Rivers and Their Association with Multiple Cyclones} {Moisture origin and
+  meridional transport in atmospheric rivers and their association with
+  multiple cyclones}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Monthly Weather Review}{141}{8}{2850 - 2868}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/mwre/141/8/mwr-d-12-00256.1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/MWR-D-12-00256.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jasek%
+}{%
+Jasek%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+jasek1998}
+\APACinsertmetastar {%
+jasek1998}%
+\begin{APACrefauthors}%
+Jasek, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{July 27--31}{}.
+\newblock
+{\BBOQ}\APACrefatitle {1998 Break-up and Flood on the Yukon River at Dawson –
+  Did El Niño and Climate Change Play a Role?} {1998 break-up and flood on the
+  yukon river at dawson – did el niño and climate change play a
+  role?}{\BBCQ}
+\newblock
+\BIn{} H.~Shen\ (\BED), \APACrefbtitle {Ice in Surface Waters: Proceedings of
+  the 14th International Symposium on Ice} {Ice in surface waters: Proceedings
+  of the 14th international symposium on ice}\ (\BPGS\ 761--768).
+\newblock
+\APACaddressPublisher{Rotterdam}{A.A. Balkema}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lavers%
+\ \protect \BOthers {.}}{%
+Lavers%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+Lavers2013}
+\APACinsertmetastar {%
+Lavers2013}%
+\begin{APACrefauthors}%
+Lavers, D\BPBI A.%
+, Allan, R\BPBI P.%
+, Villarini, G.%
+, Lloyd-Hughes, B.%
+, Brayshaw, D\BPBI J.%
+\BCBL {}\ \BBA {} Wade, A\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Future Changes in Atmospheric Rivers and Their
+  Implications for Winter Flooding in Britain} {Future changes in atmospheric
+  rivers and their implications for winter flooding in britain}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Environmental Research Letters}{8}{3}{}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1088/1748-9326/8/3/034010}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1088/1748-9326/8/3/034010} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
+\ \protect \BOthers {.}}{%
+Li%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+ARs_lead_to_sea_ice_loss}
+\APACinsertmetastar {%
+ARs_lead_to_sea_ice_loss}%
+\begin{APACrefauthors}%
+Li, L.%
+, Cannon, F.%
+, Mazloff, M\BPBI R.%
+, Subramanian, A\BPBI C.%
+, Wilson, A\BPBI M.%
+\BCBL {}\ \BBA {} Ralph, F\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Impact of Atmospheric Rivers on Arctic Sea Ice
+  Variations} {Impact of atmospheric rivers on arctic sea ice
+  variations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{EGUsphere}{2022}{}{1--21}.
+\newblock
+\begin{APACrefURL}
+  \url{https://egusphere.copernicus.org/preprints/2022/egusphere-2022-36/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.5194/egusphere-2022-36} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Little%
+, Kingston%
+, Cullen%
+\BCBL {}\ \BBA {} Gibson%
+}{%
+Little%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Little2019}
+\APACinsertmetastar {%
+Little2019}%
+\begin{APACrefauthors}%
+Little, K.%
+, Kingston, D\BPBI G.%
+, Cullen, N\BPBI J.%
+\BCBL {}\ \BBA {} Gibson, P\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Role of Atmospheric Rivers for Extreme Ablation and
+  Snowfall Events in the Southern Alps of New Zealand} {The role of atmospheric
+  rivers for extreme ablation and snowfall events in the southern alps of new
+  zealand}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{46}{5}{2761-2771}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL081669}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/2018GL081669} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ma%
+\ \protect \BOthers {.}}{%
+Ma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Ma2023}
+\APACinsertmetastar {%
+Ma2023}%
+\begin{APACrefauthors}%
+Ma, W.%
+, Wang, H.%
+, Chen, G.%
+, Qian, Y.%
+, Baxter, I.%
+, Huo, Y.%
+\BCBL {}\ \BBA {} Seefeldt, M\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Wintertime Extreme Warming Events in the High Arctic:
+  Characteristics, Drivers, Trends, and the Role of Atmospheric Rivers}
+  {Wintertime extreme warming events in the high arctic: Characteristics,
+  drivers, trends, and the role of atmospheric rivers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{EGUsphere}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.5194/egusphere-2023-2018}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Preprint}
+\newblock
+\begin{APACrefDOI} \doi{10.5194/egusphere-2023-2018} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Maclennan%
+, Lenaerts%
+, Shields%
+\BCBL {}\ \BBA {} Wille%
+}{%
+Maclennan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+maclennan_contribution_2022}
+\APACinsertmetastar {%
+maclennan_contribution_2022}%
+\begin{APACrefauthors}%
+Maclennan, M\BPBI L.%
+, Lenaerts, J\BPBI T\BPBI M.%
+, Shields, C.%
+\BCBL {}\ \BBA {} Wille, J\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Contribution of {Atmospheric} {Rivers} to {Antarctic}
+  {Precipitation}} {Contribution of {Atmospheric} {Rivers} to {Antarctic}
+  {Precipitation}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{49}{18}{}.
+\newblock
+\begin{APACrefURL}
+  [{2024-04-16}]\url{https://onlinelibrary.wiley.com/doi/abs/10.1029/2022GL100585}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2022GL100585} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Paily%
+, Macagno%
+\BCBL {}\ \BBA {} Kennedy%
+}{%
+Paily%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1974}}%
+}]{%
+Paily}
+\APACinsertmetastar {%
+Paily}%
+\begin{APACrefauthors}%
+Paily, P.%
+, Macagno, E.%
+\BCBL {}\ \BBA {} Kennedy, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{3}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Winter-regime surface heat loss from heated streams.
+  Research report} {Winter-regime surface heat loss from heated streams.
+  research report}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{US Office of Scientific and Technical
+  Information}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.osti.gov/biblio/7179276} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Paul~J.%
+, Lawrence~J.%
+, F.~Martin%
+, Mimi%
+\BCBL {}\ \BBA {} Gary~A.%
+}{%
+Paul~J.%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+ARs_flood_WA_State}
+\APACinsertmetastar {%
+ARs_flood_WA_State}%
+\begin{APACrefauthors}%
+Paul~J., N.%
+, Lawrence~J., S.%
+, F.~Martin, R.%
+, Mimi, H.%
+\BCBL {}\ \BBA {} Gary~A., W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Flooding in Western Washington: The Connection to
+  Atmospheric Rivers} {Flooding in western washington: The connection to
+  atmospheric rivers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Hydrometeorology}{12}{6}{1337 - 1358}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/hydr/12/6/2011jhm1358_1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/2011JHM1358.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Prowse%
+, Bonsal%
+, Duguay%
+\BCBL {}\ \BBA {} Lacroix%
+}{%
+Prowse%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+Prowse_Bonsal_Duguay_Lacroix_2007}
+\APACinsertmetastar {%
+Prowse_Bonsal_Duguay_Lacroix_2007}%
+\begin{APACrefauthors}%
+Prowse, T.%
+, Bonsal, B.%
+, Duguay, C.%
+\BCBL {}\ \BBA {} Lacroix, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {River-ice break-up/freeze-up: a review of climatic
+  drivers, historical trends and future predictions} {River-ice
+  break-up/freeze-up: a review of climatic drivers, historical trends and
+  future predictions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Annals of Glaciology}{46}{}{443–451}.
+\newblock
+\begin{APACrefDOI} \doi{10.3189/172756407782871431} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ralph%
+\ \protect \BOthers {.}}{%
+Ralph%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+ARs_flood_Russian_River_CA}
+\APACinsertmetastar {%
+ARs_flood_Russian_River_CA}%
+\begin{APACrefauthors}%
+Ralph, F\BPBI M.%
+, Neiman, P\BPBI J.%
+, Wick, G\BPBI A.%
+, Gutman, S\BPBI I.%
+, Dettinger, M\BPBI D.%
+, Cayan, D\BPBI R.%
+\BCBL {}\ \BBA {} White, A\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Flooding on California's Russian River: Role of
+  atmospheric rivers} {Flooding on california's russian river: Role of
+  atmospheric rivers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{33}{13}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2006GL026689}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/2006GL026689} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saavedra%
+, Cortés%
+, Viale%
+, Margulis%
+\BCBL {}\ \BBA {} McPhee%
+}{%
+Saavedra%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Saavedra2020}
+\APACinsertmetastar {%
+Saavedra2020}%
+\begin{APACrefauthors}%
+Saavedra, F.%
+, Cortés, G.%
+, Viale, M.%
+, Margulis, S.%
+\BCBL {}\ \BBA {} McPhee, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Atmospheric Rivers Contribution to the Snow Accumulation
+  Over the Southern Andes (26.5° S–37.5° S)} {Atmospheric rivers
+  contribution to the snow accumulation over the southern andes (26.5°
+  s–37.5° s)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Frontiers in Earth Science}{8}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.frontiersin.org/articles/10.3389/feart.2020.00261}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3389/feart.2020.00261} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shen%
+}{%
+Shen%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+shen_newest}
+\APACinsertmetastar {%
+shen_newest}%
+\begin{APACrefauthors}%
+Shen, H\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mathematical modeling of river ice processes}
+  {Mathematical modeling of river ice processes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cold Regions Science and Technology}{62}{1}{3-13}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0165232X10000339}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.coldregions.2010.02.007}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+USDOC%
+}{%
+USDOC%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+NOAA_AR_summary}
+\APACinsertmetastar {%
+NOAA_AR_summary}%
+\begin{APACrefauthors}%
+USDOC.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{3}{}.
+\newblock
+\APACrefbtitle {What are atmospheric rivers?} {What are atmospheric rivers?}
+\newblock
+\APAChowpublished {National Oceanic and Atmospheric Administration}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.noaa.gov/stories/what-are-atmospheric-rivers}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Viale%
+, Valenzuela%
+, Garreaud%
+\BCBL {}\ \BBA {} Ralph%
+}{%
+Viale%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+ARs_impact_SA}
+\APACinsertmetastar {%
+ARs_impact_SA}%
+\begin{APACrefauthors}%
+Viale, M.%
+, Valenzuela, R.%
+, Garreaud, R\BPBI D.%
+\BCBL {}\ \BBA {} Ralph, F\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Impacts of Atmospheric Rivers on Precipitation in
+  Southern South America} {Impacts of atmospheric rivers on precipitation in
+  southern south america}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Hydrometeorology}{19}{10}{1671 - 1687}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/hydr/19/10/jhm-d-18-0006_1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/JHM-D-18-0006.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+\ \protect \BOthers {.}}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Zhang2023}
+\APACinsertmetastar {%
+Zhang2023}%
+\begin{APACrefauthors}%
+Zhang, P.%
+, Chen, G.%
+, Ting, M.%
+, Ruby~Leung, L.%
+, Guan, B.%
+\BCBL {}\ \BBA {} Li, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{March}{}.
+\newblock
+{\BBOQ}\APACrefatitle {More frequent atmospheric rivers slow the seasonal
+  recovery of Arctic sea ice} {More frequent atmospheric rivers slow the
+  seasonal recovery of arctic sea ice}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature Climate Change}{13}{3}{266--273}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1038/s41558-023-01599-3}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1038/s41558-023-01599-3} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhu%
+\ \BBA {} Newell%
+}{%
+Zhu%
+\ \BBA {} Newell%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+other_alg}
+\APACinsertmetastar {%
+other_alg}%
+\begin{APACrefauthors}%
+Zhu, Y.%
+\BCBT {}\ \BBA {} Newell, R\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Proposed Algorithm for Moisture Fluxes from
+  Atmospheric Rivers} {A proposed algorithm for moisture fluxes from
+  atmospheric rivers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Monthly Weather Review}{126}{3}{725 - 735}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/mwre/126/3/1520-0493_1998_126_0725_apafmf_2.0.co_2.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/1520-0493(1998)126<0725:APAFMF>2.0.CO;2}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
