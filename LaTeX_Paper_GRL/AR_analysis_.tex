@@ -120,7 +120,8 @@
 % Additional author notes should be indicated with \thanks{} (for
 % example, for current addresses).
 
-\authors{Russ Limber\affil{1, 2}, Elias Massoud\affil{2}, Jitendra Kumar\affil{2}, Forrest M. Hoffman\affil{2}}
+\authors{Russ Limber\affil{1, 2}, Elias Massoud\affil{2}, 
+Jitendra Kumar\affil{2}, Forrest M. Hoffman\affil{2}}
 \affiliation{1}{The University of Tennessee}
 \affiliation{2}{Oak Ridge National Laboratory}
 
@@ -152,18 +153,21 @@
 % \begin{keypoints}
 % \item	List up to three key points (at least one is required)
 % \item	Key Points summarize the main points and conclusions of the article
-% \item	Each must be 140 characters or fewer with no special characters or punctuation and must be complete sentences
+% \item	Each must be 140 characters or fewer with no special 
+	% characters or punctuation and must be complete sentences
 % \end{keypoints}
 
 % These are all under 140 characters
 \begin{keypoints}
-\item Atmospheric Rivers (ARs) correlate to a one week increase in daily minimum temperature
+\item Atmospheric Rivers (ARs) correlate to a one week increase in daily temperature
 
-\item Robust ARs occuring during the coldest period of the year appear to prolong the annual breakup
-date of river ice
+\item Robust ARs occuring during the coldest period of the year appear to 
+	prolong the annual breakup
+	date of river ice
 
-\item ARs account for about one third (36\%) of total precipitation and explain almost half (48\%)
- of interannual variability of precipitation
+\item ARs account for about one third (36\%) of total precipitation and 
+	explain almost half (48\%)
+ 	of interannual variability of precipitation
 \end{keypoints}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -265,9 +269,9 @@ most of the water vapor outside of the Tropics \cite{NOAA_AR_summary}.
 It is estimated that ARs are responsible for as much as 90\% of poleward
 water vapor transport at midlatitudes \cite{other_alg}. ARs contribute to
 extreme precipitation events across various regions worldwide, including
-western North America \cite{Dettinger2004, Neiman2008, Guan2010,
+Western North America \cite{Dettinger2004, Neiman2008, Guan2010,
 ARs_flood_WA_State, ARs_flood_Russian_River_CA, Ralph2013, ARs_CA}
-Europe \cite{Lavers2013, ARs_impact_Norway}, and western South America
+Europe \cite{Lavers2013, ARs_impact_Norway}, and Western South America
 \cite{ARs_impact_SA}. In recent years, the impacts of ARs on the
 cryosphere have been more extensively analyzed. It was found that between
 1981 and 2020 atmospheric moisture content anticorrelates significantly
@@ -326,12 +330,13 @@ magnitude thresholding (i.e., grid cells with IVT above the seasonally
 and regionally dependent $85^{th}$ percentile) and further filtered
 using directional and geometry criteria requirements. The detection
 algorithm was applied to NCEP in its native resolution of $2.5 \degree$.
-This detection algorithm had over \~90\% agreement in detected AR
+This detection algorithm had over 90\% agreement in detected AR
 landfall dates with other methods for detecting ARs made for Western
 North America \cite{Neiman2008}, the United Kingdom \cite{Lavers2011}, 
 and East Antarctica \cite{Gorodetskaya2014}. Precipitation and daily
-minimum and maximum temperatures (tmin and tmax) were imported from Oak Ridge National
-Laboratory's Daymet 1kmx1km daily product, via the
+minimum and maximum temperatures ($T_{\text{min}}$ and $T_{\text{max}}$) 
+were imported from Oak Ridge National
+Laboratory's Daymet $1kmx1km$ daily product, via the
 Distributed Active Archive Center \cite{daymet}. River ice breakup dates 
 were collected from the Alaska Pacific River Forecast Center database 
 (APRFC). While exact coordinates were unavailable, coordinates were 
@@ -340,7 +345,7 @@ maintain spatial consistency with inputs used in Daymet’s meteorological
 models. 25 locations were identified as having at least 35 breakup 
 records between 1980 and 2023 (the current temporal availability of 
 Daymet). 35 was used as the threshold because it allowed for the greatest 
-number of locations with the most complete time series, 
+number of locations with the most complete time series 
 necessary for statistical analysis.
 
 \begin{figure}
@@ -350,7 +355,8 @@ necessary for statistical analysis.
 	year 2021; (right) map of average temperature for 2021. Bottom:
 	One of the 25 locations (Crooked Creek on the Kuskokwim
 	River) for the year 2021. Yellow, orange, red represents the
-	temperature profiles (fill plot of tmin - tmax) from NCEP
+	temperature profiles (fill plot of $T_{\text{min}}$ -
+	$T_{\text{max}}$) from NCEP
 	temperature data at 850, 925 and 1000mb respectively. Light
 	green represents Daymet temperature profile. Dark blue shows
 	modeled precipitation from Daymet while the light blue stem
@@ -359,7 +365,7 @@ necessary for statistical analysis.
 \label{fig:concatenated_maps_precip_temp_plot} 
 \end{figure}
 
-Daymet precipitation, tmin and tmax were used in our analysis as they
+Daymet precipitation, $T_{\text{min}}$ and $T_{\text{max}}$ were used in our analysis as they
 have a strong agreement with NCEP temperature outputs for our region of interest
 Figure \ref{fig:concatenated_maps_precip_temp_plot}. Additionally, 
 because Daymet is derived directly from in-situ instruments 
@@ -374,21 +380,21 @@ varying temporal window combined with a pairwise t-test. For each
 AR occurence, a lookback window and forecast window each equal to n
 days in length was created before and after the AR date, respectively,
 whereby: $ n \in \{1, 2, 3, \ldots, 14\}$.
-For values of n greater than one the mean was taken within each window
-for tmin and tmax. These aggregated temperatures were then
+For values of n greater than one day the mean was taken within each window
+for $T_{\text{min}}$ and $T_{\text{max}}$. These aggregated temperatures were then
 calculated over all locations. Aggregated temperature pairs 
 were assessed using a one tailed pairwise t-test to test
-whether ARs increase local temperature over a period of time $(\alpha =
+whether ARs increase local temperature over period of time n $(\alpha =
 0.05)$. We explored how ARs compare to local precipitation events by
 separating out precipitation caused by an AR and precipitation not
-caused by an AR. We then use the Wilcoxon rank-sum test to test the hypothesis 
+caused by an AR. We then used the Wilcoxon rank-sum test to test the hypothesis 
 that AR events tend to produce more precipitation than local
 precipitation events (the distributions of precipitation were shown to
 not be normally distributed even after log transformation using the
 Shapiro-Wilks test hence the use of a non-parametric test). We calculate
 the interannual variability of precipitation that ARs account for by
 conducting a univariate ordinary least squares regression (OLS). To
-determine the impact that ARs have on river ice breakup timing the heat
+determine the impact that ARs have on river ice breakup timing heat
 transport was estimated using Equation \ref{eq:heat_transport}:
 
 \begin{equation}
@@ -399,7 +405,7 @@ transport was estimated using Equation \ref{eq:heat_transport}:
 \noindent where $Q$ is heat flux ($\frac{J}{m^2}$); $\alpha$ specific heat 
 ($\frac{J}{g \cdot \degree C}$); $\Delta T$ is the difference of 
 ambient temperature and the river ice surface (which is estimated 
-using $t_{\text{min}}$ as a proxy for ambient) ($\degree C$); $m$ 
+using $T_{\text{min}}$ as a proxy for ambient) ($\degree C$); $m$ 
 the mass of the precipitation ($kg$). The integral of these values
 over all precipitation events that occured seven months prior to the
 breakup date is taken with respect to time. A temporal bias function
@@ -437,7 +443,7 @@ location optimized by the Pearson correlation coefficient.
 
 The pairwise t-test comparing n length lookback and forecast windows
 found that based on an $\alpha = 0.05$ there is a
-statistically significant difference in tmin n days prior to an AR event
+statistically significant difference in $T_{\text{min}}$ n days prior to an AR event
 to n days after, when $ n \in \{1, \ldots, 10\}$ on average.
 This was true for all locations in the study when $ n \in \{1,
 \ldots, 8\}$, at which point the p-values become insignificant for some
@@ -448,7 +454,7 @@ average. Some locations showed no significance when $n=1$ and $n=6$. Figure
 \ref{fig:tmin_vs_tmax_subplots} shows the change in p-values for each
 value of n (top row) as well as the mean increase in temperature
 from the lookback window to the forecast window. The mean
-temperatures are higher for tmin post AR than tmax, with both plots
+temperatures are higher for $T_{\text{min}}$ post AR than tmax, with both plots
 showing a clear downward trend as the length of n increases.     
 
 \begin{figure}

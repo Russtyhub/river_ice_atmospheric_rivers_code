@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.19)  24 APR 2024 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.19)  24 APR 2024 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -768,527 +768,529 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.14).
 
 
-Overfull \hbox (17.09889pt too wide) in paragraph at lines 160--161
+Overfull \hbox (6.0433pt too wide) in paragraph at lines 162--163
 []\OT1/cmr/m/n/10 Atmospheric Rivers (ARs) cor-re-late to a one week in-crease 
-in daily min-i-mum tem- 
+in daily tem-per-a-ture  
  []
 
 
-Overfull \hbox (10.68233pt too wide) in paragraph at lines 162--164
+Overfull \hbox (10.68233pt too wide) in paragraph at lines 164--167
 []\OT1/cmr/m/n/10 Robust ARs oc-cur-ing dur-ing the cold-est pe-riod of the yea
 r ap-pear to pro-long the 
  []
 
 
-Overfull \hbox (7.62688pt too wide) in paragraph at lines 165--167
+Overfull \hbox (7.62688pt too wide) in paragraph at lines 168--171
 []\OT1/cmr/m/n/10 ARs ac-count for about one third (36%) of to-tal pre-cip-i-ta
 -tion and ex-plain al-most 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.57123pt too wide) in paragraph at lines 194--207
+Overfull \hbox (6.57123pt too wide) in paragraph at lines 198--211
 []\OT1/cmr/m/n/10 Atmospheric rivers (ARs) trans-port vast amounts of mois-ture
  from low lat-i-tudes, 
  []
 
 
-Overfull \hbox (5.84908pt too wide) in paragraph at lines 194--207
+Overfull \hbox (5.84908pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 mainly the Trop-ics, to high lat-i-tude re-gions. One re-gion p
 ar-tic-u-larly im-pacted by ARs 
  []
 
 
-Overfull \hbox (10.96008pt too wide) in paragraph at lines 194--207
+Overfull \hbox (10.96008pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 is Alaska USA. We an-a-lyze the role of ARs in rais-ing lo-cal 
 tem-per-a-tures, their ef-fect on 
  []
 
 
-Overfull \hbox (8.09909pt too wide) in paragraph at lines 194--207
+Overfull \hbox (8.09909pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 pre-cip-i-ta-tion vari-abil-ity, and their in-flu-ence on the a
 n-nual river ice breakup date for 25 
  []
 
 
-Overfull \hbox (3.68234pt too wide) in paragraph at lines 194--207
+Overfull \hbox (3.68234pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 lo-ca-tions. Pre-cip-i-ta-tion and tem-per-a-ture records were 
 pro-vided by Daymet, with ARs 
  []
 
 
-Overfull \hbox (6.77957pt too wide) in paragraph at lines 194--207
+Overfull \hbox (6.77957pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 de-ter-mined from the Guan and Waliser track-ing al-go-rithm. W
 e found ARs in-crease lo- 
  []
 
 
-Overfull \hbox (7.15459pt too wide) in paragraph at lines 194--207
+Overfull \hbox (7.15459pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 cal tem-per-a-tures for as long as one week post land-fall, ac-
 count for 36% of to-tal pre-cip- 
  []
 
 
-Overfull \hbox (6.12697pt too wide) in paragraph at lines 194--207
+Overfull \hbox (6.12697pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 i-ta-tion and ex-plain 48% of pre-cip-i-ta-tion vari-abil-ity. 
 Cal-cu-lat-ing the heat trans-port be- 
  []
 
 
-Overfull \hbox (8.32115pt too wide) in paragraph at lines 194--207
+Overfull \hbox (8.32115pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 tween ARs and river ice, fused with a tem-po-ral bias, we con-c
 lude that heavy pre-cip-i-ta- 
  []
 
 
-Overfull \hbox (16.09903pt too wide) in paragraph at lines 194--207
+Overfull \hbox (16.09903pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 tion events (HPEs) dur-ing the cold-est pe-riod of the year pro
 -long river ice breakup dates, 
  []
 
 
-Overfull \hbox (3.4046pt too wide) in paragraph at lines 194--207
+Overfull \hbox (3.4046pt too wide) in paragraph at lines 198--211
 \OT1/cmr/m/n/10 while HPEs oc-cur-ring close to the breakup date have lit-tle i
 m-pact on breakup tim-ing.  
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 211.
+(Font)              size <10.95> substituted on input line 215.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 211.
+(Font)              size <10.95> substituted on input line 215.
 
 
-Overfull \hbox (12.57115pt too wide) in paragraph at lines 213--228
+Overfull \hbox (12.57115pt too wide) in paragraph at lines 217--232
 []\OT1/cmr/m/n/10 We strate-gi-cally se-lected 25 lo-ca-tions with an-nual rive
 r ice breakup dates recorded 
  []
 
 
-Overfull \hbox (8.87686pt too wide) in paragraph at lines 213--228
+Overfull \hbox (8.87686pt too wide) in paragraph at lines 217--232
 \OT1/cmr/m/n/10 through-out In-te-rior Alaska. Across all lo-ca-tions, we de-te
 r-mined that daily tem-per-a-ture 
  []
 
 
-Overfull \hbox (1.68227pt too wide) in paragraph at lines 213--228
+Overfull \hbox (1.68227pt too wide) in paragraph at lines 217--232
 \OT1/cmr/m/n/10 in-creases by up to one week post an at-mo-spheric river (AR). 
 We also found that ARs 
  []
 
 
-Overfull \hbox (10.76587pt too wide) in paragraph at lines 213--228
+Overfull \hbox (10.76587pt too wide) in paragraph at lines 217--232
 \OT1/cmr/m/n/10 ac-count for 36% of to-tal an-nual pre-cip-i-ta-tion from 1980 
 to 2023 and ex-plain 48% of the 
  []
 
 
-Overfull \hbox (4.48792pt too wide) in paragraph at lines 213--228
+Overfull \hbox (4.48792pt too wide) in paragraph at lines 217--232
 \OT1/cmr/m/n/10 vari-abil-ity of pre-cip-i-ta-tion. We then cal-cu-lated the to
 -tal heat trans-fer be-tween pre-cip- 
  []
 
 
-Overfull \hbox (10.09908pt too wide) in paragraph at lines 213--228
+Overfull \hbox (10.09908pt too wide) in paragraph at lines 217--232
 \OT1/cmr/m/n/10 i-ta-tion and river ice while tak-ing into ac-count a bias func
 -tion for time. Sur-pris-ingly, we 
  []
 
 
-Overfull \hbox (1.8769pt too wide) in paragraph at lines 213--228
+Overfull \hbox (1.8769pt too wide) in paragraph at lines 217--232
 \OT1/cmr/m/n/10 found that heavy pre-cip-i-ta-tion events (HPEs), both lo-cal p
 re-cip-i-ta-tion and ARs, that 
  []
 
 
-Overfull \hbox (1.01564pt too wide) in paragraph at lines 213--228
+Overfull \hbox (1.01564pt too wide) in paragraph at lines 217--232
 \OT1/cmr/m/n/10 oc-cur rel-a-tively close to river ice breakup dates, have lit-
 tle cor-re-la-tion to the breakup 
  []
 
 
-Overfull \hbox (16.07123pt too wide) in paragraph at lines 213--228
+Overfull \hbox (16.07123pt too wide) in paragraph at lines 217--232
 \OT1/cmr/m/n/10 date. How-ever, HPEs that oc-cur dur-ing the cold-est pe-riod o
 f the year (typ-i-cally late De- 
  []
 
 
-Overfull \hbox (9.82126pt too wide) in paragraph at lines 213--228
+Overfull \hbox (9.82126pt too wide) in paragraph at lines 217--232
 \OT1/cmr/m/n/10 cem-ber to mid-January) are strongly in-versely cor-re-lated wi
 th river ice breakup tim-ing, 
  []
 
 
-Overfull \hbox (21.34895pt too wide) in paragraph at lines 262--302
+Overfull \hbox (21.34895pt too wide) in paragraph at lines 266--306
 []\OT1/cmr/m/n/10 Atmospheric rivers (ARs) are nar-row cor-ri-dors of in-tense 
 wa-ter va-por trans-port that 
  []
 
 
-Overfull \hbox (2.48798pt too wide) in paragraph at lines 262--302
+Overfull \hbox (2.48798pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 sig-nif-i-cantly in-flu-ence hy-dro-logic events, trans-port-in
 g most of the wa-ter va-por out-side 
  []
 
 
-Overfull \hbox (9.01561pt too wide) in paragraph at lines 262--302
+Overfull \hbox (9.01561pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 of the Trop-ics []USDOC, 2023). It is es-ti-mated that ARs are 
 re-spon-si-ble for as much as 
  []
 
 
-Overfull \hbox (13.90462pt too wide) in paragraph at lines 262--302
+Overfull \hbox (13.90462pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 90% of pole-ward wa-ter va-por trans-port at mid-lat-i-tudes []
 Zhu & Newell, 1998). ARs con- 
  []
 
 
-Overfull \hbox (13.43231pt too wide) in paragraph at lines 262--302
+Overfull \hbox (15.93233pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 tribute to ex-treme pre-cip-i-ta-tion events across var-i-ous r
-e-gions world-wide, in-clud-ing west- 
+e-gions world-wide, in-clud-ing West- 
  []
 
 
-Overfull \hbox (20.16852pt too wide) in paragraph at lines 262--302
+Overfull \hbox (20.16852pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 ern North Amer-ica []Dettinger et al.[], 2004; Neiman et al.[],
  2008; Guan et al.[], 2010; Paul J. 
  []
 
 
-Overfull \hbox (33.21024pt too wide) in paragraph at lines 262--302
+Overfull \hbox (33.21024pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 et al.[], 2011; Ralph et al.[], 2006; F. Mar-tin et al.[], 2019
 ; Det-tinger et al.[], 2011) Eu-rope []Lavers 
  []
 
 
-Overfull \hbox (6.46017pt too wide) in paragraph at lines 262--302
-\OT1/cmr/m/n/10 et al.[], 2013; Har-ald & An-dreas, 2013), and west-ern South A
+Overfull \hbox (8.96019pt too wide) in paragraph at lines 266--306
+\OT1/cmr/m/n/10 et al.[], 2013; Har-ald & An-dreas, 2013), and West-ern South A
 mer-ica []Viale et al.[], 2018). 
  []
 
 
-Overfull \hbox (2.62666pt too wide) in paragraph at lines 262--302
+Overfull \hbox (2.62666pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 In re-cent years, the im-pacts of ARs on the cryosphere have be
 en more ex-ten-sively an- 
  []
 
 
-Overfull \hbox (12.32126pt too wide) in paragraph at lines 262--302
+Overfull \hbox (12.32126pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 a-lyzed. It was found that be-tween 1981 and 2020 at-mo-spheric
  mois-ture con-tent an-ti-cor- 
  []
 
 
-Overfull \hbox (3.68225pt too wide) in paragraph at lines 262--302
+Overfull \hbox (3.68225pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 re-lates sig-nif-i-cantly with sea ice con-cen-tra-tion over al
 -most the en-tire Arc-tic Ocean []Li 
  []
 
 
-Overfull \hbox (3.71017pt too wide) in paragraph at lines 262--302
+Overfull \hbox (3.71017pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 et al.[], 2022). For those same years, an-other anal-y-sis foun
 d that 100% of ex-treme tem- 
  []
 
 
-Overfull \hbox (8.0995pt too wide) in paragraph at lines 262--302
+Overfull \hbox (8.0995pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 per-a-ture events in the Arc-tic (above 0 $\TS1/cmr/m/n/10 °\OM
 L/cmm/m/it/10 C$\OT1/cmr/m/n/10 ) co-in-cides with ARs []Ma et al.[], 2023). Ma
 ny 
  []
 
 
-Overfull \hbox (3.18228pt too wide) in paragraph at lines 262--302
+Overfull \hbox (3.18228pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 anal-y-ses have noted a re-la-tion-ship be-tween heavy AR ac-ti
 v-ity and sea ice loss, caused 
  []
 
 
-Overfull \hbox (36.0158pt too wide) in paragraph at lines 262--302
+Overfull \hbox (36.0158pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 by in-creased rain-fall from mois-ture orig-i-nat-ing in lower 
 lat-i-tudes []Zhang et al.[], 2023; Maclen- 
  []
 
 
-Overfull \hbox (18.1545pt too wide) in paragraph at lines 262--302
+Overfull \hbox (18.1545pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 nan et al.[], 2022). How-ever Arc-tic sys-tems are com-pli-cate
 d, as the in-tense mois-ture trans- 
  []
 
 
-Overfull \hbox (0.96008pt too wide) in paragraph at lines 262--302
+Overfull \hbox (0.96008pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 port within ARs can also re-sult in heavy snow-fall events, thu
 s con-tribut-ing to the ac- 
  []
 
 
-Overfull \hbox (12.1408pt too wide) in paragraph at lines 262--302
+Overfull \hbox (12.1408pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 cu-mu-la-tion of snow-pack, es-pe-cially in moun-tain-ous re-gi
 ons []Saavedra et al.[], 2020; Guan 
  []
 
 
-Overfull \hbox (13.76578pt too wide) in paragraph at lines 262--302
+Overfull \hbox (13.76578pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 et al.[], 2010). Un-der the right con-di-tions, this re-la-tion
 -ship has been found to ac-tu-ally in- 
  []
 
 
-Overfull \hbox (6.12674pt too wide) in paragraph at lines 262--302
+Overfull \hbox (6.12674pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 crease the mass bal-ance of glaciers []Little et al.[], 2019). 
 Un-der-stand-ing the role of ARs 
  []
 
 
-Overfull \hbox (24.8489pt too wide) in paragraph at lines 262--302
+Overfull \hbox (24.8489pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 in the cryosphere is es-sen-tial for as-sess-ing their broader 
 im-pact on re-gional wa-ter re-sources 
  []
 
 
-Overfull \hbox (13.68239pt too wide) in paragraph at lines 262--302
+Overfull \hbox (13.68239pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 and glacier dy-nam-ics in a chang-ing cli-mate. While a num-ber
  of works have ex-plored the 
  []
 
 
-Overfull \hbox (4.40451pt too wide) in paragraph at lines 262--302
+Overfull \hbox (4.40451pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 re-la-tion-ship be-tween ARs and sea ice, to our knowl-edge the
 re haven't been any anal-y- 
  []
 
 
-Overfull \hbox (21.29338pt too wide) in paragraph at lines 262--302
+Overfull \hbox (21.29338pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 ses that look at the re-la-tion-ship be-tween ARs and Arc-tic r
 iver ice. Many works have used 
  []
 
 
-Overfull \hbox (1.98792pt too wide) in paragraph at lines 262--302
+Overfull \hbox (1.98792pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 physics based pro-cesses and al-lo-met-rics to model the an-nua
 l breakup tim-ing and con- 
  []
 
 
-Overfull \hbox (2.26567pt too wide) in paragraph at lines 262--302
+Overfull \hbox (2.26567pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 di-tions of Arc-tic river ice []Paily et al.[], 1974; Ash-ton, 
 1986; Prowse et al.[], 2007; Jasek, 
  []
 
 
-Overfull \hbox (3.23787pt too wide) in paragraph at lines 262--302
+Overfull \hbox (3.23787pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 1998; Shen, 2010). While it is rec-og-nized that an in-crease i
 n stream-flow al-ters the dy- 
  []
 
 
-Overfull \hbox (8.87688pt too wide) in paragraph at lines 262--302
+Overfull \hbox (8.87688pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 nam-ics sur-round-ing river ice breakup tim-ing []Ashton, 1986)
 , the re-la-tion-ship pre-cip-i-ta- 
  []
 
 
-Overfull \hbox (3.57121pt too wide) in paragraph at lines 262--302
+Overfull \hbox (3.57121pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 tion, and to that end AR tim-ing, has on Arc-tic river ice has 
 yet to be ex-am-ined. This 
  []
 
 
-Overfull \hbox (8.73782pt too wide) in paragraph at lines 262--302
+Overfull \hbox (8.73782pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 anal-y-sis sets out to an-swer the fol-low-ing ques-tions: 1.) 
 Is there a change in air tem-per- 
  []
 
 
-Overfull \hbox (12.93236pt too wide) in paragraph at lines 262--302
+Overfull \hbox (12.93236pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 a-ture for each lo-ca-tion cor-re-spond-ing to the tim-ing of A
 Rs? 2.) How do ARs con-tribute 
  []
 
 
-Overfull \hbox (6.23796pt too wide) in paragraph at lines 262--302
+Overfull \hbox (6.23796pt too wide) in paragraph at lines 266--306
 \OT1/cmr/m/n/10 to pre-cip-i-ta-tion through-out in-te-rior Alaska? 3.) Do ARs 
 im-pact the tim-ing of river ice 
  []
 
 [2]
-Overfull \hbox (10.87677pt too wide) in paragraph at lines 305--345
+Overfull \hbox (10.87677pt too wide) in paragraph at lines 309--350
 []\OT1/cmr/m/n/10 Similar to pre-vi-ous stud-ies, we de-fine ARs us-ing in-te-g
 rated va-por trans-port (IVT) 
  []
 
 
-Overfull \hbox (6.01569pt too wide) in paragraph at lines 305--345
+Overfull \hbox (6.01569pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 val-ues con-structed from 6-hourly val-ues of 3-D wind and wa-t
 er va-por at eight pres-sure 
  []
 
 
-Overfull \hbox (21.07132pt too wide) in paragraph at lines 305--345
+Overfull \hbox (21.07132pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 lev-els be-tween 300 and 1,000 mb from the NCEP/NCAR re-anal-y-
 sis data prod-uct []Kalnay 
  []
 
 
-Overfull \hbox (25.22404pt too wide) in paragraph at lines 305--345
+Overfull \hbox (25.22404pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 et al.[], 1996). AR de-tec-tion is based on ver-sion3 of the tA
 R-get al-go-rithm []Guan & Waliser, 
  []
 
 
-Overfull \hbox (18.19629pt too wide) in paragraph at lines 305--345
+Overfull \hbox (18.19629pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 2019; Guan, 2022). The IVT val-ues are cal-cu-lated at the orig
 -i-nal res-o-lu-tion from the Na- 
  []
 
 
-Overfull \hbox (8.93245pt too wide) in paragraph at lines 305--345
+Overfull \hbox (8.93245pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 tional Cen-ter for En-vi-ron-men-tal Pro-tec-tion (NCEP) me-te-
 o-ro-log-i-cal in-puts []Saha et al.[], 
  []
 
 
-Overfull \hbox (9.87682pt too wide) in paragraph at lines 305--345
+Overfull \hbox (9.87682pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 2010). AR fre-quency for a given pe-riod within each grid cell 
 is cal-cu-lated by tak-ing the 
  []
 
 
-Overfull \hbox (11.54353pt too wide) in paragraph at lines 305--345
+Overfull \hbox (11.54353pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 num-ber of days that de-tect an AR and di-vid-ing by the to-tal
  num-ber of days in that pe- 
  []
 
 
-Overfull \hbox (11.51558pt too wide) in paragraph at lines 305--345
+Overfull \hbox (11.51558pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 riod. There-fore, for a given grid cell, AR fre-quency of 0% me
 ans there were no AR con- 
  []
 
 
-Overfull \hbox (11.73788pt too wide) in paragraph at lines 305--345
+Overfull \hbox (11.73788pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 di-tions at any of the time steps and fre-quency of 100% means 
 there were AR con-di-tions 
  []
 
 
-Overfull \hbox (2.32123pt too wide) in paragraph at lines 305--345
+Overfull \hbox (2.32123pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 at ev-ery time step. Guan and Waliser []Guan & Waliser, 2015) d
 e-vel-oped a global AR 
  []
 
 
-Overfull \hbox (8.98799pt too wide) in paragraph at lines 305--345
+Overfull \hbox (8.98799pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 de-tec-tion al-go-rithm, which was up-dated and val-i-dated lat
 er with in situ and drop-sonde 
  []
 
 
-Overfull \hbox (9.44627pt too wide) in paragraph at lines 305--345
+Overfull \hbox (9.44627pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 data []Guan, 2022). This al-go-rithm is em-ployed for our study
 , which is based on a com- 
  []
 
 
-Overfull \hbox (3.6824pt too wide) in paragraph at lines 305--345
+Overfull \hbox (3.6824pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 bi-na-tion of the IVT mag-ni-tude, di-rec-tion, and ge-om-e-try
  char-ac-ter-is-tics, to ob-jec-tively 
  []
 
 
-Overfull \hbox (22.9324pt too wide) in paragraph at lines 305--345
+Overfull \hbox (22.9324pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 iden-tify ARs. Con-tigu-ous re-gions of en-hanced IVT trans-por
 t are first iden-ti-fied from mag- 
  []
 
 
-Overfull \hbox (11.5435pt too wide) in paragraph at lines 305--345
+Overfull \hbox (11.5435pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 ni-tude thresh-old-ing (i.e., grid cells with IVT above the sea
 -son-ally and re-gion-ally de-pen- 
  []
 
 
-Overfull \hbox (13.94048pt too wide) in paragraph at lines 305--345
+Overfull \hbox (13.94048pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 dent $85[]$ per-centile) and fur-ther fil-tered us-ing di-rec-t
 ional and ge-om-e-try cri-te-ria re-quire- 
  []
 
 
-Overfull \hbox (23.23712pt too wide) in paragraph at lines 305--345
+Overfull \hbox (23.23712pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 ments. The de-tec-tion al-go-rithm was ap-plied to NCEP in its 
 na-tive res-o-lu-tion of $2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\TS1/cmr/m/n/10 °
 $\OT1/cmr/m/n/10 . This 
  []
 
 
-Overfull \hbox (3.48792pt too wide) in paragraph at lines 305--345
-\OT1/cmr/m/n/10 de-tec-tion al-go-rithm had over []90% agree-ment in de-tected 
-AR land-fall dates with other 
+Overfull \hbox (3.48792pt too wide) in paragraph at lines 309--350
+\OT1/cmr/m/n/10 de-tec-tion al-go-rithm had over 90% agree-ment in de-tected AR
+ land-fall dates with other 
  []
 
 
-Overfull \hbox (10.57124pt too wide) in paragraph at lines 305--345
+Overfull \hbox (10.57124pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 meth-ods for de-tect-ing ARs made for West-ern North Amer-ica [
 ]Neiman et al.[], 2008), the 
  []
 
 
-Overfull \hbox (10.16856pt too wide) in paragraph at lines 305--345
+Overfull \hbox (10.16856pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 United King-dom []Lavers et al.[], 2011), and East Antarc-tica 
 []Gorodetskaya et al.[], 2014). 
  []
 
 
-Overfull \hbox (17.0992pt too wide) in paragraph at lines 305--345
+Overfull \hbox (14.73808pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 Pre-cip-i-ta-tion and daily min-i-mum and max-i-mum tem-per-a-t
-ures (tmin and tmax) were im- 
+ures ($\OML/cmm/m/it/10 T[]$ \OT1/cmr/m/n/10 and $\OML/cmm/m/it/10 T[]$\OT1/cmr
+/m/n/10 ) were im- 
  []
 
 
-Overfull \hbox (10.73816pt too wide) in paragraph at lines 305--345
-\OT1/cmr/m/n/10 ported from Oak Ridge Na-tional Lab-o-ra-tory's Daymet 1kmx1km 
-daily prod-uct, via the 
+Overfull \hbox (12.55527pt too wide) in paragraph at lines 309--350
+\OT1/cmr/m/n/10 ported from Oak Ridge Na-tional Lab-o-ra-tory's Daymet $1\OML/c
+mm/m/it/10 kmx\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 km$ \OT1/cmr/m/n/10 daily prod-
+uct, via the 
  []
 
 
-Overfull \hbox (7.07118pt too wide) in paragraph at lines 305--345
+Overfull \hbox (7.07118pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 Dis-tributed Ac-tive Archive Cen-ter []M. Thorn-ton et al.[], 2
 022). River ice breakup dates 
  []
 
 
-Overfull \hbox (11.54335pt too wide) in paragraph at lines 305--345
+Overfull \hbox (11.54335pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 were col-lected from the Alaska Pa-cific River Fore-cast Cen-te
 r database (APRFC). While 
  []
 
 
-Overfull \hbox (7.6824pt too wide) in paragraph at lines 305--345
+Overfull \hbox (7.6824pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 ex-act co-or-di-nates were un-avail-able, co-or-di-nates were a
 p-prox-i-mated based on prox-im-ity 
  []
 
 
-Overfull \hbox (38.62689pt too wide) in paragraph at lines 305--345
+Overfull \hbox (38.62689pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 to weather sta-tions and air-ports to main-tain spa-tial con-si
 s-tency with in-puts used in Daymet's 
  []
 
 
-Overfull \hbox (15.54349pt too wide) in paragraph at lines 305--345
+Overfull \hbox (15.54349pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 me-te-o-ro-log-i-cal mod-els. 25 lo-ca-tions were iden-ti-fied 
 as hav-ing at least 35 breakup records 
  []
 
 
-Overfull \hbox (1.9046pt too wide) in paragraph at lines 305--345
+Overfull \hbox (1.9046pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 be-tween 1980 and 2023 (the cur-rent tem-po-ral avail-abil-ity 
 of Daymet). 35 was used as 
  []
 
 
-Overfull \hbox (16.07121pt too wide) in paragraph at lines 305--345
+Overfull \hbox (16.07121pt too wide) in paragraph at lines 309--350
 \OT1/cmr/m/n/10 the thresh-old be-cause it al-lowed for the great-est num-ber o
 f lo-ca-tions with the most com- 
  []
@@ -1298,88 +1300,90 @@ f lo-ca-tions with the most com-
 File: ./images/concatenated_maps_precip_temp_plot.png Graphic file (type png)
 <use ./images/concatenated_maps_precip_temp_plot.png>
 Package pdftex.def Info: ./images/concatenated_maps_precip_temp_plot.png  used 
-on input line 348.
+on input line 353.
 (pdftex.def)             Requested size: 397.48499pt x 309.15594pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 []\OT1/cmr/bx/n/9 Figure  1. \OT1/cmr/m/n/9 Top: (left) map show-ing sum-mated 
 pre-cip-i-ta-tion for the year 2021; (right) map of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 \OT1/cmr/m/n/9 av-er-age tem-per-a-ture for 2021. Bot-tom: One of the 25 lo-ca-
 tions (Crooked Creek on the Kuskok-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 \OT1/cmr/m/n/9 wim River) for the year 2021. Yel-low, or-ange, red rep-re-sents
  the tem-per-a-ture pro-files (fill plot
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
-\OT1/cmr/m/n/9 of tmin - tmax) from NCEP tem-per-a-ture data at 850, 925 and 10
-00mb re-spec-tively. Light green
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\OT1/cmr/m/n/9 of $\OML/cmm/m/it/9 T[]$ \OT1/cmr/m/n/9 - $\OML/cmm/m/it/9 T[]$\
+OT1/cmr/m/n/9 ) from NCEP tem-per-a-ture data at 850, 925 and 1000mb re-spec-ti
+vely. Light green
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 \OT1/cmr/m/n/9 rep-re-sents Daymet tem-per-a-ture pro-file. Dark blue shows mod
 -eled pre-cip-i-ta-tion from Daymet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 \OT1/cmr/m/n/9 while the light blue stem plots de-pict AR events. The pur-ple d
 ashed line shows the breakup date
  []
 
 
-Overfull \hbox (25.48793pt too wide) in paragraph at lines 362--369
-[]\OT1/cmr/m/n/10 Daymet pre-cip-i-ta-tion, tmin and tmax were used in our anal
--y-sis as they have a strong 
+Overfull \hbox (23.12682pt too wide) in paragraph at lines 368--375
+[]\OT1/cmr/m/n/10 Daymet pre-cip-i-ta-tion, $\OML/cmm/m/it/10 T[]$ \OT1/cmr/m/n
+/10 and $\OML/cmm/m/it/10 T[]$ \OT1/cmr/m/n/10 were used in our anal-y-sis as t
+hey have a strong 
  []
 
 
-Overfull \hbox (1.71013pt too wide) in paragraph at lines 362--369
+Overfull \hbox (1.71013pt too wide) in paragraph at lines 368--375
 \OT1/cmr/m/n/10 agree-ment with NCEP tem-per-a-ture out-puts for our re-gion of
  in-ter-est Fig-ure 1[]. Ad-di- 
  []
 
 
-Overfull \hbox (1.23793pt too wide) in paragraph at lines 362--369
+Overfull \hbox (1.23793pt too wide) in paragraph at lines 368--375
 \OT1/cmr/m/n/10 tion-ally, be-cause Daymet is de-rived di-rectly from in-situ i
 n-stru-ments and me-te-o-ro-log- 
  []
 
 
-Overfull \hbox (4.04346pt too wide) in paragraph at lines 362--369
+Overfull \hbox (4.04346pt too wide) in paragraph at lines 368--375
 \OT1/cmr/m/n/10 i-cal sta-tions, it rep-re-sents a ro-bust stan-dard for pre-ci
 p-i-ta-tion and tem-per-a-ture pre-dic- 
  []
 
 
-Overfull \hbox (4.76561pt too wide) in paragraph at lines 372--393
+Overfull \hbox (4.76561pt too wide) in paragraph at lines 378--399
 []\OT1/cmr/m/n/10 To de-ter-mine the im-pact that ARs have on lo-cal tem-per-a-
 ture, we used a vary-ing 
  []
 
 
-Overfull \hbox (4.79341pt too wide) in paragraph at lines 372--393
+Overfull \hbox (4.79341pt too wide) in paragraph at lines 378--399
 \OT1/cmr/m/n/10 tem-po-ral win-dow com-bined with a pair-wise t-test. For each 
 AR oc-curence, a look-back 
  []
 
 
-Overfull \hbox (5.93228pt too wide) in paragraph at lines 372--393
+Overfull \hbox (5.93228pt too wide) in paragraph at lines 378--399
 \OT1/cmr/m/n/10 win-dow and fore-cast win-dow each equal to n days in length wa
 s cre-ated be-fore and af- 
  []
 
 
-Overfull \hbox (15.85094pt too wide) in paragraph at lines 372--393
+Overfull \hbox (15.85094pt too wide) in paragraph at lines 378--399
 \OT1/cmr/m/n/10 ter the AR date, re-spec-tively, whereby: $\OML/cmm/m/it/10 n \
 OMS/cmsy/m/n/10 2 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cm
 m/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; [] ; \OT1/cmr/m/n/10 14\OMS/cms
@@ -1387,68 +1391,69 @@ y/m/n/10 g$\OT1/cmr/m/n/10 . For val-ues of n greater than
  []
 
 
-Overfull \hbox (13.07123pt too wide) in paragraph at lines 372--393
-\OT1/cmr/m/n/10 one the mean was taken within each win-dow for tmin and tmax. T
-hese ag-gre-gated tem- 
+Overfull \hbox (6.26569pt too wide) in paragraph at lines 378--399
+\OT1/cmr/m/n/10 one day the mean was taken within each win-dow for $\OML/cmm/m/
+it/10 T[]$ \OT1/cmr/m/n/10 and $\OML/cmm/m/it/10 T[]$\OT1/cmr/m/n/10 . These ag
+-gre-gated 
  []
 
 
-Overfull \hbox (15.04338pt too wide) in paragraph at lines 372--393
-\OT1/cmr/m/n/10 per-a-tures were then cal-cu-lated over all lo-ca-tions. Ag-gre
--gated tem-per-a-ture pairs were as- 
+Overfull \hbox (16.09897pt too wide) in paragraph at lines 378--399
+\OT1/cmr/m/n/10 tem-per-a-tures were then cal-cu-lated over all lo-ca-tions. Ag
+-gre-gated tem-per-a-ture pairs were 
  []
 
 
-Overfull \hbox (9.7933pt too wide) in paragraph at lines 372--393
-\OT1/cmr/m/n/10 sessed us-ing a one tailed pair-wise t-test to test whether ARs
- in-crease lo-cal tem-per-a-ture 
+Overfull \hbox (4.2655pt too wide) in paragraph at lines 378--399
+\OT1/cmr/m/n/10 as-sessed us-ing a one tailed pair-wise t-test to test whether 
+ARs in-crease lo-cal tem-per-a- 
  []
 
 
-Overfull \hbox (6.0607pt too wide) in paragraph at lines 372--393
-\OT1/cmr/m/n/10 over a pe-riod of time $(\OML/cmm/m/it/10  \OT1/cmr/m/n/10 = 0
-\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05)$. We ex-plored how ARs com-pare to lo-cal
- pre-cip-i-ta-tion 
+Overfull \hbox (2.19952pt too wide) in paragraph at lines 378--399
+\OT1/cmr/m/n/10 ture over pe-riod of time n $(\OML/cmm/m/it/10  \OT1/cmr/m/n/1
+0 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05)$. We ex-plored how ARs com-pare to l
+o-cal pre-cip- 
  []
 
 
-Overfull \hbox (13.07127pt too wide) in paragraph at lines 372--393
-\OT1/cmr/m/n/10 events by sep-a-rat-ing out pre-cip-i-ta-tion caused by an AR a
-nd pre-cip-i-ta-tion not caused by 
+Overfull \hbox (31.40466pt too wide) in paragraph at lines 378--399
+\OT1/cmr/m/n/10 i-ta-tion events by sep-a-rat-ing out pre-cip-i-ta-tion caused 
+by an AR and pre-cip-i-ta-tion not caused 
  []
 
 
-Overfull \hbox (8.87671pt too wide) in paragraph at lines 372--393
-\OT1/cmr/m/n/10 an AR. We then use the Wilcoxon rank-sum test to test the hy-po
-th-e-sis that AR events 
+Overfull \hbox (28.3212pt too wide) in paragraph at lines 378--399
+\OT1/cmr/m/n/10 by an AR. We then used the Wilcoxon rank-sum test to test the h
+y-poth-e-sis that AR events 
  []
 
 
-Overfull \hbox (7.37688pt too wide) in paragraph at lines 372--393
+Overfull \hbox (7.37688pt too wide) in paragraph at lines 378--399
 \OT1/cmr/m/n/10 tend to pro-duce more pre-cip-i-ta-tion than lo-cal pre-cip-i-t
 a-tion events (the dis-tri-bu-tions of 
  []
 
 
-Overfull \hbox (2.98798pt too wide) in paragraph at lines 372--393
+Overfull \hbox (2.98798pt too wide) in paragraph at lines 378--399
 \OT1/cmr/m/n/10 pre-cip-i-ta-tion were shown to not be nor-mally dis-tributed e
 ven af-ter log trans-for-ma-tion 
  []
 
 
-Overfull \hbox (6.59895pt too wide) in paragraph at lines 372--393
+Overfull \hbox (6.59895pt too wide) in paragraph at lines 378--399
 \OT1/cmr/m/n/10 us-ing the Shapiro-Wilks test hence the use of a non-parametric
  test). We cal-cu-late the 
  []
 
 
-Overfull \hbox (0.18246pt too wide) in paragraph at lines 372--393
+Overfull \hbox (0.18246pt too wide) in paragraph at lines 378--399
 \OT1/cmr/m/n/10 in-ter-an-nual vari-abil-ity of pre-cip-i-ta-tion that ARs ac-c
 ount for by con-duct-ing a uni-vari- 
  []
 
 
-Overfull \hbox (11.46008pt too wide) in paragraph at lines 372--393
+Overfull \hbox (11.46008pt too wide) in paragraph at lines 378--399
 \OT1/cmr/m/n/10 ate or-di-nary least squares re-gres-sion (OLS). To de-ter-mine
  the im-pact that ARs have on 
  []
@@ -1458,395 +1463,395 @@ Underfull \vbox (badness 3417) has occurred while \output is active []
 
  [3]
 [4 <./images/concatenated_maps_precip_temp_plot.png>]
-Overfull \hbox (5.11165pt too wide) in paragraph at lines 399--409
+Overfull \hbox (5.11165pt too wide) in paragraph at lines 405--415
 \OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 Q$ \OT1/cmr/m/n/10 is heat flux ($[]$);
  $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 spe-cific heat ($[]$); $^^A\OML/cmm/m/it/
 10 T$ \OT1/cmr/m/n/10 is the dif-fer-ence of am-bi-ent tem- 
  []
 
 
-Overfull \hbox (13.51567pt too wide) in paragraph at lines 399--409
+Overfull \hbox (1.5816pt too wide) in paragraph at lines 405--415
 \OT1/cmr/m/n/10 per-a-ture and the river ice sur-face (which is es-ti-mated us-
-ing $\OML/cmm/m/it/10 t[]$ \OT1/cmr/m/n/10 as a proxy for am-bi-ent) 
+ing $\OML/cmm/m/it/10 T[]$ \OT1/cmr/m/n/10 as a proxy for am-bi- 
  []
 
 
-Overfull \hbox (7.75113pt too wide) in paragraph at lines 399--409
-\OT1/cmr/m/n/10 ($\TS1/cmr/m/n/10 °\OML/cmm/m/it/10 C$\OT1/cmr/m/n/10 ); $\OML/
-cmm/m/it/10 m$ \OT1/cmr/m/n/10 the mass of the pre-cip-i-ta-tion ($\OML/cmm/m/i
-t/10 kg$\OT1/cmr/m/n/10 ). The in-te-gral of these val-ues over all pre-cip- 
+Overfull \hbox (15.80669pt too wide) in paragraph at lines 405--415
+\OT1/cmr/m/n/10 ent) ($\TS1/cmr/m/n/10 °\OML/cmm/m/it/10 C$\OT1/cmr/m/n/10 ); $
+\OML/cmm/m/it/10 m$ \OT1/cmr/m/n/10 the mass of the pre-cip-i-ta-tion ($\OML/cm
+m/m/it/10 kg$\OT1/cmr/m/n/10 ). The in-te-gral of these val-ues over all pre- 
  []
 
 
-Overfull \hbox (15.54344pt too wide) in paragraph at lines 399--409
-\OT1/cmr/m/n/10 i-ta-tion events that oc-cured seven months prior to the breaku
-p date is taken with re-spect 
+Overfull \hbox (9.09898pt too wide) in paragraph at lines 405--415
+\OT1/cmr/m/n/10 cip-i-ta-tion events that oc-cured seven months prior to the br
+eakup date is taken with re- 
  []
 
 
-Overfull \hbox (2.46022pt too wide) in paragraph at lines 399--409
-\OT1/cmr/m/n/10 to time. A tem-po-ral bias func-tion (Equa-tion 2[]) with tun-a
-ble pa-ram-e-ters is ap-plied to 
+Overfull \hbox (16.12689pt too wide) in paragraph at lines 405--415
+\OT1/cmr/m/n/10 spect to time. A tem-po-ral bias func-tion (Equa-tion 2[]) with
+ tun-able pa-ram-e-ters is ap-plied 
  []
 
 
-Overfull \hbox (0.76561pt too wide) in paragraph at lines 399--409
-\OT1/cmr/m/n/10 the heat equa-tion to as-sess when in time pre-cip-i-ta-tion ev
-ents were more im-pact-ful on 
+Overfull \hbox (12.98785pt too wide) in paragraph at lines 405--415
+\OT1/cmr/m/n/10 to the heat equa-tion to as-sess when in time pre-cip-i-ta-tion
+ events were more im-pact-ful on 
  []
 
 
-Overfull \hbox (22.72081pt too wide) in paragraph at lines 421--427
+Overfull \hbox (22.72081pt too wide) in paragraph at lines 427--433
 \OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 ^^M$ \OT1/cmr/m/n/10 is a tun-able pa-r
 am-e-ter im-pact-ing the width of the ex-po-nen-tial func-tion; t is time; 
  []
 
 
-Overfull \hbox (10.23788pt too wide) in paragraph at lines 421--427
+Overfull \hbox (10.23788pt too wide) in paragraph at lines 427--433
 \OT1/cmr/m/n/10 DOY is the day of year that the breakup date oc-cured; c is a t
 un-able pa-ram-e-ter dic-tat- 
  []
 
 
-Overfull \hbox (7.44398pt too wide) in paragraph at lines 421--427
+Overfull \hbox (7.44398pt too wide) in paragraph at lines 427--433
 \OT1/cmr/m/n/10 ing the cen-ter place-ment of the func-tion $\OML/cmm/m/it/10 ^
 ^T$ \OT1/cmr/m/n/10 is a nor-mal-iz-ing con-stant. Fi-nally, Equa-tion 
  []
 
 
-Overfull \hbox (2.59897pt too wide) in paragraph at lines 421--427
+Overfull \hbox (2.59897pt too wide) in paragraph at lines 427--433
 \OT1/cmr/m/n/10 3[] is tuned us-ing a full grid search, for each lo-ca-tion op-
 ti-mized by the Pear-son cor-re-la- 
  []
 
 
-Overfull \hbox (9.98792pt too wide) in paragraph at lines 438--453
+Overfull \hbox (9.98792pt too wide) in paragraph at lines 444--459
 []\OT1/cmr/m/n/10 The pair-wise t-test com-par-ing n length look-back and fore-
 cast win-dows found that 
  []
 
 
-Overfull \hbox (1.44957pt too wide) in paragraph at lines 438--453
+Overfull \hbox (0.48776pt too wide) in paragraph at lines 444--459
 \OT1/cmr/m/n/10 based on an $\OML/cmm/m/it/10  \OT1/cmr/m/n/10 = 0\OML/cmm/m/i
 t/10 :\OT1/cmr/m/n/10 05$ there is a sta-tis-ti-cally sig-nif-i-cant dif-fer-en
-ce in tmin n days prior 
+ce in $\OML/cmm/m/it/10 T[]$ \OT1/cmr/m/n/10 n days prior 
  []
 
 
-Overfull \hbox (5.15651pt too wide) in paragraph at lines 438--453
+Overfull \hbox (5.15651pt too wide) in paragraph at lines 444--459
 \OT1/cmr/m/n/10 to an AR event to n days af-ter, when $\OML/cmm/m/it/10 n \OMS/
 cmsy/m/n/10 2 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; [] ; \OT1/cmr/m/n/10 10\OMS/
 cmsy/m/n/10 g$ \OT1/cmr/m/n/10 on av-er-age. This was true for all 
  []
 
 
-Overfull \hbox (11.07329pt too wide) in paragraph at lines 438--453
+Overfull \hbox (11.07329pt too wide) in paragraph at lines 444--459
 \OT1/cmr/m/n/10 lo-ca-tions in the study when $\OML/cmm/m/it/10 n \OMS/cmsy/m/n
 /10 2 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; [] ; \OT1/cmr/m/n/10 8\OMS/cmsy/m/n/
 10 g$\OT1/cmr/m/n/10 , at which point the p-values be-come in-signif- 
  []
 
 
-Overfull \hbox (15.23784pt too wide) in paragraph at lines 438--453
+Overfull \hbox (15.23784pt too wide) in paragraph at lines 444--459
 \OT1/cmr/m/n/10 i-cant for some lo-ca-tions. The t-test for tmax im-plies that 
 the pres-ence of an AR has less 
  []
 
 
-Overfull \hbox (21.0712pt too wide) in paragraph at lines 438--453
+Overfull \hbox (21.0712pt too wide) in paragraph at lines 444--459
 \OT1/cmr/m/n/10 in p-values for each value of n (top row) as well as the mean i
 n-crease in tem-per-a-ture from 
  []
 
 
-Overfull \hbox (19.84904pt too wide) in paragraph at lines 438--453
+Overfull \hbox (18.88724pt too wide) in paragraph at lines 444--459
 \OT1/cmr/m/n/10 the look-back win-dow to the fore-cast win-dow. The mean tem-pe
-r-a-tures are higher for tmin 
+r-a-tures are higher for $\OML/cmm/m/it/10 T[]$ 
  []
 
 
-Overfull \hbox (2.23792pt too wide) in paragraph at lines 438--453
+Overfull \hbox (2.23792pt too wide) in paragraph at lines 444--459
 \OT1/cmr/m/n/10 post AR than tmax, with both plots show-ing a clear down-ward t
 rend as the length of 
  []
 
-<./images/tmin_vs_tmax_subplots.png, id=37, 1084.05pt x 361.35pt>
+<./images/tmin_vs_tmax_subplots.png, id=38, 1084.05pt x 361.35pt>
 File: ./images/tmin_vs_tmax_subplots.png Graphic file (type png)
 <use ./images/tmin_vs_tmax_subplots.png>
 Package pdftex.def Info: ./images/tmin_vs_tmax_subplots.png  used on input line
- 456.
+ 462.
 (pdftex.def)             Requested size: 397.48499pt x 132.4954pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
 []\OT1/cmr/bx/n/9 Figure  2. \OT1/cmr/m/n/9 Top: the p-value of the paired t-te
 st given the win-dow size sur-round-ing the AR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
 \OT1/cmr/m/n/9 event date. Dashed lines rep-re-sent the mean p-value over the s
 tudy area while the color tran-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
 \OT1/cmr/m/n/9 tion de-picts the IQR of p-values Bot-tom: the av-er-age in-crea
 se in tem-per-a-ture from the look-back
  []
 
 
-Overfull \hbox (6.54343pt too wide) in paragraph at lines 465--479
+Overfull \hbox (6.54343pt too wide) in paragraph at lines 471--485
 []\OT1/cmr/m/n/10 Figure 3[] shows the tem-po-ral trends in ag-gre-gated IVT an
 d pre-cip-i-ta-tion, over all 
  []
 
 
-Overfull \hbox (9.37686pt too wide) in paragraph at lines 465--479
+Overfull \hbox (9.37686pt too wide) in paragraph at lines 471--485
 \OT1/cmr/m/n/10 lo-ca-tions. In-ter-an-nu-ally, ARs tend to ac-count for 36% of
  pre-cip-i-ta-tion on av-er-age, with 
  []
 
 
-Overfull \hbox (7.9324pt too wide) in paragraph at lines 465--479
+Overfull \hbox (7.9324pt too wide) in paragraph at lines 471--485
 \OT1/cmr/m/n/10 a high de-gree of vari-abil-ity given the year and lo-ca-tion (
 Fig-ure 3[] bot-tom row). The re- 
  []
 
 
-Overfull \hbox (30.82127pt too wide) in paragraph at lines 465--479
+Overfull \hbox (30.82127pt too wide) in paragraph at lines 471--485
 \OT1/cmr/m/n/10 sults from the Wilcoxin rank-sum test show that pre-cip-i-ta-ti
 on from ARs tends to be greater 
  []
 
 
-Overfull \hbox (1.07101pt too wide) in paragraph at lines 465--479
+Overfull \hbox (1.07101pt too wide) in paragraph at lines 471--485
 \OT1/cmr/m/n/10 than non-AR pre-cip-i-ta-tion ($[] = \OMS/cmsy/m/n/10 ^^@\OT1/c
 mr/m/n/10 83\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 85; [] \OMS/cmsy/m/n/10 ^^Y \OT1/
 cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0)$. It was found that 
  []
 
 
-Overfull \hbox (3.76563pt too wide) in paragraph at lines 465--479
+Overfull \hbox (3.76563pt too wide) in paragraph at lines 471--485
 \OT1/cmr/m/n/10 of the top 5% of all pre-cip-i-ta-tion events, 57% were caused 
 by ARs (Fig-ure 4[] left). Us- 
  []
 
 
-Overfull \hbox (9.90468pt too wide) in paragraph at lines 465--479
+Overfull \hbox (9.90468pt too wide) in paragraph at lines 471--485
 \OT1/cmr/m/n/10 ing an-nual ag-gre-gated pre-cip-i-ta-tion from ARs to model to
 -tal an-nual ag-gre-gated pre-cip- 
  []
 
 
-Overfull \hbox (14.75537pt too wide) in paragraph at lines 465--479
+Overfull \hbox (14.75537pt too wide) in paragraph at lines 471--485
 \OT1/cmr/m/n/10 i-ta-tion in a uni-vari-ate OLS we find that the co-ef-fi-cient
  of vari-a-tion ($\OML/cmm/m/it/10 R[]$\OT1/cmr/m/n/10 ) is equal to 0.48. 
  []
 
 [5]
-<./images/IVT_Precip_proportion_over_time.png, id=46, 1084.05pt x 578.16pt>
+<./images/IVT_Precip_proportion_over_time.png, id=47, 1084.05pt x 578.16pt>
 File: ./images/IVT_Precip_proportion_over_time.png Graphic file (type png)
 <use ./images/IVT_Precip_proportion_over_time.png>
 Package pdftex.def Info: ./images/IVT_Precip_proportion_over_time.png  used on 
-input line 482.
+input line 488.
 (pdftex.def)             Requested size: 397.48499pt x 211.99265pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 []\OT1/cmr/bx/n/9 Figure  3. \OT1/cmr/m/n/9 Top: time se-ries of IVT ag-gre-gat
 ed over all lo-ca-tions. Mid-dle: time se-ries of pre-cip-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 \OT1/cmr/m/n/9 i-ta-tion ag-gre-gated monthly over all lo-ca-tions. Bot-tom: pr
 o-por-tion of pre-cip-i-ta-tion ac-counted for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 \OT1/cmr/m/n/9 by ARs, fill col-ors de-pict IQR while dashed line de-picts the 
 mean, ag-gre-gated over all lo-ca-tions
  []
 
 
-Overfull \hbox (4.65456pt too wide) in paragraph at lines 491--516
+Overfull \hbox (4.65456pt too wide) in paragraph at lines 497--522
 []\OT1/cmr/m/n/10 Lastly, us-ing Equa-tion 3[] to cal-cu-late the heat trans-fe
 r be-tween pre-cip-i-ta-tion and 
  []
 
 
-Overfull \hbox (16.04333pt too wide) in paragraph at lines 491--516
+Overfull \hbox (16.04333pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 the river ice sur-face, we note that there is a strong neg-a-ti
 ve cor-re-la-tion be-tween the heat 
  []
 
 
-Overfull \hbox (21.62682pt too wide) in paragraph at lines 491--516
+Overfull \hbox (21.62682pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 trans-fer and DOY (Fig-ure 4[] up-per left) when the bias curve
  is po-si-tioned dur-ing the cold- 
  []
 
 
-Overfull \hbox (5.59901pt too wide) in paragraph at lines 491--516
+Overfull \hbox (5.59901pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 est pe-riod of the year - typ-i-cally near Jan-uary 1st 4[] up-
 per right). In this con-text, neg- 
  []
 
 
-Overfull \hbox (6.62679pt too wide) in paragraph at lines 491--516
+Overfull \hbox (6.62679pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 a-tive val-ues along the y-axis of the left col-umn of the scat
 -ter-plots are in-ter-pret-ted as a 
  []
 
 
-Overfull \hbox (11.18234pt too wide) in paragraph at lines 491--516
+Overfull \hbox (11.18234pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 neg-a-tive heat ex-change, mean-ing a cool-ing ef-fect on the r
 iver ice sur-face or a de-po-si-tion 
  []
 
 
-Overfull \hbox (14.34914pt too wide) in paragraph at lines 491--516
+Overfull \hbox (14.34914pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 of pre-cip-i-ta-tion be-low freez-ing. Equa-tion 3[] was op-ti-
 mized through ad-just-ing the tun-able 
  []
 
 
-Overfull \hbox (4.34912pt too wide) in paragraph at lines 491--516
+Overfull \hbox (4.34912pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 pa-ram-e-ters within the tem-po-ral bias (Equa-tion 2[]) on a l
 o-ca-tion by lo-ca-tion ba-sis. For 
  []
 
 
-Overfull \hbox (9.71011pt too wide) in paragraph at lines 491--516
+Overfull \hbox (9.71011pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 ex-am-ple, Crooked Creek on the Kuskok-wim River has a clear ne
 g-a-tive trend with more 
  []
 
 
-Overfull \hbox (22.54347pt too wide) in paragraph at lines 491--516
+Overfull \hbox (22.54347pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 ro-bust, colder HPE caus-ing a cool-ing ef-fect on the river ic
 e sur-face, pro-long-ing DOY, with 
  []
 
 
-Overfull \hbox (23.24591pt too wide) in paragraph at lines 491--516
+Overfull \hbox (23.24591pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 r[]\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^@\O
 T1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 80$ . The re-la-tion-ship be-t
 ween the to-tal num-ber of ARs that oc-cured six months 
  []
 
 
-Overfull \hbox (3.79344pt too wide) in paragraph at lines 491--516
+Overfull \hbox (3.79344pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 prior to the breakup date and the DOY are shown in the cen-ter 
 col-umn (top and bot- 
  []
 
 
-Overfull \hbox (5.04349pt too wide) in paragraph at lines 491--516
+Overfull \hbox (5.04349pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 tom plots are the same by def-i-ni-tion) in-di-cat-ing that the
  num-ber of ARs prior to river 
  []
 
 
-Overfull \hbox (2.93237pt too wide) in paragraph at lines 491--516
+Overfull \hbox (2.93237pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 ice breakup ap-pears in-suf-fi-cient in cor-re-lat-ing to break
 up tim-ing on its own. The bot- 
  []
 
 
-Overfull \hbox (10.01566pt too wide) in paragraph at lines 491--516
+Overfull \hbox (10.01566pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 tom row of Fig-ure 5[] shows that the use of a bias func-tion i
 s nec-es-sary, as sim-ply ap-ply- 
  []
 
 
-Overfull \hbox (17.23802pt too wide) in paragraph at lines 491--516
+Overfull \hbox (17.23802pt too wide) in paragraph at lines 497--522
 \OT1/cmr/m/n/10 ing the in-te-gral of Equa-tion 1[] (the ag-gre-gated to-tal he
 at trans-fer) is poorly un-cor-re-lated.  
  []
 
 [6 <./images/tmin_vs_tmax_subplots.png> <./images/IVT_Precip_proportion_over_ti
 me.png>]
-<./images/concatenated_precip_var_plots.png, id=52, 1589.94pt x 578.16pt>
+<./images/concatenated_precip_var_plots.png, id=53, 1589.94pt x 578.16pt>
 File: ./images/concatenated_precip_var_plots.png Graphic file (type png)
 <use ./images/concatenated_precip_var_plots.png>
 Package pdftex.def Info: ./images/concatenated_precip_var_plots.png  used on in
-put line 520.
+put line 526.
 (pdftex.def)             Requested size: 397.48499pt x 144.53964pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
 []\OT1/cmr/bx/n/9 Figure  4. \OT1/cmr/m/n/9 Left: ker-nel den-sity plots show-i
 ng the dis-tri-bu-tion of lo-cal pre-cip-i-ta-tion (dark
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
 \OT1/cmr/m/n/9 blue) and pre-cip-i-ta-tion from ARs (light blue). Right: orinda
 ry least squares re-gres-sion plot us-ing
  []
 
-<./images/concatenated_scatter_bias_plots.png, id=53, 1084.05pt x 722.7pt>
+<./images/concatenated_scatter_bias_plots.png, id=54, 1084.05pt x 722.7pt>
 File: ./images/concatenated_scatter_bias_plots.png Graphic file (type png)
 <use ./images/concatenated_scatter_bias_plots.png>
 Package pdftex.def Info: ./images/concatenated_scatter_bias_plots.png  used on 
-input line 531.
+input line 537.
 (pdftex.def)             Requested size: 397.48499pt x 264.99081pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 []\OT1/cmr/bx/n/9 Figure  5. \OT1/cmr/m/n/9 Top: (left) scat-ter plot be-tween 
 ther-mal en-ergy trans-fer and DOY; (mid-dle) scat-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 \OT1/cmr/m/n/9 plot of the num-ber of ARs that oc-cured in the six months prior
  to the breakup date and DOY;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 \OT1/cmr/m/n/9 (right) tem-po-ral bias curve for the year 2021 with the breakup
  date rep-re-sented by the ver-ti-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 \OT1/cmr/m/n/9 dashed line. Bot-tom: same as the top ex-cept de-pict-ing the re
 -sults when a tem-po-ral bias is not
  []
 
 
-Overfull \hbox (9.82117pt too wide) in paragraph at lines 553--559
+Overfull \hbox (9.82117pt too wide) in paragraph at lines 559--565
 []\OT1/cmr/m/n/10 This sec-tion MUST con-tain a state-ment that de-scribes wher
 e the data sup-port-ing 
  []
 
 
-Overfull \hbox (5.90463pt too wide) in paragraph at lines 553--559
+Overfull \hbox (5.90463pt too wide) in paragraph at lines 559--565
 \OT1/cmr/m/n/10 the con-clu-sions can be ob-tained. Data can-not be listed as '
 'Avail-able from au-thors'' or 
  []
 
 
-Overfull \hbox (4.4047pt too wide) in paragraph at lines 553--559
+Overfull \hbox (4.4047pt too wide) in paragraph at lines 559--565
 \OT1/cmr/m/n/10 stored solely in sup-port-ing in-for-ma-tion. Ci-ta-tions to ar
 chived data should be in-cluded 
  []
 
 
-Overfull \hbox (18.51564pt too wide) in paragraph at lines 553--559
+Overfull \hbox (18.51564pt too wide) in paragraph at lines 559--565
 \OT1/cmr/m/n/10 in your ref-er-ence list. Wi-ley will pub-lish it as a sep-a-ra
 te sec-tion on the pa-per's page. Ex- 
  []
 
 
-Overfull \hbox (71.11316pt too wide) in paragraph at lines 553--559
+Overfull \hbox (71.11316pt too wide) in paragraph at lines 559--565
 \OT1/cmr/m/n/10 am-ples and com-plete in-for-ma-tion are here: https://www.agu.
 org/Publish with AGU/Publish/Author 
  []
 
 
-Overfull \hbox (8.65456pt too wide) in paragraph at lines 561--564
+Overfull \hbox (8.65456pt too wide) in paragraph at lines 567--570
 \OT1/cmr/m/n/10 Enter ac-knowl-edg-ments here. This sec-tion is to ac-knowl-edg
 e fund-ing, thank col-leagues, 
  []
@@ -2424,11 +2429,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 25388 strings out of 481239
- 643082 string characters out of 5920377
+ 25396 strings out of 481239
+ 643160 string characters out of 5920377
  1037935 words of memory out of 5000000
- 40199 multiletter control sequences out of 15000+600000
- 540858 words of font info for 54 fonts, out of 8000000 for 9000
+ 40203 multiletter control sequences out of 15000+600000
+ 542033 words of font info for 58 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
  64i,9n,111p,729b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
@@ -2439,24 +2444,25 @@ t/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts
 /public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfrm1000.pfb>
-Output written on AR_analysis_.pdf (11 pages, 10891630 bytes).
+cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfrm1000.pfb>
+Output written on AR_analysis_.pdf (11 pages, 10901364 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 152 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
