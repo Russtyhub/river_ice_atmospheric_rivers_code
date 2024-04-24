@@ -138,6 +138,68 @@ F.~Martin, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Gorodetskaya%
+\ \protect \BOthers {.}}{%
+Gorodetskaya%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Gorodetskaya2014}
+\APACinsertmetastar {%
+Gorodetskaya2014}%
+\begin{APACrefauthors}%
+Gorodetskaya, I\BPBI V.%
+, Tsukernik, M.%
+, Claes, K.%
+, Ralph, M\BPBI F.%
+, Neff, W\BPBI D.%
+\BCBL {}\ \BBA {} Van~Lipzig, N\BPBI P\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The role of atmospheric rivers in anomalous snow
+  accumulation in East Antarctica} {The role of atmospheric rivers in anomalous
+  snow accumulation in east antarctica}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{41}{17}{6199-6206}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2014GL060881}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1002/2014GL060881} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guan%
+}{%
+Guan%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+bin2022}
+\APACinsertmetastar {%
+bin2022}%
+\begin{APACrefauthors}%
+Guan, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {{[Data] Global Atmospheric Rivers Database, Version 3}.}
+  {{[Data] Global Atmospheric Rivers Database, Version 3}.}
+\newblock
+\APACaddressPublisher{}{UCLA Dataverse}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.25346/S6/YO15ON} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.25346/S6/YO15ON} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Guan%
 , Molotch%
 , Waliser%
@@ -174,6 +236,71 @@ Guan, B.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1029/2010GL044696} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guan%
+\ \BBA {} Waliser%
+}{%
+Guan%
+\ \BBA {} Waliser%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Guan_Waliser2019}
+\APACinsertmetastar {%
+Guan_Waliser2019}%
+\begin{APACrefauthors}%
+Guan, B.%
+\BCBT {}\ \BBA {} Waliser, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{12}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tracking Atmospheric Rivers Globally: Spatial
+  Distributions and Temporal Evolution of Life Cycle Characteristics} {Tracking
+  atmospheric rivers globally: Spatial distributions and temporal evolution of
+  life cycle characteristics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Atmospheres}{124}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2019JD031205} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guan%
+\ \BBA {} Waliser%
+}{%
+Guan%
+\ \BBA {} Waliser%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+alg_for_detecting_AR_moisture_fluxes}
+\APACinsertmetastar {%
+alg_for_detecting_AR_moisture_fluxes}%
+\begin{APACrefauthors}%
+Guan, B.%
+\BCBT {}\ \BBA {} Waliser, D\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Detection of atmospheric rivers: Evaluation and
+  application of an algorithm for global studies} {Detection of atmospheric
+  rivers: Evaluation and application of an algorithm for global
+  studies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Atmospheres}{120}{24}{12514-12535}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015JD024257}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1002/2015JD024257} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -240,6 +367,43 @@ Jasek, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kalnay%
+\ \protect \BOthers {.}}{%
+Kalnay%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1996}}%
+}]{%
+NCEP_NCAR_reanalysis}
+\APACinsertmetastar {%
+NCEP_NCAR_reanalysis}%
+\begin{APACrefauthors}%
+Kalnay, E.%
+, Kanamitsu, M.%
+, Kistler, R.%
+, Collins, W.%
+, Deaven, D.%
+, Gandin, L.%
+\BDBL {}Joseph, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The NCEP/NCAR 40-Year Reanalysis Project} {The ncep/ncar
+  40-year reanalysis project}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin of the American Meteorological
+  Society}{77}{3}{437 - 472}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/bams/77/3/1520-0477_1996_077_0437_tnyrp_2_0_co_2.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Lavers%
 \ \protect \BOthers {.}}{%
 Lavers%
@@ -271,6 +435,41 @@ Lavers, D\BPBI A.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1088/1748-9326/8/3/034010} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lavers%
+\ \protect \BOthers {.}}{%
+Lavers%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+Lavers2011}
+\APACinsertmetastar {%
+Lavers2011}%
+\begin{APACrefauthors}%
+Lavers, D\BPBI A.%
+, Allan, R\BPBI P.%
+, Wood, E\BPBI F.%
+, Villarini, G.%
+, Brayshaw, D\BPBI J.%
+\BCBL {}\ \BBA {} Wade, A\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Winter floods in Britain are connected to atmospheric
+  rivers} {Winter floods in britain are connected to atmospheric
+  rivers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{38}{23}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2011GL049783}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/2011GL049783} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -417,6 +616,44 @@ Maclennan, M\BPBI L.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1029/2022GL100585} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Neiman%
+\ \protect \BOthers {.}}{%
+Neiman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Neiman2008}
+\APACinsertmetastar {%
+Neiman2008}%
+\begin{APACrefauthors}%
+Neiman, P\BPBI J.%
+, Ralph, F\BPBI M.%
+, Wick, G\BPBI A.%
+, Kuo, Y\BHBI H.%
+, Wee, T\BHBI K.%
+, Ma, Z.%
+\BDBL {}Dettinger, M\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Diagnosis of an Intense Atmospheric River Impacting the
+  Pacific Northwest: Storm Summary and Offshore Vertical Structure Observed
+  with COSMIC Satellite Retrievals} {Diagnosis of an intense atmospheric river
+  impacting the pacific northwest: Storm summary and offshore vertical
+  structure observed with cosmic satellite retrievals}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Monthly Weather Review}{136}{11}{4398 - 4420}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/mwre/136/11/2008mwr2550.1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/2008MWR2550.1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -597,6 +834,42 @@ Saavedra, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Saha%
+\ \protect \BOthers {.}}{%
+Saha%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+NCEP_reanalysis}
+\APACinsertmetastar {%
+NCEP_reanalysis}%
+\begin{APACrefauthors}%
+Saha, S.%
+, Moorthi, S.%
+, Pan, H\BHBI L.%
+, Wu, X.%
+, Wang, J.%
+, Nadiga, S.%
+\BDBL {}Goldberg, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The NCEP Climate Forecast System Reanalysis} {The ncep
+  climate forecast system reanalysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin of the American Meteorological
+  Society}{91}{8}{1015 - 1058}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/bams/91/8/2010bams3001_1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/2010BAMS3001.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Shen%
 }{%
 Shen%
@@ -624,6 +897,74 @@ Shen, H\BPBI T.%
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1016/j.coldregions.2010.02.007}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+M.~Thornton%
+\ \protect \BOthers {.}}{%
+M.~Thornton%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+daymet}
+\APACinsertmetastar {%
+daymet}%
+\begin{APACrefauthors}%
+Thornton, M.%
+, Shrestha, R.%
+, Wei, Y.%
+, Thornton, P.%
+, Kao, S\BHBI C.%
+\BCBL {}\ \BBA {} Wilson, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Daymet: Annual Climate Summaries on a 1-km Grid for North
+  America, Version 4 R1.} {Daymet: Annual climate summaries on a 1-km grid for
+  north america, version 4 r1.}
+\newblock
+\APACaddressPublisher{}{ORNL Distributed Active Archive Center}.
+\newblock
+\begin{APACrefURL} \url{https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2130}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3334/ORNLDAAC/2130} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+P\BPBI E.~Thornton%
+\ \protect \BOthers {.}}{%
+P\BPBI E.~Thornton%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+daymet2021}
+\APACinsertmetastar {%
+daymet2021}%
+\begin{APACrefauthors}%
+Thornton, P\BPBI E.%
+, Shrestha, R.%
+, Thornton, M.%
+, Kao, S\BHBI C.%
+, Wei, Y.%
+\BCBL {}\ \BBA {} Wilson, B\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{7}{23}.
+\newblock
+{\BBOQ}\APACrefatitle {Gridded daily weather data for North America with
+  comprehensive uncertainty quantification} {Gridded daily weather data for
+  north america with comprehensive uncertainty quantification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Scientific Data}{8}{1}{190}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1038/s41597-021-00973-0}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1038/s41597-021-00973-0} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

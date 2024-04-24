@@ -259,50 +259,89 @@ date of river ice
 
 \section{Introduction}
 
-Atmospheric rivers (ARs) are narrow corridors of intense water vapor transport that 
-significantly influence hydrologic events and transport most of the 
-water vapor outside of the Tropics \cite{NOAA_AR_summary}. It is estimated that ARs
-are responsible for as much as 90\% of poleward water vapor transport at 
-midlatitudes \cite{other_alg}. ARs contribute to extreme precipitation events across various 
-regions worldwide, including western North America
-\cite{Dettinger2004, Guan2010, ARs_flood_WA_State, 
-ARs_flood_Russian_River_CA, Ralph2013, ARs_CA} 
-Europe \cite{Lavers2013, ARs_impact_Norway}, and western South America 
-\cite{ARs_impact_SA}. In recent years, the impacts of ARs on the cryosphere have been more
-extensively anlayzed. It was found that
-between 1981 and 2020 atmospheric moisture content anticorrelates
-significantly with sea ice concentration over almost the entire Arctic
-Ocean \cite{ARs_lead_to_sea_ice_loss}. For those same years, another
-analysis found that 100\% of extreme temperature events in the Arctic (above 0
-$\degree C$) coincided with ARs \cite{Ma2023}. Many analyses have
-noted a relationship between heavy AR activity and sea ice loss, as a
-result of increased rainfall from lower latitudues 
-\cite{Zhang2023, maclennan_contribution_2022}.
-However Arctic systems are complicated, as the intense moisture 
-transport within ARs can also result in heavy snowfall events, thus contributing to 
-the accumulation of snowpack, especially in mountainous regions 
-\cite{Saavedra2020, Guan2010}. Under the right conditions, this
-relationship has been found to increase the mass balance of glaciers
-\cite{Little2019}. Understanding the role of ARs in the cryosphere is 
-essential for assessing their broader impact 
-on regional water resources and glacier dynamics in a changing climate.
-While a number of works have explored the relationship
-between ARs and sea ice, to our knowledge there haven't been any
-analyses that look at the relationship between ARs and Arctic river ice.
-Many works have used physics based processes and allometrics to model 
-the annual breakup timing and conditions of Arctic river ice 
-\cite{Paily, ashton1986river, Prowse_Bonsal_Duguay_Lacroix_2007, jasek1998, shen_newest}.
-While it is recognized that an increase streamflow 
-alters the dynamics surrounding river ice breakup timing
-\cite{ashton1986river}, the relationship precipitation and to that end
-AR timing has on Arctic river ice has yet to be examined. 
-This analysis sets out to answer the following questions: 
-1.) Is there a change in air
-temperature for each location, corresponding to the timing of ARs? 
+Atmospheric rivers (ARs) are narrow corridors of intense water vapor
+transport that significantly influence hydrologic events, transporting
+most of the water vapor outside of the Tropics \cite{NOAA_AR_summary}.
+It is estimated that ARs are responsible for as much as 90\% of poleward
+water vapor transport at midlatitudes \cite{other_alg}. ARs contribute to
+extreme precipitation events across various regions worldwide, including
+western North America \cite{Dettinger2004, Neiman2008, Guan2010,
+ARs_flood_WA_State, ARs_flood_Russian_River_CA, Ralph2013, ARs_CA}
+Europe \cite{Lavers2013, ARs_impact_Norway}, and western South America
+\cite{ARs_impact_SA}. In recent years, the impacts of ARs on the
+cryosphere have been more extensively analyzed. It was found that between
+1981 and 2020 atmospheric moisture content anticorrelates significantly
+with sea ice concentration over almost the entire Arctic Ocean
+\cite{ARs_lead_to_sea_ice_loss}. For those same years, another analysis
+found that 100\% of extreme temperature events in the Arctic (above 0
+$\degree C$) coincides with ARs \cite{Ma2023}. Many analyses have noted
+a relationship between heavy AR activity and sea ice loss, caused by
+increased rainfall from moisture originating in lower latitudes
+\cite{Zhang2023, maclennan_contribution_2022}. However Arctic systems
+are complicated, as the intense moisture transport within ARs can also
+result in heavy snowfall events, thus contributing to the accumulation
+of snowpack, especially in mountainous regions \cite{Saavedra2020,
+Guan2010}. Under the right conditions, this relationship has been found
+to actually increase the mass balance of glaciers \cite{Little2019}.
+Understanding the role of ARs in the cryosphere is essential for
+assessing their broader impact on regional water resources and glacier
+dynamics in a changing climate. While a number of works have explored
+the relationship between ARs and sea ice, to our knowledge there haven't
+been any analyses that look at the relationship between ARs and Arctic
+river ice. Many works have used physics based processes and allometrics
+to model the annual breakup timing and conditions of Arctic river ice
+\cite{Paily, ashton1986river, Prowse_Bonsal_Duguay_Lacroix_2007,
+jasek1998, shen_newest}. While it is recognized that an increase in
+streamflow alters the dynamics surrounding river ice breakup timing
+\cite{ashton1986river}, the relationship precipitation, and to that end
+AR timing, has on Arctic river ice has yet to be examined. This analysis
+sets out to answer the following questions: 1.) Is there a change in
+air temperature for each location corresponding to the timing of ARs?
 2.) How do ARs contribute to precipitation throughout interior Alaska?
 3.) Do ARs impact the timing of river ice breakup?
 
 \section{Data}
+
+Similar to previous studies, we define ARs using integrated vapor
+transport (IVT) values constructed from 6-hourly values of 3‐D wind and
+water vapor at eight pressure levels between 300 and 1,000
+mb from the NCEP/NCAR reanalysis data product \cite{NCEP_NCAR_reanalysis}. 
+AR detection is based on version3 of the tARget algorithm
+\cite{Guan_Waliser2019, bin2022}.
+The IVT values are calculated at the original
+resolution from the National Center for Environmental Protection (NCEP)
+meteorological inputs \cite{NCEP_reanalysis}. AR frequency for a given
+period within each grid cell is calculated by taking the number of days
+that detect an AR and dividing by the total number of days in that
+period. Therefore, for a given grid cell, AR frequency of 0\% means
+there were no AR conditions at any of the time steps and frequency of
+100\% means there were AR conditions at every time step. Guan and
+Waliser \cite{alg_for_detecting_AR_moisture_fluxes} developed a global
+AR detection algorithm, which was updated and validated later with in
+situ and dropsonde data \cite{bin2022}. This algorithm is employed for
+our study, which is based on a combination of the IVT magnitude,
+direction, and geometry characteristics, to objectively identify ARs.
+Contiguous regions of enhanced IVT transport are first identified from
+magnitude thresholding (i.e., grid cells with IVT above the seasonally
+and regionally dependent $85^{th}$ percentile) and further filtered
+using directional and geometry criteria requirements. The detection
+algorithm was applied to NCEP in its native resolution of $2.5 \degree$.
+This detection algorithm had over \~90\% agreement in detected AR
+landfall dates with other methods for detecting ARs made for Western
+North America \cite{Neiman2008}, the United Kingdom \cite{Lavers2011}, 
+and East Antarctica \cite{Gorodetskaya2014}. Precipitation and daily
+minimum and maximum temperatures (tmin and tmax) were imported from Oak Ridge National
+Laboratory's Daymet 1kmx1km daily product, via the
+Distributed Active Archive Center \cite{daymet}. River ice breakup dates 
+were collected from the Alaska Pacific River Forecast Center database 
+(APRFC). While exact coordinates were unavailable, coordinates were 
+approximated based on proximity to weather stations and airports to 
+maintain spatial consistency with inputs used in Daymet’s meteorological 
+models. 25 locations were identified as having at least 35 breakup 
+records between 1980 and 2023 (the current temporal availability of 
+Daymet). 35 was used as the threshold because it allowed for the greatest 
+number of locations with the most complete time series, 
+necessary for statistical analysis.
 
 \begin{figure}
 \centering
@@ -320,7 +359,78 @@ temperature for each location, corresponding to the timing of ARs?
 \label{fig:concatenated_maps_precip_temp_plot} 
 \end{figure}
 
+Daymet precipitation, tmin and tmax were used in our analysis as they
+have a strong agreement with NCEP temperature outputs for our region of interest
+Figure \ref{fig:concatenated_maps_precip_temp_plot}. Additionally, 
+because Daymet is derived directly from in-situ instruments 
+and meteorological stations, it represents a robust 
+standard for precipitation and temperature predictions across North
+America \cite{daymet2021}.
+
 \section{Methods}
+
+To determine the impact that ARs have on local temperature, we used a
+varying temporal window combined with a pairwise t-test. For each
+AR occurence, a lookback window and forecast window each equal to n
+days in length was created before and after the AR date, respectively,
+whereby: $ n \in \{1, 2, 3, \ldots, 14\}$.
+For values of n greater than one the mean was taken within each window
+for tmin and tmax. These aggregated temperatures were then
+calculated over all locations. Aggregated temperature pairs 
+were assessed using a one tailed pairwise t-test to test
+whether ARs increase local temperature over a period of time $(\alpha =
+0.05)$. We explored how ARs compare to local precipitation events by
+separating out precipitation caused by an AR and precipitation not
+caused by an AR. We then use the Wilcoxon rank-sum test to test the hypothesis 
+that AR events tend to produce more precipitation than local
+precipitation events (the distributions of precipitation were shown to
+not be normally distributed even after log transformation using the
+Shapiro-Wilks test hence the use of a non-parametric test). We calculate
+the interannual variability of precipitation that ARs account for by
+conducting a univariate ordinary least squares regression (OLS). To
+determine the impact that ARs have on river ice breakup timing the heat
+transport was estimated using Equation \ref{eq:heat_transport}:
+
+\begin{equation}
+\frac{dQ}{dt} = \alpha \cdot m \cdot \Delta T 
+	\label{eq:heat_transport}
+\end{equation}
+
+\noindent where $Q$ is heat flux ($\frac{J}{m^2}$); $\alpha$ specific heat 
+($\frac{J}{g \cdot \degree C}$); $\Delta T$ is the difference of 
+ambient temperature and the river ice surface (which is estimated 
+using $t_{\text{min}}$ as a proxy for ambient) ($\degree C$); $m$ 
+the mass of the precipitation ($kg$). The integral of these values
+over all precipitation events that occured seven months prior to the
+breakup date is taken with respect to time. A temporal bias function
+(Equation \ref{eq:cases})
+with tunable parameters is applied to the heat equation to assess when in
+time precipitation events were more impactful on breakup timing:
+
+\begin{equation}
+	\label{eq:cases}
+	f(t; \gamma, \kappa, DOY, c) =
+	\begin{cases}
+    	\frac{e^{-\gamma \cdot (-t - DOY)} - 1}{\kappa} & \text{if }
+        	t < c \\
+    	\frac{e^{-\gamma \cdot (t - DOY)} - 1}{\kappa} & \text{if }
+        	t \geq c \\
+	\end{cases}
+\end{equation}
+
+\noindent where $\gamma$ is a tunable parameter impacting the width of
+the exponential function; t is time; DOY is the day of year
+that the breakup date occured; c is a tunable parameter dictating the
+center placement of the function $\kappa$ is a normalizing constant.
+Finally, Equation \ref{eq:final_eq} is tuned using a full grid search, for each
+location optimized by the Pearson correlation coefficient. 
+
+\begin{equation}
+\label{eq:final_eq}
+	\int_{t_i}^{t_n} \left(f(t; \gamma, \kappa, DOY, c) \cdot
+	\frac{dQ}{dt}\right) \, dt
+\end{equation}
+
 
 
 \section{Results} 
