@@ -427,13 +427,29 @@ location optimized by the Pearson correlation coefficient.
 
 \begin{equation}
 \label{eq:final_eq}
-	\int_{t_i}^{t_n} \left(f(t; \gamma, \kappa, DOY, c) \cdot
+	\int_{t_i}^{t_{DOY}} \left(f(t; \gamma, \kappa, DOY, c) \cdot
 	\frac{dQ}{dt}\right) \, dt
 \end{equation}
 
 
 
 \section{Results} 
+
+The pairwise t-test comparing n length lookback and forecast windows
+found that based on an $\alpha = 0.05$ there is a
+statistically significant difference in tmin n days prior to an AR event
+to n days after, when $ n \in \{1, \ldots, 10\}$ on average.
+This was true for all locations in the study when $ n \in \{1,
+\ldots, 8\}$, at which point the p-values become insignificant for some
+locations. The t-test for
+tmax implies that the presence of an AR has less of an effect, with
+statistical significance found when $ n \in \{1, \ldots, 6\}$ on
+average. Some locations showed no significance when $n=1$ and $n=6$. Figure
+\ref{fig:tmin_vs_tmax_subplots} shows the change in p-values for each
+value of n (top row) as well as the mean increase in temperature
+from the lookback window to the forecast window. The mean
+temperatures are higher for tmin post AR than tmax, with both plots
+showing a clear downward trend as the length of n increases.     
 
 \begin{figure}
 \centering
@@ -446,6 +462,21 @@ location optimized by the Pearson correlation coefficient.
 \label{fig:tmin_vs_tmax_subplots} 
 \end{figure}
 
+Figure \ref{fig:IVT_Precip_proportion_over_time} shows the temporal
+trends in aggregated IVT and precipitation,
+over all locations. Interannually, ARs tend to account for 36\% of
+precipitation on average, with a high degree of variability given
+the year and location (Figure \ref{fig:IVT_Precip_proportion_over_time}
+bottom row). The results from the Wilcoxin rank-sum test show that
+precipitation from ARs tends to be greater than non-AR precipitation
+($\text{test statistic} = -83.85; \text{ p-value} \approx 0.0)$. It
+was found that of the top 5\% of all precipitation events, 57\% were
+caused by ARs (Figure \ref{fig:concatenated_precip_var_plots} left).
+Using annual aggregated precipitation from ARs to model total annual
+aggregated precipitation in a univariate OLS we find that the
+coefficient of variation ($R^{2}$) is equal to 0.48. This means that ARs
+explain about 48\% of interannaul variability in precipitation.  
+
 \begin{figure}
 \centering
 \includegraphics[width=1.0\textwidth]{./images/IVT_Precip_proportion_over_time.png}
@@ -456,6 +487,33 @@ location optimized by the Pearson correlation coefficient.
 	aggregated over all locations annually. }
 \label{fig:IVT_Precip_proportion_over_time}
 \end{figure}
+
+Lastly, using Equation \ref{eq:final_eq} to calculate the heat transfer
+between precipitation and the river ice surface, we note that there is a
+strong negative correlation between the heat transfer and DOY (Figure
+\ref{fig:concatenated_precip_var_plots} upper left) when the bias curve
+is positioned during the coldest period of the year - typically near
+January 1st \ref{fig:concatenated_precip_var_plots} upper right). In
+this context, negative values along the y-axis of the left column 
+of the scatterplots are interpretted
+as a negative heat exchange, meaning a cooling effect on the river ice
+surface or a deposition of precipitation below freezing. Equation
+\ref{eq:final_eq} was optimized through adjusting the tunable parameters
+within the temporal bias (Equation \ref{eq:cases}) on a location by
+location basis. For example, Crooked Creek on the Kuskokwim River has a
+clear negative trend with more robust, colder HPE causing a cooling effect on the
+river ice surface, prolonging DOY, with a Pearson correlation
+coefficient $ (r_{p} )= -0.84$ and a Spearman correlation coefficient
+$(r_{s}) = -0.80$ . The relationship between the total
+number of ARs that occured six months prior to the breakup date and the
+DOY are shown in the center column (top and bottom plots are the same by
+definition) indicating that the number of ARs prior to river ice breakup
+appears insufficient in correlating to breakup timing on its own. The
+bottom row of Figure \ref{fig:concatenated_corr_plots} shows that the
+use of a bias function is necessary, as simply applying the integral of
+Equation \ref{eq:heat_transport} (the aggregated total heat transfer) is
+poorly uncorrelated. 
+
 
 \begin{figure}
 \centering
@@ -470,18 +528,19 @@ location optimized by the Pearson correlation coefficient.
 
 \begin{figure}
 \centering
-\includegraphics[width=1.0\textwidth]{./images/concatenated_corr_plots.png}
+\includegraphics[width=1.0\textwidth]{./images/concatenated_scatter_bias_plots.png}
 	\caption{Top: (left) scatter plot between thermal energy
 	transfer and DOY; (middle) scatter plot of the number of ARs
-	that occured in the 6 months prior to the breakup date and DOY 
+	that occured in the six months prior to the breakup date and
+	DOY; 
 	(right) temporal bias curve for the year 2021 with the breakup
-	date represented by the vertical dashed ilne. Bottom: same as
-	the top except depicting when the bias curve is not optimally
-	placed (close to the breakup date).}
+	date represented by the vertical dashed line. Bottom: same as
+	the top except depicting the results when a temporal bias
+	is not utilized.}
 \label{fig:concatenated_corr_plots}
 \end{figure}
 
-\section{Conclusion}
+\section{Conclusion and Discussion}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

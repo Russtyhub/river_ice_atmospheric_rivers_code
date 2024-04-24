@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.19)  24 APR 2024 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.19)  24 APR 2024 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1519,136 +1519,944 @@ Overfull \hbox (2.59897pt too wide) in paragraph at lines 421--427
 ti-mized by the Pear-son cor-re-la- 
  []
 
+
+Overfull \hbox (9.98792pt too wide) in paragraph at lines 438--453
+[]\OT1/cmr/m/n/10 The pair-wise t-test com-par-ing n length look-back and fore-
+cast win-dows found that 
+ []
+
+
+Overfull \hbox (1.44957pt too wide) in paragraph at lines 438--453
+\OT1/cmr/m/n/10 based on an $\OML/cmm/m/it/10  \OT1/cmr/m/n/10 = 0\OML/cmm/m/i
+t/10 :\OT1/cmr/m/n/10 05$ there is a sta-tis-ti-cally sig-nif-i-cant dif-fer-en
+ce in tmin n days prior 
+ []
+
+
+Overfull \hbox (5.15651pt too wide) in paragraph at lines 438--453
+\OT1/cmr/m/n/10 to an AR event to n days af-ter, when $\OML/cmm/m/it/10 n \OMS/
+cmsy/m/n/10 2 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; [] ; \OT1/cmr/m/n/10 10\OMS/
+cmsy/m/n/10 g$ \OT1/cmr/m/n/10 on av-er-age. This was true for all 
+ []
+
+
+Overfull \hbox (11.07329pt too wide) in paragraph at lines 438--453
+\OT1/cmr/m/n/10 lo-ca-tions in the study when $\OML/cmm/m/it/10 n \OMS/cmsy/m/n
+/10 2 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; [] ; \OT1/cmr/m/n/10 8\OMS/cmsy/m/n/
+10 g$\OT1/cmr/m/n/10 , at which point the p-values be-come in-signif- 
+ []
+
+
+Overfull \hbox (15.23784pt too wide) in paragraph at lines 438--453
+\OT1/cmr/m/n/10 i-cant for some lo-ca-tions. The t-test for tmax im-plies that 
+the pres-ence of an AR has less 
+ []
+
+
+Overfull \hbox (21.0712pt too wide) in paragraph at lines 438--453
+\OT1/cmr/m/n/10 in p-values for each value of n (top row) as well as the mean i
+n-crease in tem-per-a-ture from 
+ []
+
+
+Overfull \hbox (19.84904pt too wide) in paragraph at lines 438--453
+\OT1/cmr/m/n/10 the look-back win-dow to the fore-cast win-dow. The mean tem-pe
+r-a-tures are higher for tmin 
+ []
+
+
+Overfull \hbox (2.23792pt too wide) in paragraph at lines 438--453
+\OT1/cmr/m/n/10 post AR than tmax, with both plots show-ing a clear down-ward t
+rend as the length of 
+ []
+
 <./images/tmin_vs_tmax_subplots.png, id=37, 1084.05pt x 361.35pt>
 File: ./images/tmin_vs_tmax_subplots.png Graphic file (type png)
 <use ./images/tmin_vs_tmax_subplots.png>
 Package pdftex.def Info: ./images/tmin_vs_tmax_subplots.png  used on input line
- 440.
+ 456.
 (pdftex.def)             Requested size: 397.48499pt x 132.4954pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--445
+Underfull \hbox (badness 10000) in paragraph at lines 461--461
 []\OT1/cmr/bx/n/9 Figure  2. \OT1/cmr/m/n/9 Top: the p-value of the paired t-te
 st given the win-dow size sur-round-ing the AR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--445
+Underfull \hbox (badness 10000) in paragraph at lines 461--461
 \OT1/cmr/m/n/9 event date. Dashed lines rep-re-sent the mean p-value over the s
 tudy area while the color tran-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--445
+Underfull \hbox (badness 10000) in paragraph at lines 461--461
 \OT1/cmr/m/n/9 tion de-picts the IQR of p-values Bot-tom: the av-er-age in-crea
 se in tem-per-a-ture from the look-back
  []
 
-<./images/IVT_Precip_proportion_over_time.png, id=38, 1084.05pt x 578.16pt>
+
+Overfull \hbox (6.54343pt too wide) in paragraph at lines 465--479
+[]\OT1/cmr/m/n/10 Figure 3[] shows the tem-po-ral trends in ag-gre-gated IVT an
+d pre-cip-i-ta-tion, over all 
+ []
+
+
+Overfull \hbox (9.37686pt too wide) in paragraph at lines 465--479
+\OT1/cmr/m/n/10 lo-ca-tions. In-ter-an-nu-ally, ARs tend to ac-count for 36% of
+ pre-cip-i-ta-tion on av-er-age, with 
+ []
+
+
+Overfull \hbox (7.9324pt too wide) in paragraph at lines 465--479
+\OT1/cmr/m/n/10 a high de-gree of vari-abil-ity given the year and lo-ca-tion (
+Fig-ure 3[] bot-tom row). The re- 
+ []
+
+
+Overfull \hbox (30.82127pt too wide) in paragraph at lines 465--479
+\OT1/cmr/m/n/10 sults from the Wilcoxin rank-sum test show that pre-cip-i-ta-ti
+on from ARs tends to be greater 
+ []
+
+
+Overfull \hbox (1.07101pt too wide) in paragraph at lines 465--479
+\OT1/cmr/m/n/10 than non-AR pre-cip-i-ta-tion ($[] = \OMS/cmsy/m/n/10 ^^@\OT1/c
+mr/m/n/10 83\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 85; [] \OMS/cmsy/m/n/10 ^^Y \OT1/
+cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0)$. It was found that 
+ []
+
+
+Overfull \hbox (3.76563pt too wide) in paragraph at lines 465--479
+\OT1/cmr/m/n/10 of the top 5% of all pre-cip-i-ta-tion events, 57% were caused 
+by ARs (Fig-ure 4[] left). Us- 
+ []
+
+
+Overfull \hbox (9.90468pt too wide) in paragraph at lines 465--479
+\OT1/cmr/m/n/10 ing an-nual ag-gre-gated pre-cip-i-ta-tion from ARs to model to
+-tal an-nual ag-gre-gated pre-cip- 
+ []
+
+
+Overfull \hbox (14.75537pt too wide) in paragraph at lines 465--479
+\OT1/cmr/m/n/10 i-ta-tion in a uni-vari-ate OLS we find that the co-ef-fi-cient
+ of vari-a-tion ($\OML/cmm/m/it/10 R[]$\OT1/cmr/m/n/10 ) is equal to 0.48. 
+ []
+
+[5]
+<./images/IVT_Precip_proportion_over_time.png, id=46, 1084.05pt x 578.16pt>
 File: ./images/IVT_Precip_proportion_over_time.png Graphic file (type png)
 <use ./images/IVT_Precip_proportion_over_time.png>
 Package pdftex.def Info: ./images/IVT_Precip_proportion_over_time.png  used on 
-input line 451.
+input line 482.
 (pdftex.def)             Requested size: 397.48499pt x 211.99265pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--456
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
 []\OT1/cmr/bx/n/9 Figure  3. \OT1/cmr/m/n/9 Top: time se-ries of IVT ag-gre-gat
 ed over all lo-ca-tions. Mid-dle: time se-ries of pre-cip-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--456
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
 \OT1/cmr/m/n/9 i-ta-tion ag-gre-gated monthly over all lo-ca-tions. Bot-tom: pr
 o-por-tion of pre-cip-i-ta-tion ac-counted for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--456
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
 \OT1/cmr/m/n/9 by ARs, fill col-ors de-pict IQR while dashed line de-picts the 
 mean, ag-gre-gated over all lo-ca-tions
  []
 
-<./images/concatenated_precip_var_plots.png, id=39, 1589.94pt x 578.16pt>
+
+Overfull \hbox (4.65456pt too wide) in paragraph at lines 491--516
+[]\OT1/cmr/m/n/10 Lastly, us-ing Equa-tion 3[] to cal-cu-late the heat trans-fe
+r be-tween pre-cip-i-ta-tion and 
+ []
+
+
+Overfull \hbox (16.04333pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 the river ice sur-face, we note that there is a strong neg-a-ti
+ve cor-re-la-tion be-tween the heat 
+ []
+
+
+Overfull \hbox (21.62682pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 trans-fer and DOY (Fig-ure 4[] up-per left) when the bias curve
+ is po-si-tioned dur-ing the cold- 
+ []
+
+
+Overfull \hbox (5.59901pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 est pe-riod of the year - typ-i-cally near Jan-uary 1st 4[] up-
+per right). In this con-text, neg- 
+ []
+
+
+Overfull \hbox (6.62679pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 a-tive val-ues along the y-axis of the left col-umn of the scat
+-ter-plots are in-ter-pret-ted as a 
+ []
+
+
+Overfull \hbox (11.18234pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 neg-a-tive heat ex-change, mean-ing a cool-ing ef-fect on the r
+iver ice sur-face or a de-po-si-tion 
+ []
+
+
+Overfull \hbox (14.34914pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 of pre-cip-i-ta-tion be-low freez-ing. Equa-tion 3[] was op-ti-
+mized through ad-just-ing the tun-able 
+ []
+
+
+Overfull \hbox (4.34912pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 pa-ram-e-ters within the tem-po-ral bias (Equa-tion 2[]) on a l
+o-ca-tion by lo-ca-tion ba-sis. For 
+ []
+
+
+Overfull \hbox (9.71011pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 ex-am-ple, Crooked Creek on the Kuskok-wim River has a clear ne
+g-a-tive trend with more 
+ []
+
+
+Overfull \hbox (22.54347pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 ro-bust, colder HPE caus-ing a cool-ing ef-fect on the river ic
+e sur-face, pro-long-ing DOY, with 
+ []
+
+
+Overfull \hbox (23.24591pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 r[]\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^@\O
+T1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 80$ . The re-la-tion-ship be-t
+ween the to-tal num-ber of ARs that oc-cured six months 
+ []
+
+
+Overfull \hbox (3.79344pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 prior to the breakup date and the DOY are shown in the cen-ter 
+col-umn (top and bot- 
+ []
+
+
+Overfull \hbox (5.04349pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 tom plots are the same by def-i-ni-tion) in-di-cat-ing that the
+ num-ber of ARs prior to river 
+ []
+
+
+Overfull \hbox (2.93237pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 ice breakup ap-pears in-suf-fi-cient in cor-re-lat-ing to break
+up tim-ing on its own. The bot- 
+ []
+
+
+Overfull \hbox (10.01566pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 tom row of Fig-ure 5[] shows that the use of a bias func-tion i
+s nec-es-sary, as sim-ply ap-ply- 
+ []
+
+
+Overfull \hbox (17.23802pt too wide) in paragraph at lines 491--516
+\OT1/cmr/m/n/10 ing the in-te-gral of Equa-tion 1[] (the ag-gre-gated to-tal he
+at trans-fer) is poorly un-cor-re-lated.  
+ []
+
+[6 <./images/tmin_vs_tmax_subplots.png> <./images/IVT_Precip_proportion_over_ti
+me.png>]
+<./images/concatenated_precip_var_plots.png, id=52, 1589.94pt x 578.16pt>
 File: ./images/concatenated_precip_var_plots.png Graphic file (type png)
 <use ./images/concatenated_precip_var_plots.png>
 Package pdftex.def Info: ./images/concatenated_precip_var_plots.png  used on in
-put line 462.
+put line 520.
 (pdftex.def)             Requested size: 397.48499pt x 144.53964pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--467
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
 []\OT1/cmr/bx/n/9 Figure  4. \OT1/cmr/m/n/9 Left: ker-nel den-sity plots show-i
 ng the dis-tri-bu-tion of lo-cal pre-cip-i-ta-tion (dark
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--467
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
 \OT1/cmr/m/n/9 blue) and pre-cip-i-ta-tion from ARs (light blue). Right: orinda
 ry least squares re-gres-sion plot us-ing
  []
 
-<./images/concatenated_corr_plots.png, id=40, 1084.05pt x 722.7pt>
-File: ./images/concatenated_corr_plots.png Graphic file (type png)
-<use ./images/concatenated_corr_plots.png>
-Package pdftex.def Info: ./images/concatenated_corr_plots.png  used on input li
-ne 473.
+<./images/concatenated_scatter_bias_plots.png, id=53, 1084.05pt x 722.7pt>
+File: ./images/concatenated_scatter_bias_plots.png Graphic file (type png)
+<use ./images/concatenated_scatter_bias_plots.png>
+Package pdftex.def Info: ./images/concatenated_scatter_bias_plots.png  used on 
+input line 531.
 (pdftex.def)             Requested size: 397.48499pt x 264.99081pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
 []\OT1/cmr/bx/n/9 Figure  5. \OT1/cmr/m/n/9 Top: (left) scat-ter plot be-tween 
 ther-mal en-ergy trans-fer and DOY; (mid-dle) scat-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
-\OT1/cmr/m/n/9 plot of the num-ber of ARs that oc-cured in the 6 months prior t
-o the breakup date and DOY
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
+\OT1/cmr/m/n/9 plot of the num-ber of ARs that oc-cured in the six months prior
+ to the breakup date and DOY;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
 \OT1/cmr/m/n/9 (right) tem-po-ral bias curve for the year 2021 with the breakup
  date rep-re-sented by the ver-ti-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
-\OT1/cmr/m/n/9 dashed ilne. Bot-tom: same as the top ex-cept de-pict-ing when t
-he bias curve is not op-ti-mally
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
+\OT1/cmr/m/n/9 dashed line. Bot-tom: same as the top ex-cept de-pict-ing the re
+-sults when a tem-po-ral bias is not
  []
 
 
-Overfull \hbox (9.82117pt too wide) in paragraph at lines 494--500
+Overfull \hbox (9.82117pt too wide) in paragraph at lines 553--559
 []\OT1/cmr/m/n/10 This sec-tion MUST con-tain a state-ment that de-scribes wher
 e the data sup-port-ing 
  []
 
 
-Overfull \hbox (5.90463pt too wide) in paragraph at lines 494--500
+Overfull \hbox (5.90463pt too wide) in paragraph at lines 553--559
 \OT1/cmr/m/n/10 the con-clu-sions can be ob-tained. Data can-not be listed as '
 'Avail-able from au-thors'' or 
  []
 
 
-Overfull \hbox (4.4047pt too wide) in paragraph at lines 494--500
+Overfull \hbox (4.4047pt too wide) in paragraph at lines 553--559
 \OT1/cmr/m/n/10 stored solely in sup-port-ing in-for-ma-tion. Ci-ta-tions to ar
 chived data should be in-cluded 
  []
 
 
-Overfull \hbox (18.51564pt too wide) in paragraph at lines 494--500
+Overfull \hbox (18.51564pt too wide) in paragraph at lines 553--559
 \OT1/cmr/m/n/10 in your ref-er-ence list. Wi-ley will pub-lish it as a sep-a-ra
 te sec-tion on the pa-per's page. Ex- 
  []
 
 
-Overfull \hbox (71.11316pt too wide) in paragraph at lines 494--500
+Overfull \hbox (71.11316pt too wide) in paragraph at lines 553--559
 \OT1/cmr/m/n/10 am-ples and com-plete in-for-ma-tion are here: https://www.agu.
 org/Publish with AGU/Publish/Author 
  []
 
 
-Overfull \hbox (8.65456pt too wide) in paragraph at lines 502--505
+Overfull \hbox (8.65456pt too wide) in paragraph at lines 561--564
 \OT1/cmr/m/n/10 Enter ac-knowl-edg-ments here. This sec-tion is to ac-knowl-edg
 e fund-ing, thank col-leagues, 
  []
 
-(./AR_analysis_.bbl [5]
+(./AR_analysis_.bbl
+Underfull \hbox (badness 1990) in paragraph at lines 43--65
+[]\OT1/cmr/m/n/10 Dettinger, M. D., Cayan, D. R., Meyer, M. K., & Je-ton, A. E.
+  (2004).  Sim-u-lated 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--65
+\OT1/cmr/m/n/10 hy-dro-logic re-sponses to cli-mate vari-a-tions and change in 
+the merced, car-son, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--65
+\OT1/cmr/m/n/10 and amer-i-can river basins, sierra nevada, cal-i-for-nia, 1900
+{2099.  \OT1/cmr/m/it/10 Cli-matic 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--65
+\OT1/cmr/m/it/10 Change\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 62\OT1/cmr/m/n/10 (1)
+, 283--317.  Re-trieved from $\OT1/cmtt/m/n/10 https :// doi [] .org / 10 [] .1
+023 / B : 
+ []
+
+[7 <./images/concatenated_precip_var_plots.png>] [8 <./images/concatenated_scat
+ter_bias_plots.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 81--102
+[]\OT1/cmr/m/n/10 Dettinger, M. D., Ralph, F. M., Das, T., Neiman, P. J., & Cay
+an, D. R.  (2011). 
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 81--102
+\OT1/cmr/m/n/10 At-mo-spheric rivers, floods and the wa-ter re-sources of cal-i
+-for-nia.  \OT1/cmr/m/it/10 Wa-ter\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 3\OT1/cmr/
+m/n/10 (2), 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--139
+[]\OT1/cmr/m/n/10 F. Mar-tin, R., Jonathan J., R., Ja-son M., C., Michael, D., 
+Michael, A., David, R., 
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 114--139
+\OT1/cmr/m/n/10 spheric rivers.  \OT1/cmr/m/it/10 Bul-letin of the Amer-i-can M
+e-te-o-ro-log-i-cal So-ci-ety\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 100\OT1/cmr/m/n
+/10 (2), 269 - 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--174
+[]\OT1/cmr/m/n/10 Gorodetskaya, I. V., Tsuk-ernik, M., Claes, K., Ralph, M. F.,
+ Neff, W. D., & 
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 151--174
+\OT1/cmr/m/n/10 ac-cu-mu-la-tion in east antarc-tica.  \OT1/cmr/m/it/10 Geo-phy
+s-i-cal Re-search Let-ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 41\OT1/cmr/m/n/10 
+(17), 6199- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--240
+[]\OT1/cmr/m/n/10 Guan, B., Molotch, N. P., Waliser, D. E., Fet-zer, E. J., & N
+eiman, P. J.  (2010). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--240
+\OT1/cmr/m/n/10 Ex-treme snow-fall events linked to at-mo-spheric rivers and su
+r-face air tem- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--240
+\OT1/cmr/m/n/10 per-a-ture via satel-lite mea-sure-ments.  \OT1/cmr/m/it/10 Geo
+-phys-i-cal Re-search Let-ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 37\OT1/cmr/m/n
+/10 (20). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--240
+\OT1/cmr/m/n/10 Re-trieved from $\OT1/cmtt/m/n/10 https :// agupubs [] .onlinel
+ibrary [] .wiley [] .com / doi / abs / 
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 254--270
+[]\OT1/cmr/m/n/10 Guan, B., & Waliser, D.  (2019, 12).  Track-ing at-mo-spheric
+ rivers glob-ally: Spa- 
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 284--305
+[]\OT1/cmr/m/n/10 Guan, B., & Waliser, D. E.  (2015).  De-tec-tion of at-mo-sph
+eric rivers: Eval-u-a-tion 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--339
+[]\OT1/cmr/m/n/10 Harald, S., & An-dreas, S.  (2013).  Mois-ture ori-gin and me
+rid-ional trans- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--339
+\OT1/cmr/m/n/10 port in at-mo-spheric rivers and their as-so-ci-a-tion with mul
+-ti-ple cy-clones. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--339
+\OT1/cmr/m/it/10 Monthly Weather Re-view\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 141\
+OT1/cmr/m/n/10 (8), 2850 - 2868.  Re-trieved from $\OT1/cmtt/m/n/10 https :// 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--339
+\OT1/cmtt/m/n/10 journals [] .ametsoc [] .org / view / journals / mwre / 141 / 
+8 / mwr [] -d [] -12 [] -00256 [] .1 [] .xml$ 
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 351--368
+\OT1/cmr/m/n/10 { did el ni~no and cli-mate change play a role?  In H. Shen (Ed
+.[]), \OT1/cmr/m/it/10 Ice in sur-face 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--368
+\OT1/cmr/m/it/10 wa-ters: Pro-ceed-ings of the 14th in-ter-na-tional sym-po-siu
+m on ice \OT1/cmr/m/n/10 (pp.[] 761--768). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--405
+[]\OT1/cmr/m/n/10 Kalnay, E., Kana-mitsu, M., Kistler, R., Collins, W., Deaven,
+ D., Gandin, L., ... 
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 380--405
+\OT1/cmr/m/n/10 Joseph, D.  (1996).  The ncep/ncar 40-year re-anal-y-sis projec
+t.  \OT1/cmr/m/it/10 Bul-letin 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--405
+\OT1/cmr/m/it/10 of the Amer-i-can Me-te-o-ro-log-i-cal So-ci-ety\OT1/cmr/m/n/1
+0 , \OT1/cmr/m/it/10 77\OT1/cmr/m/n/10 (3), 437 - 472.  Re-trieved from 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--405
+\OT1/cmtt/m/n/10 https :// journals [] .ametsoc [] .org / view / journals / bam
+s / 77 / 3 / 1520 [] -0477 [] 
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 380--405
+[]\OT1/cmtt/m/n/10 1996 [] []077 [] []0437 [] []tnyrp [] []2 [] []0 [] []co [] 
+[]2 [] .xml$   \OT1/cmr/m/n/10 doi: $10 [] .1175 / 1520 [] -0477(1996 ) 077\OMS
+/cmsy/m/n/10 h\OT1/cmr/m/n/10 0437 : 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--439
+[]\OT1/cmr/m/n/10 Lavers, D. A., Al-lan, R. P., Vil-lar-ini, G., Lloyd-Hughes, 
+B., Brayshaw, D. J., & 
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 417--439
+\OT1/cmr/m/n/10 Wade, A. J.  (2013).  Fu-ture changes in at-mo-spheric rivers a
+nd their im-pli- 
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 417--439
+\OT1/cmr/m/n/10 ca-tions for win-ter flood-ing in britain.  \OT1/cmr/m/it/10 En
+-vi-ron-men-tal Re-search Let-ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 8\OT1/cmr/
+m/n/10 (3). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--439
+\OT1/cmr/m/n/10 Re-trieved from $\OT1/cmtt/m/n/10 https :// doi [] .org / 10 []
+ .1088 / 1748 [] -9326 / 8 / 3 / 034010$   \OT1/cmr/m/n/10 doi: 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--474
+[]\OT1/cmr/m/n/10 Lavers, D. A., Al-lan, R. P., Wood, E. F., Vil-lar-ini, G., B
+rayshaw, D. J., & Wade, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--474
+\OT1/cmr/m/n/10 A. J.  (2011).  Win-ter floods in britain are con-nected to at-
+mo-spheric 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--474
+\OT1/cmr/m/n/10 rivers.  \OT1/cmr/m/it/10 Geo-phys-i-cal Re-search Let-ters\OT1
+/cmr/m/n/10 , \OT1/cmr/m/it/10 38\OT1/cmr/m/n/10 (23).  Re-trieved from $\OT1/c
+mtt/m/n/10 https :// 
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 451--474
+\OT1/cmtt/m/n/10 agupubs [] .onlinelibrary [] .wiley [] .com / doi / abs / 10 [
+] .1029 / 2011GL049783$   \OT1/cmr/m/n/10 doi: 
+ []
+
+
+Underfull \vbox (badness 2478) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 486--509
+[]\OT1/cmr/m/n/10 Li, L., Can-non, F., Ma-zloff, M. R., Sub-ra-ma-nian, A. C., 
+Wil-son, A. M., & Ralph, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--509
+\OT1/cmr/m/it/10 sphere\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 2022\OT1/cmr/m/n/10 ,
+ 1--21.  Re-trieved from $\OT1/cmtt/m/n/10 https :// egusphere [] .copernicus [
+] .org / 
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 524--546
+[]\OT1/cmr/m/n/10 Little, K., Kingston, D. G., Cullen, N. J., & Gib-son, P. B. 
+ (2019).  The role of at- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--546
+\OT1/cmr/m/n/10 mo-spheric rivers for ex-treme ab-la-tion and snow-fall events 
+in the south-ern alps 
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 524--546
+\OT1/cmr/m/n/10 of new zealand.  \OT1/cmr/m/it/10 Geo-phys-i-cal Re-search Let-
+ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 46\OT1/cmr/m/n/10 (5), 2761-2771.  Re-tr
+ieved 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--546
+\OT1/cmr/m/n/10 from $\OT1/cmtt/m/n/10 https :// agupubs [] .onlinelibrary [] .
+wiley [] .com / doi / abs / 10 [] .1029 / 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--584
+[]\OT1/cmr/m/n/10 Ma, W., Wang, H., Chen, G., Qian, Y., Bax-ter, I., Huo, Y., &
+ Seefeldt, M. W. 
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 558--584
+\OT1/cmr/m/n/10 drivers, trends, and the role of at-mo-spheric rivers.  \OT1/cm
+r/m/it/10 EGU-sphere\OT1/cmr/m/n/10 .  Re-trieved 
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 558--584
+\OT1/cmr/m/n/10 from $\OT1/cmtt/m/n/10 https :// doi [] .org / 10 [] .5194 / eg
+usphere [] -2023 [] -2018$   \OT1/cmr/m/n/10 (Preprint)  doi: 
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 599--620
+[]\OT1/cmr/m/n/10 Maclennan, M. L., Lenaerts, J. T. M., Shields, C., & Wille, J
+. D.  (2022).  Con-tri- 
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 599--620
+\OT1/cmr/m/it/10 Let-ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 49\OT1/cmr/m/n/10 (
+18).  Re-trieved 2024-04-16, from $\OT1/cmtt/m/n/10 https :// onlinelibrary [] 
+.wiley [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--658
+[]\OT1/cmr/m/n/10 Neiman, P. J., Ralph, F. M., Wick, G. A., Kuo, Y.-H., Wee, T.
+-K., Ma, Z., ... Det- 
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 632--658
+\OT1/cmr/m/n/10 tinger, M. D.  (2008).  Di-ag-no-sis of an in-tense at-mo-spher
+ic river im-pact-ing 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--658
+\OT1/cmr/m/n/10 the pa-cific north-west: Storm sum-mary and off-shore ver-ti-ca
+l struc-ture ob-served 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--658
+\OT1/cmr/m/n/10 with cos-mic satel-lite re-trievals.  \OT1/cmr/m/it/10 Monthly 
+Weather Re-view\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 136\OT1/cmr/m/n/10 (11), 4398
+ - 
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 672--689
+[]\OT1/cmr/m/n/10 Paily, P., Macagno, E., & Kennedy, J.  (1974, 3).  Winter-reg
+ime sur-face heat loss 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 705--727
+[]\OT1/cmr/m/n/10 Paul J., N., Lawrence J., S., F. Mar-tin, R., Mimi, H., & Gar
+y A., W.  (2011). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 705--727
+\OT1/cmr/m/n/10 Flood-ing in west-ern wash-ing-ton: The con-nec-tion to at-mo-s
+pheric rivers. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 705--727
+\OT1/cmr/m/it/10 Jour-nal of Hy-drom-e-te-o-rol-ogy\OT1/cmr/m/n/10 , \OT1/cmr/m
+/it/10 12\OT1/cmr/m/n/10 (6), 1337 - 1358.  Re-trieved from $\OT1/cmtt/m/n/10 h
+ttps :// 
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 742--760
+\OT1/cmr/m/n/10 up: a re-view of cli-matic drivers, his-tor-i-cal trends and fu
+-ture pre-dic-tions.  \OT1/cmr/m/it/10 An- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--796
+[]\OT1/cmr/m/n/10 Ralph, F. M., Neiman, P. J., Wick, G. A., Gut-man, S. I., Det
+-tinger, M. D., Cayan, 
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 772--796
+\OT1/cmr/m/n/10 D. R., & White, A. B.  (2006).  Flood-ing on cal-i-for-nia's ru
+s-sian river: Role 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--796
+\OT1/cmr/m/n/10 of at-mo-spheric rivers.  \OT1/cmr/m/it/10 Geo-phys-i-cal Re-se
+arch Let-ters\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 33\OT1/cmr/m/n/10 (13).  Re-tri
+eved 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--796
+\OT1/cmr/m/n/10 from $\OT1/cmtt/m/n/10 https :// agupubs [] .onlinelibrary [] .
+wiley [] .com / doi / abs / 10 [] .1029 / 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--835
+[]\OT1/cmr/m/n/10 Saavedra, F., Cort^^Ses, G., Viale, M., Mar-gulis, S., & McPh
+ee, J.  (2020).  At- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--835
+\OT1/cmr/m/n/10 mo-spheric rivers con-tri-bu-tion to the snow ac-cu-mu-la-tion 
+over the south-ern 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--835
+\OT1/cmr/m/n/10 an-des (26.5\TS1/cmr/m/n/10 ° \OT1/cmr/m/n/10 s{37.5\TS1/cmr/m/
+n/10 ° \OT1/cmr/m/n/10 s).  \OT1/cmr/m/it/10 Fron-tiers in Earth Sci-ence\OT1/c
+mr/m/n/10 , \OT1/cmr/m/it/10 8\OT1/cmr/m/n/10 .  Re-trieved from 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--835
+\OT1/cmtt/m/n/10 https :// www [] .frontiersin [] .org / articles / 10 [] .3389
+ / feart [] .2020 [] .00261$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 847--871
+[]\OT1/cmr/m/n/10 Saha, S., Moor-thi, S., Pan, H.-L., Wu, X., Wang, J., Nadiga,
+ S., ... Gold-berg, M. 
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 847--871
+\OT1/cmr/m/n/10 (2010).  The ncep cli-mate fore-cast sys-tem re-anal-y-sis.  \O
+T1/cmr/m/it/10 Bul-letin of the Amer- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 847--871
+\OT1/cmr/m/it/10 i-can Me-te-o-ro-log-i-cal So-ci-ety\OT1/cmr/m/n/10 , \OT1/cmr
+/m/it/10 91\OT1/cmr/m/n/10 (8), 1015 - 1058.  Re-trieved from $\OT1/cmtt/m/n/10
+ https :// 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 847--871
+\OT1/cmtt/m/n/10 journals [] .ametsoc [] .org / view / journals / bams / 91 / 8
+ / 2010bams3001 [] []1 [] .xml$ 
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 883--901
+[]\OT1/cmr/m/n/10 Shen, H. T.  (2010).  Math-e-mat-i-cal mod-el-ing of river ic
+e pro-cesses.  \OT1/cmr/m/it/10 Cold Re- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--901
+\OT1/cmr/m/it/10 gions Sci-ence and Tech-nol-ogy\OT1/cmr/m/n/10 , \OT1/cmr/m/it
+/10 62\OT1/cmr/m/n/10 (1), 3-13.  Re-trieved from $\OT1/cmtt/m/n/10 https :// 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--901
+\OT1/cmtt/m/n/10 www [] .sciencedirect [] .com / science / article / pii / S016
+5232X10000339$   \OT1/cmr/m/n/10 doi: 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--935
+[]\OT1/cmr/m/n/10 Thornton, M., Shrestha, R., Wei, Y., Thorn-ton, P., Kao, S.-C
+., & Wil-son, B. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--935
+\OT1/cmr/m/n/10 (2022).  \OT1/cmr/m/it/10 Daymet: An-nual cli-mate sum-maries o
+n a 1-km grid for north amer- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--935
+\OT1/cmr/m/it/10 ica, ver-sion 4 r1.  \OT1/cmr/m/n/10 ORNL Dis-tributed Ac-tive
+ Archive Cen-ter.  Re-trieved 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--935
+\OT1/cmr/m/n/10 from $\OT1/cmtt/m/n/10 https :// daac [] .ornl [] .gov / cgi []
+ -bin / dsviewer [] .pl [] ?ds [] []id = 2130$   \OT1/cmr/m/n/10 doi: 
+ []
+
+
+Underfull \vbox (badness 2478) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 947--969
+[]\OT1/cmr/m/n/10 Thornton, P. E., Shrestha, R., Thorn-ton, M., Kao, S.-C., Wei
+, Y., & Wil-son, 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 947--969
+\OT1/cmr/m/n/10 B. E.  (2021, 7 23).  Grid-ded daily weather data for north ame
+r-ica with 
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 947--969
+\OT1/cmr/m/n/10 com-pre-hen-sive un-cer-tainty quan-tifi-ca-tion.  \OT1/cmr/m/i
+t/10 Sci-en-tific Data\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 8\OT1/cmr/m/n/10 (1), 
+190.  Re- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 947--969
+\OT1/cmr/m/n/10 trieved from $\OT1/cmtt/m/n/10 https :// doi [] .org / 10 [] .1
+038 / s41597 [] -021 [] -00973 [] -0$   \OT1/cmr/m/n/10 doi: 
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 981--995
+[]\OT1/cmr/m/n/10 USDOC.  (2023, 3).  \OT1/cmr/m/it/10 What are at-mo-spheric r
+ivers?  \OT1/cmr/m/n/10 Na-tional Oceanic and At- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1031
+[]\OT1/cmr/m/n/10 Viale, M., Valen-zuela, R., Gar-reaud, R. D., & Ralph, F. M. 
+ (2018).  Im-pacts 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1031
+\OT1/cmr/m/n/10 of at-mo-spheric rivers on pre-cip-i-ta-tion in south-ern south
+ amer-ica.  \OT1/cmr/m/it/10 Jour- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1031
+\OT1/cmr/m/it/10 nal of Hy-drom-e-te-o-rol-ogy\OT1/cmr/m/n/10 , \OT1/cmr/m/it/1
+0 19\OT1/cmr/m/n/10 (10), 1671 - 1687.  Re-trieved from $\OT1/cmtt/m/n/10 https
+ :// 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1031
+\OT1/cmtt/m/n/10 journals [] .ametsoc [] .org / view / journals / hydr / 19 / 1
+0 / jhm [] -d [] -18 [] -0006 [] []1 [] .xml$ 
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 1043--1065
+[]\OT1/cmr/m/n/10 Zhang, P., Chen, G., Ting, M., Ruby Le-ung, L., Guan, B., & L
+i, L.  (2023, March). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1065
+\OT1/cmr/m/n/10 More fre-quent at-mo-spheric rivers slow the sea-sonal re-cov-e
+ry of arc-tic sea ice. 
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 1043--1065
+\OT1/cmr/m/it/10 Na-ture Cli-mate Change\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 13\O
+T1/cmr/m/n/10 (3), 266--273.  Re-trieved from $\OT1/cmtt/m/n/10 https :// doi [
+] .org / 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1099
+[]\OT1/cmr/m/n/10 Zhu, Y., & Newell, R. E.  (1998).  A pro-posed al-go-rithm fo
+r mois-ture fluxes 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1099
+\OT1/cmr/m/n/10 from at-mo-spheric rivers.  \OT1/cmr/m/it/10 Monthly Weather Re
+-view\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 126\OT1/cmr/m/n/10 (3), 725 - 735. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1099
+\OT1/cmr/m/n/10 Re-trieved from $\OT1/cmtt/m/n/10 https :// journals [] .ametso
+c [] .org / view / journals / mwre / 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1099
+\OT1/cmtt/m/n/10 126 / 3 / 1520 [] -0493 [] []1998 [] []126 [] []0725 [] []apaf
+mf [] []2 [] .0 [] .co [] []2 [] .xml$   \OT1/cmr/m/n/10 doi: $10 [] .1175 / 
+ []
+
+) [11] (./AR_analysis_.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.45pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 25388 strings out of 481239
+ 643082 string characters out of 5920377
+ 1037935 words of memory out of 5000000
+ 40199 multiletter control sequences out of 15000+600000
+ 540858 words of font info for 54 fonts, out of 8000000 for 9000
+ 1147 hyphenation exceptions out of 8191
+ 64i,9n,111p,729b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfrm1000.pfb>
+Output written on AR_analysis_.pdf (11 pages, 10891630 bytes).
+PDF statistics:
+ 147 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+
