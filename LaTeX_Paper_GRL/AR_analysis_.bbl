@@ -1,6 +1,43 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Akinsanola%
+, Jung%
+, Wang%
+\BCBL {}\ \BBA {} Kotamarthi%
+}{%
+Akinsanola%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Akinsanola2024}
+\APACinsertmetastar {%
+Akinsanola2024}%
+\begin{APACrefauthors}%
+Akinsanola, A\BPBI A.%
+, Jung, C.%
+, Wang, J.%
+\BCBL {}\ \BBA {} Kotamarthi, V\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Evaluation of precipitation across the contiguous United
+  States, Alaska, and Puerto Rico in multi-decadal convection-permitting
+  simulations} {Evaluation of precipitation across the contiguous united
+  states, alaska, and puerto rico in multi-decadal convection-permitting
+  simulations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Scientific Reports}{14}{1}{1238}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1038/s41598-024-51714-3}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1038/s41598-024-51714-3} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ashton%
 }{%
 Ashton%
@@ -24,6 +61,76 @@ Ashton, G.%
 \newblock
 \begin{APACrefURL} \url{https://books.google.com/books?id=xglYVjAsnt8C}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bieniek%
+\ \protect \BOthers {.}}{%
+Bieniek%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+Bieniek2011}
+\APACinsertmetastar {%
+Bieniek2011}%
+\begin{APACrefauthors}%
+Bieniek, P\BPBI A.%
+, Bhatt, U\BPBI S.%
+, Rundquist, L\BPBI A.%
+, Lindsey, S\BPBI D.%
+, Zhang, X.%
+\BCBL {}\ \BBA {} Thoman, R\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Large-Scale Climate Controls of Interior Alaska River
+  Ice Breakup} {Large-scale climate controls of interior alaska river ice
+  breakup}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Climate}{24}{1}{286 - 297}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/clim/24/1/2010jcli3809.1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/2010JCLI3809.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Brown%
+\ \protect \BOthers {.}}{%
+Brown%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Brown2018}
+\APACinsertmetastar {%
+Brown2018}%
+\begin{APACrefauthors}%
+Brown, D\BPBI R\BPBI N.%
+, Brinkman, T\BPBI J.%
+, Verbyla, D\BPBI L.%
+, Brown, C\BPBI L.%
+, Cold, H\BPBI S.%
+\BCBL {}\ \BBA {} Hollingsworth, T\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Changing River Ice Seasonality and Impacts on Interior
+  Alaskan Communities} {Changing river ice seasonality and impacts on interior
+  alaskan communities}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Weather, Climate, and Society}{10}{4}{625 - 640}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/wcas/10/4/wcas-d-17-0101_1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/WCAS-D-17-0101.1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -98,6 +205,112 @@ Dettinger, M\BPBI D.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.3390/w3020445} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Diro%
+\ \BBA {} Sushama%
+}{%
+Diro%
+\ \BBA {} Sushama%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Diro2019}
+\APACinsertmetastar {%
+Diro2019}%
+\begin{APACrefauthors}%
+Diro, G\BPBI T.%
+\BCBT {}\ \BBA {} Sushama, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Simulating Canadian Arctic Climate at
+  Convection-Permitting Resolution} {Simulating canadian arctic climate at
+  convection-permitting resolution}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Atmosphere}{10}{8}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2073-4433/10/8/430}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/atmos10080430} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Esfandiari%
+\ \BBA {} Shakiba%
+}{%
+Esfandiari%
+\ \BBA {} Shakiba%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+Esfandiari2024}
+\APACinsertmetastar {%
+Esfandiari2024}%
+\begin{APACrefauthors}%
+Esfandiari, N.%
+\BCBT {}\ \BBA {} Shakiba, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The extraordinary atmospheric rivers analysis over the
+  Middle East: Large-scale drivers, structure, effective sources, and
+  precipitation characterization} {The extraordinary atmospheric rivers
+  analysis over the middle east: Large-scale drivers, structure, effective
+  sources, and precipitation characterization}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Dynamics of Atmospheres and Oceans}{105}{}{101430}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0377026523000817}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.dynatmoce.2023.101430}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Espinoza%
+, Waliser%
+, Guan%
+, Lavers%
+\BCBL {}\ \BBA {} Ralph%
+}{%
+Espinoza%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Espinoza2018}
+\APACinsertmetastar {%
+Espinoza2018}%
+\begin{APACrefauthors}%
+Espinoza, V.%
+, Waliser, D\BPBI E.%
+, Guan, B.%
+, Lavers, D\BPBI A.%
+\BCBL {}\ \BBA {} Ralph, F\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Global Analysis of Climate Change Projection Effects on
+  Atmospheric Rivers} {Global analysis of climate change projection effects on
+  atmospheric rivers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{45}{9}{4299-4308}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2017GL076968}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/2017GL076968} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -404,6 +617,35 @@ Kalnay, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Lashkari%
+\ \BBA {} Esfandiari%
+}{%
+Lashkari%
+\ \BBA {} Esfandiari%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Lashkari2020}
+\APACinsertmetastar {%
+Lashkari2020}%
+\begin{APACrefauthors}%
+Lashkari, H.%
+\BCBT {}\ \BBA {} Esfandiari, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{05}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Identifying atmospheric river events and their paths
+  into Iran} {Identifying atmospheric river events and their paths into
+  iran}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Theoretical and Applied Climatology}{140}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s00704-020-03148-w} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Lavers%
 \ \protect \BOthers {.}}{%
 Lavers%
@@ -605,9 +847,9 @@ Maclennan, M\BPBI L.%
 \newblock
 \APACrefYearMonthDay{2022}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Contribution of {Atmospheric} {Rivers} to {Antarctic}
-  {Precipitation}} {Contribution of {Atmospheric} {Rivers} to {Antarctic}
-  {Precipitation}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Contribution of Atmospheric Rivers to Antarctic
+  Precipitation} {Contribution of atmospheric rivers to antarctic
+  precipitation}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Geophysical Research Letters}{49}{18}{}.
 \newblock
@@ -616,6 +858,143 @@ Maclennan, M\BPBI L.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1029/2022GL100585} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Massoud%
+, Espinoza%
+, Guan%
+\BCBL {}\ \BBA {} Waliser%
+}{%
+Massoud%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Massoud2019}
+\APACinsertmetastar {%
+Massoud2019}%
+\begin{APACrefauthors}%
+Massoud, E.%
+, Espinoza, V.%
+, Guan, B.%
+\BCBL {}\ \BBA {} Waliser, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Global Climate Model Ensemble Approaches for Future
+  Projections of Atmospheric Rivers} {Global climate model ensemble approaches
+  for future projections of atmospheric rivers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Earth's Future}{7}{10}{1136-1151}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019EF001249}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/2019EF001249} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Massoud%
+\ \protect \BOthers {.}}{%
+Massoud%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+massoud2020}
+\APACinsertmetastar {%
+massoud2020}%
+\begin{APACrefauthors}%
+Massoud, E.%
+, Massoud, T.%
+, Guan, B.%
+, Sengupta, A.%
+, Espinoza, V.%
+, De~Luna, M.%
+\BDBL {}Waliser, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Atmospheric Rivers and Precipitation in the Middle East
+  and North Africa (MENA)} {Atmospheric rivers and precipitation in the middle
+  east and north africa (mena)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water}{12}{10}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2073-4441/12/10/2863}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/w12102863} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mattingly%
+, Mote%
+\BCBL {}\ \BBA {} Fettweis%
+}{%
+Mattingly%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Mattingly2018}
+\APACinsertmetastar {%
+Mattingly2018}%
+\begin{APACrefauthors}%
+Mattingly, K\BPBI S.%
+, Mote, T\BPBI L.%
+\BCBL {}\ \BBA {} Fettweis, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Atmospheric River Impacts on Greenland Ice Sheet Surface
+  Mass Balance} {Atmospheric river impacts on greenland ice sheet surface mass
+  balance}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Atmospheres}{123}{16}{8538-8560}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD028714}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/2018JD028714} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Murphy%
+\ \protect \BOthers {.}}{%
+Murphy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+murphy2022}
+\APACinsertmetastar {%
+murphy2022}%
+\begin{APACrefauthors}%
+Murphy, J\BPBI M.%
+, Garcia, S.%
+, Piston, A.%
+, Moss, J\BPBI H.%
+, Howard, K.%
+, Fergusson, E\BPBI A.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Coastal Surveys in Alaska and Their Application to
+  Salmon Run-Size and Harvest Forecasts} {Coastal surveys in alaska and their
+  application to salmon run-size and harvest forecasts}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{North Pacific Anadromous Fish Commission Technical
+  Report}{}{18}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -726,12 +1105,12 @@ Paul~J., N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Prowse%
+T.~Prowse%
 , Bonsal%
 , Duguay%
 \BCBL {}\ \BBA {} Lacroix%
 }{%
-Prowse%
+T.~Prowse%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2007}}%
 }]{%
@@ -756,6 +1135,38 @@ Prowse, T.%
 \APACjournalVolNumPages{Annals of Glaciology}{46}{}{443–451}.
 \newblock
 \begin{APACrefDOI} \doi{10.3189/172756407782871431} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+T\BPBI D.~Prowse%
+\ \BBA {} Beltaos%
+}{%
+T\BPBI D.~Prowse%
+\ \BBA {} Beltaos%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+Prowes2002}
+\APACinsertmetastar {%
+Prowes2002}%
+\begin{APACrefauthors}%
+Prowse, T\BPBI D.%
+\BCBT {}\ \BBA {} Beltaos, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Climatic control of river-ice hydrology: a review}
+  {Climatic control of river-ice hydrology: a review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Hydrological Processes}{16}{4}{805-822}.
+\newblock
+\begin{APACrefURL}
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.369}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1002/hyp.369} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -792,6 +1203,41 @@ Ralph, F\BPBI M.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1029/2006GL026689} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rey%
+\ \BBA {} Neuhauser%
+}{%
+Rey%
+\ \BBA {} Neuhauser%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Rey2011}
+\APACinsertmetastar {%
+Rey2011}%
+\begin{APACrefauthors}%
+Rey, D.%
+\BCBT {}\ \BBA {} Neuhauser, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Wilcoxon-Signed-Rank Test} {Wilcoxon-signed-rank
+  test}.{\BBCQ}
+\newblock
+\BIn{} M.~Lovric\ (\BED), \APACrefbtitle {International Encyclopedia of
+  Statistical Science} {International encyclopedia of statistical science}\
+  (\BPGS\ 1658--1659).
+\newblock
+\APACaddressPublisher{Berlin, Heidelberg}{Springer Berlin Heidelberg}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1007/978-3-642-04898-2_616}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-642-04898-2_616} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -867,6 +1313,33 @@ Saha, S.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1175/2010BAMS3001.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shapiro%
+\ \BBA {} Wilk%
+}{%
+Shapiro%
+\ \BBA {} Wilk%
+}{%
+{\protect \APACyear {1965}}%
+}]{%
+shapiro_wilk_test}
+\APACinsertmetastar {%
+shapiro_wilk_test}%
+\begin{APACrefauthors}%
+Shapiro, S\BPBI S.%
+\BCBT {}\ \BBA {} Wilk, M\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1965}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An analysis of variance test for normality (complete
+  samples)} {An analysis of variance test for normality (complete
+  samples)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biometrika}{52}{3-4}{591--611}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1027,6 +1500,45 @@ Viale, M.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1175/JHM-D-18-0006.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wille%
+\ \protect \BOthers {.}}{%
+Wille%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Wille2021}
+\APACinsertmetastar {%
+Wille2021}%
+\begin{APACrefauthors}%
+Wille, J\BPBI D.%
+, Favier, V.%
+, Gorodetskaya, I\BPBI V.%
+, Agosta, C.%
+, Kittel, C.%
+, Beeman, J\BPBI C.%
+\BDBL {}Codron, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Antarctic Atmospheric River Climatology and
+  Precipitation Impacts} {Antarctic atmospheric river climatology and
+  precipitation impacts}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Atmospheres}{126}{8}{e2020JD033788}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JD033788}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{e2020JD033788 2020JD033788}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/2020JD033788} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

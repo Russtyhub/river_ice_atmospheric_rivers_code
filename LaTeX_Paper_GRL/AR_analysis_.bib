@@ -1,10 +1,48 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Relevant Analysis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Bieniek2011,
+	author = "Peter A. Bieniek and Uma S. Bhatt and Larry A. Rundquist and Scott D. Lindsey and Xiangdong Zhang and Richard L. Thoman",
+	title = "Large-Scale Climate Controls of Interior Alaska River Ice Breakup",
+	journal = "Journal of Climate",
+	year = "2011",
+	publisher = "American Meteorological Society",
+	address = "Boston MA, USA",
+	volume = "24",
+	number = "1",
+	doi = "10.1175/2010JCLI3809.1",
+	pages=      "286 - 297",
+	url = "https://journals.ametsoc.org/view/journals/clim/24/1/2010jcli3809.1.xml"
+}
+% Very similar to our analysis
+
+@article{Prowes2002,
+	author = {Prowse, Terry D. and Beltaos, Spyros},
+	title = {Climatic control of river-ice hydrology: a review},
+	journal = {Hydrological Processes},
+	volume = {16},
+	number = {4},
+	pages = {805-822},
+	keywords = {river ice, hydrology, hydraulics, climate change, floods, low flows, snow, ice jam},
+	doi = {https://doi.org/10.1002/hyp.369},
+	url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.369},
+	eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.369},
+	year = {2002}
+}
+% Increased winter precip can lead to increased breakup severity
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%% Datasets %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@article {NCEP_NCAR_reanalysis,
-	author = "E. Kalnay and M. Kanamitsu and R. Kistler and W. Collins and D. Deaven and L. Gandin and M. Iredell and S. Saha and G. White and J. Woollen and Y. Zhu and M. Chelliah and W. Ebisuzaki and W. Higgins and J. Janowiak and K. C. Mo and C. Ropelewski and J. Wang and A. Leetmaa and R. Reynolds and Roy Jenne and Dennis Joseph",
+@article{NCEP_NCAR_reanalysis,
+	author = {E. Kalnay and M. Kanamitsu and R. Kistler and W. Collins and D. Deaven and
+	L. Gandin and M. Iredell and S. Saha and G. White and J. Woollen and
+	Y. Zhu and M. Chelliah and W. Ebisuzaki and W. Higgins and 
+	J. Janowiak and K. C. Mo and C. Ropelewski and J. Wang and
+	A. Leetmaa and R. Reynolds and Roy Jenne and Dennis Joseph},
 	title = "The NCEP/NCAR 40-Year Reanalysis Project",
 	journal = "Bulletin of the American Meteorological Society",
 	year = "1996",
@@ -13,25 +51,34 @@
 	volume = "77",
 	number = "3",
 	doi = "10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2",
-	pages=      "437 - 472",
+	pages= "437 - 472",
 	url = "https://journals.ametsoc.org/view/journals/bams/77/3/1520-0477_1996_077_0437_tnyrp_2_0_co_2.xml"
 }
 
 @misc{daymet,
-  doi = {10.3334/ORNLDAAC/2130},
-  url = {https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2130},
-  author = {Thornton, M.M. and Shrestha, R. and Wei, Y. and Thornton, P.E. and Kao, S-C. and Wilson, B.E.},
-  keywords = {ATMOSPHERE, PRECIPITATION, SNOW WATER EQUIVALENT,, ATMOSPHERE, ATMOSPHERIC WATER VAPOR, WATER VAPOR INDICATORS, VAPOR PRESSURE, ATMOSPHERE, PRECIPITATION, PRECIPITATION AMOUNT,, ATMOSPHERE, ATMOSPHERIC RADIATION, SHORTWAVE RADIATION,, ATMOSPHERE, ATMOSPHERIC TEMPERATURE, SURFACE TEMPERATURE, MAXIMUM/MINIMUM TEMPERATURE, MODELS, Computer, Hawaii, precipitation, annual climatology, temperature, Puerto Rico, Canada, swe},
-  language = {en},
-  title = {Daymet: Annual Climate Summaries on a 1-km Grid for North America, Version 4 R1},
-  publisher = {ORNL Distributed Active Archive Center},
-  year = {2022}
+	doi = {10.3334/ORNLDAAC/2130},
+	url = {https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2130},
+	author = {Thornton, M.M. and Shrestha, R. and Wei, Y. and
+	Thornton, P.E. and Kao, S-C. and Wilson, B.E.},
+	keywords = {ATMOSPHERE, PRECIPITATION, SNOW WATER EQUIVALENT,
+	ATMOSPHERE, ATMOSPHERIC WATER VAPOR, WATER VAPOR INDICATORS,
+	VAPOR PRESSURE, ATMOSPHERE, PRECIPITATION, PRECIPITATION AMOUNT,
+	ATMOSPHERE, ATMOSPHERIC RADIATION, SHORTWAVE RADIATION,
+	ATMOSPHERE, ATMOSPHERIC TEMPERATURE, SURFACE TEMPERATURE,
+	MAXIMUM/MINIMUM TEMPERATURE, MODELS, Computer, Hawaii,
+	precipitation, annual climatology, temperature, Puerto Rico, Canada, swe},
+	language = {en},
+	title = {Daymet: Annual Climate Summaries on a 1-km Grid for North America, Version 4 R1},
+	publisher = {ORNL Distributed Active Archive Center},
+	year = {2022}
 }
 % Daymet 
 
 @article{daymet2021,
-	title = {Gridded daily weather data for North America with comprehensive uncertainty quantification},
-	author = {Thornton, Peter E. and Shrestha, Rupesh and Thornton, Michele and Kao, Shih-Chieh and Wei, Yaxing and Wilson, Bruce E.},
+	title = {Gridded daily weather data for North America
+	with comprehensive uncertainty quantification},
+	author = {Thornton, Peter E. and Shrestha, Rupesh and
+	Thornton, Michele and Kao, Shih-Chieh and Wei, Yaxing and Wilson, Bruce E.},
 	year = {2021},
 	journal = {Scientific Data},
 	volume = {8},
@@ -43,7 +90,6 @@
 	url = {https://doi.org/10.1038/s41597-021-00973-0},
 	doi = {10.1038/s41597-021-00973-0}
 }
-
 
 @misc{bin2022,
 	author = {Guan, Bin},
@@ -57,76 +103,191 @@
 % Bins's dataset
 
 @article{Guan_Waliser2019,
-author = {Guan, Bin and Waliser, Duane},
-year = {2019},
-month = {12},
-pages = {},
-title = {Tracking Atmospheric Rivers Globally: Spatial Distributions and Temporal Evolution of Life Cycle Characteristics},
-volume = {124},
-journal = {Journal of Geophysical Research: Atmospheres},
-doi = {10.1029/2019JD031205}
+	author = {Guan, Bin and Waliser, Duane},
+	year = {2019},
+	month = {12},
+	pages = {},
+	title = {Tracking Atmospheric Rivers Globally: Spatial Distributions and Temporal Evolution of Life Cycle Characteristics},
+	volume = {124},
+	journal = {Journal of Geophysical Research: Atmospheres},
+	doi = {10.1029/2019JD031205}
 }
 % continuation of Bin's alg.
 
-@article {NCEP_reanalysis,
-      author = "Suranjana Saha and Shrinivas Moorthi and Hua-Lu Pan and Xingren Wu and Jiande Wang and Sudhir Nadiga and Patrick Tripp and Robert Kistler and John Woollen and David Behringer and Haixia Liu and Diane Stokes and Robert Grumbine and George Gayno and Jun Wang and Yu-Tai Hou and Hui-ya Chuang and Hann-Ming H. Juang and Joe Sela and Mark Iredell and Russ Treadon and Daryl Kleist and Paul Van Delst and Dennis Keyser and John Derber and Michael Ek and Jesse Meng and Helin Wei and Rongqian Yang and Stephen Lord and Huug van den Dool and Arun Kumar and Wanqiu Wang and Craig Long and Muthuvel Chelliah and Yan Xue and Boyin Huang and Jae-Kyung Schemm and Wesley Ebisuzaki and Roger Lin and Pingping Xie and Mingyue Chen and Shuntai Zhou and Wayne Higgins and Cheng-Zhi Zou and Quanhua Liu and Yong Chen and Yong Han and Lidia Cucurull and Richard W. Reynolds and Glenn Rutledge and Mitch Goldberg",
-      title = "The NCEP Climate Forecast System Reanalysis",
-      journal = "Bulletin of the American Meteorological Society",
-      year = "2010",
-      publisher = "American Meteorological Society",
-      address = "Boston MA, USA",
-      volume = "91",
-      number = "8",
-      doi = "10.1175/2010BAMS3001.1",
-      pages= "1015 - 1058",
-      url = "https://journals.ametsoc.org/view/journals/bams/91/8/2010bams3001_1.xml"
+@article{NCEP_reanalysis,
+	author = {Suranjana Saha and Shrinivas Moorthi and Hua-Lu 
+	Pan and Xingren Wu and Jiande Wang and Sudhir Nadiga
+	and Patrick Tripp and Robert Kistler and John Woollen 
+	and David Behringer and Haixia Liu and Diane Stokes and 
+	Robert Grumbine and George Gayno and Jun Wang and Yu-Tai 
+	Hou and Hui-ya Chuang and Hann-Ming H. Juang and Joe Sela 
+	and Mark Iredell and Russ Treadon and Daryl Kleist and 
+	Paul Van Delst and Dennis Keyser and John Derber and 
+	Michael Ek and Jesse Meng and Helin Wei and Rongqian 
+	Yang and Stephen Lord and Huug van den Dool and Arun 
+	Kumar and Wanqiu Wang and Craig Long and Muthuvel 
+	Chelliah and Yan Xue and Boyin Huang and Jae-Kyung 
+	Schemm and Wesley Ebisuzaki and Roger Lin and Pingping 
+	Xie and Mingyue Chen and Shuntai Zhou and Wayne Higgins 
+	and Cheng-Zhi Zou and Quanhua Liu and Yong Chen and 
+	Yong Han and Lidia Cucurull and Richard W. Reynolds 
+	and Glenn Rutledge and Mitch Goldberg},
+	title = "The NCEP Climate Forecast System Reanalysis",
+	journal = "Bulletin of the American Meteorological Society",
+	year = "2010",
+	publisher = "American Meteorological Society",
+	address = "Boston MA, USA",
+	volume = "91",
+	number = "8",
+	doi = "10.1175/2010BAMS3001.1",
+	pages= "1015 - 1058",
+	url = "https://journals.ametsoc.org/view/journals/bams/91/8/2010bams3001_1.xml"
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Studies using APRFC %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@article{murphy2022,
+	title={Coastal Surveys in Alaska and Their Application
+	to Salmon Run-Size and Harvest Forecasts},
+	author={Murphy, James M and Garcia, Sabrina and Piston,
+	Andrew and Moss, Jamal H and Howard, Kathrine and 
+	Fergusson, Emily A and Strasburger, Wesley W and Heinl, 
+	Steve and Miller, Sara and Lee, Elizabeth and others},
+	journal={North Pacific Anadromous Fish Commission Technical Report},
+	number={18},
+	year={2022}
+}
+
+@article{Brown2018,
+	author = "Dana R. N. Brown and Todd J. Brinkman and 
+	David L. Verbyla and Caroline L. Brown and Helen S. 
+	Cold and Teresa N. Hollingsworth",
+	title = "Changing River Ice Seasonality and Impacts on Interior Alaskan Communities",
+	journal = "Weather, Climate, and Society",
+	year = "2018",
+	publisher = "American Meteorological Society",
+	address = "Boston MA, USA",
+	volume = "10",
+	number = "4",
+	doi = "10.1175/WCAS-D-17-0101.1",
+	pages=      "625 - 640",
+	url = "https://journals.ametsoc.org/view/journals/wcas/10/4/wcas-d-17-0101_1.xml"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Proof Daymet is the Standard %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@Article{Diro2019,
+	AUTHOR = {Diro, Gulilat Tefera and Sushama, Laxmi},
+	TITLE = {Simulating Canadian Arctic Climate at 
+	Convection-Permitting Resolution},
+	JOURNAL = {Atmosphere},
+	VOLUME = {10},
+	YEAR = {2019},
+	NUMBER = {8},
+	ARTICLE-NUMBER = {430},
+	URL = {https://www.mdpi.com/2073-4433/10/8/430},
+	ISSN = {2073-4433},
+	DOI = {10.3390/atmos10080430}
+}
+
+@article{Akinsanola2024,
+	title={Evaluation of precipitation across the 
+	contiguous United States, Alaska, and Puerto 
+	Rico in multi-decadal convection-permitting 
+	simulations},
+	author={Akinsanola, Akintomide Afolayan and Jung, 
+	Chunyong and Wang, Jiali and Kotamarthi, Veerabhadra Rao},
+	journal={Scientific Reports},
+	volume={14},
+	number={1},
+	pages={1238},
+	year={2024},
+	publisher={Nature Publishing Group},
+	doi={10.1038/s41598-024-51714-3},
+	url={https://doi.org/10.1038/s41598-024-51714-3},
+	ISSN={2045-2322},
+	keywords={precipitation, climate modeling, convection-permitting simulations, regional climate},
+	timestamp={2024-01-12},
+	identifier={Akinsanola2024}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Statistics Tests %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@Inbook{Rey2011,
+	author={Rey, Denise and Neuhauser, Markus},
+	editor="Lovric, Miodrag",
+	title="Wilcoxon-Signed-Rank Test",
+	bookTitle="International Encyclopedia of Statistical Science",
+	year="2011",
+	publisher="Springer Berlin Heidelberg",
+	address="Berlin, Heidelberg",
+	pages="1658--1659",
+	isbn="978-3-642-04898-2",
+	doi="10.1007/978-3-642-04898-2_616",
+	url="https://doi.org/10.1007/978-3-642-04898-2_616"
+}
+% Internation Encyclopedia of statistics
+
+@article{shapiro_wilk_test,
+	title={An analysis of variance test for normality (complete samples)},
+	author={Shapiro, Samuel Sanford and Wilk, Martin B},
+	journal={Biometrika},
+	volume={52},
+	number={3-4},
+	pages={591--611},
+	year={1965},
+	publisher={Oxford University Press}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%% ARs flood western USA %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@article {Neiman2008,
-      author = "Paul J. Neiman and F. Martin Ralph and Gary A. Wick and Ying-Hwa Kuo and Tae-Kwon Wee and Zaizhong Ma and George H. Taylor and Michael D. Dettinger",
-      title = "Diagnosis of an Intense Atmospheric River Impacting the Pacific Northwest: Storm Summary and Offshore Vertical Structure Observed with COSMIC Satellite Retrievals",
-      journal = "Monthly Weather Review",
-      year = "2008",
-      publisher = "American Meteorological Society",
-      address = "Boston MA, USA",
-      volume = "136",
-      number = "11",
-      doi = "10.1175/2008MWR2550.1",
-      pages=      "4398 - 4420",
-      url = "https://journals.ametsoc.org/view/journals/mwre/136/11/2008mwr2550.1.xml"
+@article{Neiman2008,
+	author = "Paul J. Neiman and F. Martin Ralph and Gary A. Wick and Ying-Hwa Kuo and Tae-Kwon Wee and Zaizhong Ma and George H. Taylor and Michael D. Dettinger",
+	title = "Diagnosis of an Intense Atmospheric River Impacting the Pacific Northwest: Storm Summary and Offshore Vertical Structure Observed with COSMIC Satellite Retrievals",
+	journal = "Monthly Weather Review",
+	year = "2008",
+	publisher = "American Meteorological Society",
+	address = "Boston MA, USA",
+	volume = "136",
+	number = "11",
+	doi = "10.1175/2008MWR2550.1",
+	pages=      "4398 - 4420",
+	url = "https://journals.ametsoc.org/view/journals/mwre/136/11/2008mwr2550.1.xml"
 }
 
 @article{ARs_CA,
-AUTHOR = {Dettinger, Michael D. and Ralph, Fred Martin and Das, Tapash and Neiman, Paul J. and Cayan, Daniel R.},
-TITLE = {Atmospheric Rivers, Floods and the Water Resources of California},
-JOURNAL = {Water},
-VOLUME = {3},
-YEAR = {2011},
-NUMBER = {2},
-PAGES = {445--478},
-URL = {https://www.mdpi.com/2073-4441/3/2/445},
-ISSN = {2073-4441},
-DOI = {10.3390/w3020445}
+	AUTHOR = {Dettinger, Michael D. and Ralph, Fred Martin and Das, Tapash and Neiman, Paul J. and Cayan, Daniel R.},
+	TITLE = {Atmospheric Rivers, Floods and the Water Resources of California},
+	JOURNAL = {Water},
+	VOLUME = {3},
+	YEAR = {2011},
+	NUMBER = {2},
+	PAGES = {445--478},
+	URL = {https://www.mdpi.com/2073-4441/3/2/445},
+	ISSN = {2073-4441},
+	DOI = {10.3390/w3020445}
 }
 
-@article {ARs_flood_WA_State,
-      author = {Paul J., Neiman and Lawrence J., Schick and F. Martin, Ralph and Mimi, Hughes and Gary A., Wick},
-      title = "Flooding in Western Washington: The Connection to Atmospheric Rivers",
-      journal = "Journal of Hydrometeorology",
-      year = "2011",
-      publisher = "American Meteorological Society",
-      address = "Boston MA, USA",
-      volume = "12",
-      number = "6",
-      doi = "10.1175/2011JHM1358.1",
-      pages= "1337 - 1358",
-      url = "https://journals.ametsoc.org/view/journals/hydr/12/6/2011jhm1358_1.xml"
+@article{ARs_flood_WA_State,
+	author = {Paul J., Neiman and Lawrence J., Schick and F. Martin, Ralph and Mimi, Hughes and Gary A., Wick},
+	title = "Flooding in Western Washington: The Connection to Atmospheric Rivers",
+	journal = "Journal of Hydrometeorology",
+	year = "2011",
+	publisher = "American Meteorological Society",
+	address = "Boston MA, USA",
+	volume = "12",
+	number = "6",
+	doi = "10.1175/2011JHM1358.1",
+	pages= "1337 - 1358",
+	url = "https://journals.ametsoc.org/view/journals/hydr/12/6/2011jhm1358_1.xml"
 }
 
 @article{ARs_flood_Russian_River_CA,
@@ -142,22 +303,23 @@ DOI = {10.3390/w3020445}
 	year = {2006}
 }
 
-@article {Ralph2013,
-      author = "F. Martin, Ralph and Jonathan J., Rutz and Jason M., Cordeira and Michael, Dettinger and Michael, Anderson and David, Reynolds and Lawrence J., Schick and Chris, Smallcomb",
-      title = "A Scale to Characterize the Strength and Impacts of Atmospheric Rivers",
-      journal = "Bulletin of the American Meteorological Society",
-      year = "2019",
-      publisher = "American Meteorological Society",
-      address = "Boston MA, USA",
-      volume = "100",
-      number = "2",
-      doi = "10.1175/BAMS-D-18-0023.1",
-      pages=      "269 - 289",
-      url = "https://journals.ametsoc.org/view/journals/bams/100/2/bams-d-18-0023.1.xml"
+@article{Ralph2013,
+	author = "F. Martin, Ralph and Jonathan J., Rutz and Jason M., Cordeira and Michael, Dettinger and Michael, Anderson and David, Reynolds and Lawrence J., Schick and Chris, Smallcomb",
+	title = "A Scale to Characterize the Strength and Impacts of Atmospheric Rivers",
+	journal = "Bulletin of the American Meteorological Society",
+	year = "2019",
+	publisher = "American Meteorological Society",
+	address = "Boston MA, USA",
+	volume = "100",
+	number = "2",
+	doi = "10.1175/BAMS-D-18-0023.1",
+	pages=      "269 - 289",
+	url = "https://journals.ametsoc.org/view/journals/bams/100/2/bams-d-18-0023.1.xml"
 }
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% ARs Flood Europe %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @article{Lavers2011,
 	author = {Lavers, David A. and Allan, Richard P. and Wood, Eric F. and Villarini, Gabriele and Brayshaw, David J. and Wade, Andrew J.},
@@ -185,7 +347,7 @@ DOI = {10.3390/w3020445}
 	url = {https://doi.org/10.1088/1748-9326/8/3/034010}
 }
 
-@article {ARs_impact_Norway,
+@article{ARs_impact_Norway,
 	author = "Harald, Sodemann and Andreas, Stohl",
 	title = "Moisture Origin and Meridional Transport in Atmospheric Rivers and Their Association with Multiple Cyclones",
 	journal = "Monthly Weather Review",
@@ -199,9 +361,11 @@ DOI = {10.3390/w3020445}
 	url = "https://journals.ametsoc.org/view/journals/mwre/141/8/mwr-d-12-00256.1.xml"
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% ARs Flood South America %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@article {ARs_impact_SA,
+@article{ARs_impact_SA,
       author = "Maximiliano Viale and Raúl Valenzuela and René D. Garreaud and F. Martin Ralph",
       title = "Impacts of Atmospheric Rivers on Precipitation in Southern South America",
       journal = "Journal of Hydrometeorology",
@@ -216,11 +380,102 @@ DOI = {10.3390/w3020445}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% ARs impact the Middle East %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@Article{massoud2020,
+	AUTHOR = {Massoud, Elias and Massoud, Theresa and Guan, Bin and Sengupta, Agniv and Espinoza, Vicky and De Luna, Michelle and Raymond, Colin and Waliser, Duane},
+	TITLE = {Atmospheric Rivers and Precipitation in the Middle East and North Africa (MENA)},
+	JOURNAL = {Water},
+	VOLUME = {12},
+	YEAR = {2020},
+	NUMBER = {10},
+	ARTICLE-NUMBER = {2863},
+	URL = {https://www.mdpi.com/2073-4441/12/10/2863},
+	ISSN = {2073-4441},
+	DOI = {10.3390/w12102863}
+}
+
+@article{Lashkari2020,
+	author = {Lashkari, Hassan and Esfandiari, Neda},
+	year = {2020},
+	month = {05},
+	pages = {},
+	title = {Identifying atmospheric river events and their paths into Iran},
+	volume = {140},
+	journal = {Theoretical and Applied Climatology},
+	doi = {10.1007/s00704-020-03148-w}
+}
+
+@article{Esfandiari2024,
+	title = {The extraordinary atmospheric rivers analysis over the Middle East: Large-scale drivers, structure, effective sources, and precipitation characterization},
+	journal = {Dynamics of Atmospheres and Oceans},
+	volume = {105},
+	pages = {101430},
+	year = {2024},
+	issn = {0377-0265},
+	doi = {https://doi.org/10.1016/j.dynatmoce.2023.101430},
+	url = {https://www.sciencedirect.com/science/article/pii/S0377026523000817},
+	author = {Neda Esfandiari and Alireza Shakiba},
+	keywords = {Extraordinary Atmospheric River, Large-Scale drivers, Precipitation characterization, Middle East},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% ARs impact are global %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Espinoza2018,
+	author = {Espinoza, Vicky and Waliser, Duane E. and Guan, Bin and Lavers, David A. and Ralph, F. Martin},
+	title = {Global Analysis of Climate Change Projection Effects on Atmospheric Rivers},
+	journal = {Geophysical Research Letters},
+	volume = {45},
+	number = {9},
+	pages = {4299-4308},
+	keywords = {water vapor transport, global, atmospheric rivers, climate change, CMIP5},
+	doi = {https://doi.org/10.1029/2017GL076968},
+	url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2017GL076968},
+	eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2017GL076968},
+	year = {2018}
+}
+
+@article{Massoud2019,
+	author = {Massoud, E.C. and Espinoza, V. and Guan, B. and Waliser, D.E.},
+	title = {Global Climate Model Ensemble Approaches for Future Projections of Atmospheric Rivers},
+	journal = {Earth's Future},
+	volume = {7},
+	number = {10},
+	pages = {1136-1151},
+	keywords = {climate change, atmospheric rivers, extreme weather, 
+	model averaging, skill and independence, bayesian model averaging},
+	doi = {https://doi.org/10.1029/2019EF001249},
+	url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019EF001249},
+	eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019EF001249},
+	year = {2019}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%% ARs impact the cryosphere %%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@article{Wille2021,
+	author = {Wille, Jonathan D. and Favier, Vincent and Gorodetskaya, Irina V. and
+	Agosta, Cécile and Kittel, Christoph and Beeman, Jai Chowdhry and Jourdain,
+	Nicolas C. and Lenaerts, Jan T. M. and Codron, Francis},
+	title = {Antarctic Atmospheric River Climatology and Precipitation Impacts},
+	journal = {Journal of Geophysical Research: Atmospheres},
+	volume = {126},
+	number = {8},
+	pages = {e2020JD033788},
+	keywords = {Antarctica, atmospheric rivers, climatology, meteorology},
+	doi = {https://doi.org/10.1029/2020JD033788},
+	url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020JD033788},
+	eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2020JD033788},
+	note = {e2020JD033788 2020JD033788},
+	year = {2021}
+}
+
 @article{maclennan_contribution_2022,
-	title = {Contribution of {Atmospheric} {Rivers} to {Antarctic} {Precipitation}},
+	title = {Contribution of Atmospheric Rivers to Antarctic Precipitation},
 	volume = {49},
 	issn = {1944-8007},
 	url = {https://onlinelibrary.wiley.com/doi/abs/10.1029/2022GL100585},
@@ -229,9 +484,11 @@ DOI = {10.3390/w3020445}
 	number = {18},
 	urldate = {2024-04-16},
 	journal = {Geophysical Research Letters},
-	author = {Maclennan, Michelle L. and Lenaerts, Jan T. M. and Shields, Christine and Wille, Jonathan D.},
+	author = {Maclennan, Michelle L. and Lenaerts, Jan T. M. and 
+	Shields, Christine and Wille, Jonathan D.},
 	year = {2022},
-	keywords = {Antarctica, atmospheric rivers, detection, ice sheet mass balance, precipitation, surface mass balance},
+	keywords = {Antarctica, atmospheric rivers, detection, ice sheet mass
+	balance, precipitation, surface mass balance},
 }
 
 @article{Gorodetskaya2014,
@@ -249,14 +506,28 @@ DOI = {10.3390/w3020445}
 
 
 @article{Ma2023,
-    title = {Wintertime Extreme Warming Events in the High Arctic: Characteristics, Drivers, Trends, and the Role of Atmospheric Rivers},
-    author = {Ma, W. and Wang, H. and Chen, G. and Qian, Y. and Baxter, I. and Huo, Y. and Seefeldt, M. W.},
-    journal = {EGUsphere},
-    year = {2023},
-    note = {Preprint},
-    url = {https://doi.org/10.5194/egusphere-2023-2018},
-    doi = {10.5194/egusphere-2023-2018},
-    date = {2023-09-03},
+	title = {Wintertime Extreme Warming Events in the High Arctic: Characteristics, Drivers, Trends, and the Role of Atmospheric Rivers},
+	author = {Ma, W. and Wang, H. and Chen, G. and Qian, Y. and Baxter, I. and Huo, Y. and Seefeldt, M. W.},
+	journal = {EGUsphere},
+	year = {2023},
+	note = {Preprint},
+	url = {https://doi.org/10.5194/egusphere-2023-2018},
+	doi = {10.5194/egusphere-2023-2018},
+	date = {2023-09-03},
+}
+
+@article{Mattingly2018,
+	author = {Mattingly, K. S. and Mote, T. L. and Fettweis, X.},
+	title = {Atmospheric River Impacts on Greenland Ice Sheet Surface Mass Balance},
+	journal = {Journal of Geophysical Research: Atmospheres},
+	volume = {123},
+	number = {16},
+	pages = {8538-8560},
+	keywords = {Greenland Ice Sheet, atmospheric rivers, ice sheet mass balance, self-organizing maps, poleward moisture transport},
+	doi = {https://doi.org/10.1029/2018JD028714},
+	url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD028714},
+	eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2018JD028714},
+	year = {2018}
 }
 
 @article{ARs_lead_to_sea_ice_loss,
@@ -271,59 +542,59 @@ DOI = {10.3390/w3020445}
 }
 
 @article{Zhang2023,
-    author = {Zhang, Pengfei and Chen, Gang and Ting, Mingfang and Ruby Leung, L. and Guan, Bin and Li, Laifang},
-    title = {More frequent atmospheric rivers slow the seasonal recovery of Arctic sea ice},
-    journal = {Nature Climate Change},
-    volume = {13},
-    number = {3},
-    pages = {266--273},
-    year = {2023},
-    month = {March},
-    doi = {10.1038/s41558-023-01599-3},
-    url = {https://doi.org/10.1038/s41558-023-01599-3},
-    issn = {1758-6798},
-    keywords = {},
-    timestamp = {2023-03-01},
+	author = {Zhang, Pengfei and Chen, Gang and Ting, Mingfang and Ruby Leung, L. and Guan, Bin and Li, Laifang},
+	title = {More frequent atmospheric rivers slow the seasonal recovery of Arctic sea ice},
+	journal = {Nature Climate Change},
+	volume = {13},
+	number = {3},
+	pages = {266--273},
+	year = {2023},
+	month = {March},
+	doi = {10.1038/s41558-023-01599-3},
+	url = {https://doi.org/10.1038/s41558-023-01599-3},
+	issn = {1758-6798},
+	keywords = {},
+	timestamp = {2023-03-01},
 }
 
 @article{Saavedra2020,
-author={Saavedra, Felipe and Cortés, Gonzalo and Viale, Maximiliano and Margulis, Steven and McPhee, James},    
-title={Atmospheric Rivers Contribution to the Snow Accumulation Over the Southern Andes (26.5° S–37.5° S)},
-journal={Frontiers in Earth Science},
-volume={8},          
-year={2020},
-url={https://www.frontiersin.org/articles/10.3389/feart.2020.00261},
-doi={10.3389/feart.2020.00261},
-issn={2296-6463},
+	author={Saavedra, Felipe and Cortés, Gonzalo and Viale, Maximiliano and Margulis, Steven and McPhee, James},    
+	title={Atmospheric Rivers Contribution to the Snow Accumulation Over the Southern Andes (26.5° S–37.5° S)},
+	journal={Frontiers in Earth Science},
+	volume={8},          
+	year={2020},
+	url={https://www.frontiersin.org/articles/10.3389/feart.2020.00261},
+	doi={10.3389/feart.2020.00261},
+	issn={2296-6463},
 }
 % Uses RS to demonstrate ARs contribution to snow accumulation over ANDES
 
 @article{Guan2010,
-author = {Guan, Bin and Molotch, Noah P. and Waliser, Duane E. and Fetzer, Eric J. and Neiman, Paul J.},
-title = {Extreme snowfall events linked to atmospheric rivers and surface air temperature via satellite measurements},
-journal = {Geophysical Research Letters},
-volume = {37},
-number = {20},
-keywords = {extreme snowfall, Sierra Nevada, atmospheric river, snow water equivalent, surface air temperature},
-doi = {https://doi.org/10.1029/2010GL044696},
-url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2010GL044696},
-eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2010GL044696},
-year = {2010}
+	author = {Guan, Bin and Molotch, Noah P. and Waliser, Duane E. and Fetzer, Eric J. and Neiman, Paul J.},
+	title = {Extreme snowfall events linked to atmospheric rivers and surface air temperature via satellite measurements},
+	journal = {Geophysical Research Letters},
+	volume = {37},
+	number = {20},
+	keywords = {extreme snowfall, Sierra Nevada, atmospheric river, snow water equivalent, surface air temperature},
+	doi = {https://doi.org/10.1029/2010GL044696},
+	url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2010GL044696},
+	eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2010GL044696},
+	year = {2010}
 }
 % ARs influence snow fall
 
 @article{Little2019,
-author = {Little, K. and Kingston, D. G. and Cullen, N. J. and Gibson, P. B.},
-title = {The Role of Atmospheric Rivers for Extreme Ablation and Snowfall Events in the Southern Alps of New Zealand},
-journal = {Geophysical Research Letters},
-volume = {46},
-number = {5},
-pages = {2761-2771},
-keywords = {Atmospheric rivers, glacier mass balance, New Zealand},
-doi = {https://doi.org/10.1029/2018GL081669},
-url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL081669},
-eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2018GL081669},
-year = {2019}
+	author = {Little, K. and Kingston, D. G. and Cullen, N. J. and Gibson, P. B.},
+	title = {The Role of Atmospheric Rivers for Extreme Ablation and Snowfall Events in the Southern Alps of New Zealand},
+	journal = {Geophysical Research Letters},
+	volume = {46},
+	number = {5},
+	pages = {2761-2771},
+	keywords = {Atmospheric rivers, glacier mass balance, New Zealand},
+	doi = {https://doi.org/10.1029/2018GL081669},
+	url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL081669},
+	eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2018GL081669},
+	year = {2019}
 }
 % ARs have impact on glaciers as well as snowfal
 
@@ -333,57 +604,58 @@ year = {2019}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @article{Paily,
-  title = {Winter-regime surface heat loss from heated streams. Research report},
-  author = {Paily, P.P. and Macagno, E.O. and Kennedy, J.F.},
-  url = {https://www.osti.gov/biblio/7179276},
-  journal = {US Office of Scientific and Technical Information},
-  month = {3},
-  year = {1974}
+	title = {Winter-regime surface heat loss from heated streams. Research report},
+	author = {Paily, P.P. and Macagno, E.O. and Kennedy, J.F.},
+	url = {https://www.osti.gov/biblio/7179276},
+	journal = {US Office of Scientific and Technical Information},
+	month = {3},
+	year = {1974}
 }
 
 @book{ashton1986river,
-  title={River and Lake Ice Engineering},
-  author={Ashton, G.D.},
-  isbn={9780918334596},
-  lccn={86050681},
-  url={https://books.google.com/books?id=xglYVjAsnt8C},
-  year={1986},
-  publisher={Water Resources Publications}
+	title={River and Lake Ice Engineering},
+	author={Ashton, G.D.},
+	isbn={9780918334596},
+	lccn={86050681},
+	url={https://books.google.com/books?id=xglYVjAsnt8C},
+	year={1986},
+	publisher={Water Resources Publications}
 }
 
 @article{Prowse_Bonsal_Duguay_Lacroix_2007,
-title={River-ice break-up/freeze-up: a review of climatic drivers, historical trends and future predictions}, volume={46},
-DOI={10.3189/172756407782871431},
-journal={Annals of Glaciology},
-author={Prowse, T.D. and Bonsal, B.R. and Duguay, C.R. and Lacroix, M.P.},
-year={2007},
-pages={443–451}}
+	title={River-ice break-up/freeze-up: a review of climatic drivers, historical trends and future predictions}, volume={46},
+	DOI={10.3189/172756407782871431},
+	journal={Annals of Glaciology},
+	author={Prowse, T.D. and Bonsal, B.R. and Duguay, C.R. and Lacroix, M.P.},
+	year={2007},
+	pages={443–451}
+}
 
 @inproceedings{jasek1998,
-  author = {Jasek, M.J.},
-  year = {1998},
-  title = {1998 Break-up and Flood on the Yukon River at Dawson – Did El Niño and Climate Change Play a Role?},
-  booktitle = {Ice in Surface Waters: Proceedings of the 14th International Symposium on Ice},
-  editor = {Shen, H.T.},
-  address = {Rotterdam},
-  publisher = {A.A. Balkema},
-  pages = {761--768},
-  month = {July 27--31},
-  location = {Potsdam, New York, USA}
+	author = {Jasek, M.J.},
+	year = {1998},
+	title = {1998 Break-up and Flood on the Yukon River at Dawson – Did El Niño and Climate Change Play a Role?},
+	booktitle = {Ice in Surface Waters: Proceedings of the 14th International Symposium on Ice},
+	editor = {Shen, H.T.},
+	address = {Rotterdam},
+	publisher = {A.A. Balkema},
+	pages = {761--768},
+	month = {July 27--31},
+	location = {Potsdam, New York, USA}
 }
 
 @article{shen_newest,
-title = {Mathematical modeling of river ice processes},
-journal = {Cold Regions Science and Technology},
-volume = {62},
-number = {1},
-pages = {3-13},
-year = {2010},
-issn = {0165-232X},
-doi = {https://doi.org/10.1016/j.coldregions.2010.02.007},
-url = {https://www.sciencedirect.com/science/article/pii/S0165232X10000339},
-author = {Hung Tao Shen},
-keywords = {River hydraulics, Ice dynamics, Ice jam, Numerical modeling, River ice, Thermal processes},
+	title = {Mathematical modeling of river ice processes},
+	journal = {Cold Regions Science and Technology},
+	volume = {62},
+	number = {1},
+	pages = {3-13},
+	year = {2010},
+	issn = {0165-232X},
+	doi = {https://doi.org/10.1016/j.coldregions.2010.02.007},
+	url = {https://www.sciencedirect.com/science/article/pii/S0165232X10000339},
+	author = {Hung Tao Shen},
+	keywords = {River hydraulics, Ice dynamics, Ice jam, Numerical modeling, River ice, Thermal processes},
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -391,31 +663,31 @@ keywords = {River hydraulics, Ice dynamics, Ice jam, Numerical modeling, River i
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @article {other_alg,
-      author = "Yong Zhu and Reginald E. Newell",
-      title = "A Proposed Algorithm for Moisture Fluxes from Atmospheric Rivers",
-      journal = "Monthly Weather Review",
-      year = "1998",
-      publisher = "American Meteorological Society",
-      address = "Boston MA, USA",
-      volume = "126",
-      number = "3",
-      doi = "10.1175/1520-0493(1998)126<0725:APAFMF>2.0.CO;2",
-      pages = "725 - 735",
-      url = "https://journals.ametsoc.org/view/journals/mwre/126/3/1520-0493_1998_126_0725_apafmf_2.0.co_2.xml"
+	author = "Yong Zhu and Reginald E. Newell",
+	title = "A Proposed Algorithm for Moisture Fluxes from Atmospheric Rivers",
+	journal = "Monthly Weather Review",
+	year = "1998",
+	publisher = "American Meteorological Society",
+	address = "Boston MA, USA",
+	volume = "126",
+	number = "3",
+	doi = "10.1175/1520-0493(1998)126<0725:APAFMF>2.0.CO;2",
+	pages = "725 - 735",
+	url = "https://journals.ametsoc.org/view/journals/mwre/126/3/1520-0493_1998_126_0725_apafmf_2.0.co_2.xml"
 }
 
 @article{alg_for_detecting_AR_moisture_fluxes,
-author = {Guan, Bin and Waliser, Duane E.},
-title = {Detection of atmospheric rivers: Evaluation and application of an algorithm for global studies},
-journal = {Journal of Geophysical Research: Atmospheres},
-volume = {120},
-number = {24},
-pages = {12514-12535},
-keywords = {atmospheric river, detection, global characteristics, climatology, seasonality, climate modulation},
-doi = {https://doi.org/10.1002/2015JD024257},
-url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015JD024257},
-eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JD024257},
-year = {2015}
+	author = {Guan, Bin and Waliser, Duane E.},
+	title = {Detection of atmospheric rivers: Evaluation and application of an algorithm for global studies},
+	journal = {Journal of Geophysical Research: Atmospheres},
+	volume = {120},
+	number = {24},
+	pages = {12514-12535},
+	keywords = {atmospheric river, detection, global characteristics, climatology, seasonality, climate modulation},
+	doi = {https://doi.org/10.1002/2015JD024257},
+	url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015JD024257},
+	eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JD024257},
+	year = {2015}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -423,39 +695,39 @@ year = {2015}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @article{Lavers2015,
-author = {Lavers, David A. and Ralph, F. Martin and Waliser, Duane E. and Gershunov, Alexander and Dettinger, Michael D.},
-title = {Climate change intensification of horizontal water vapor transport in CMIP5},
-journal = {Geophysical Research Letters},
-volume = {42},
-number = {13},
-pages = {5617-5625},
-keywords = {water vapor transport, CMIP5, climate change},
-doi = {https://doi.org/10.1002/2015GL064672},
-url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015GL064672},
-year = {2015}
+	author = {Lavers, David A. and Ralph, F. Martin and Waliser, Duane E. and Gershunov, Alexander and Dettinger, Michael D.},
+	title = {Climate change intensification of horizontal water vapor transport in CMIP5},
+	journal = {Geophysical Research Letters},
+	volume = {42},
+	number = {13},
+	pages = {5617-5625},
+	keywords = {water vapor transport, CMIP5, climate change},
+	doi = {https://doi.org/10.1002/2015GL064672},
+	url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015GL064672},
+	year = {2015}
 }
 
 @misc{NOAA_AR_summary,
-    author = {USDOC},
-    title        = {What are atmospheric rivers?},
-    howpublished = {National Oceanic and Atmospheric Administration},
-    month        = {3},
-    year         = {2023},
-    URL         = {https://www.noaa.gov/stories/what-are-atmospheric-rivers}
+	author = {USDOC},
+	title        = {What are atmospheric rivers?},
+	howpublished = {National Oceanic and Atmospheric Administration},
+	month        = {3},
+	year         = {2023},
+	URL         = {https://www.noaa.gov/stories/what-are-atmospheric-rivers}
 }
 % NOAA summary of ARs
 
 @article{Dettinger2004,
-    title = {Simulated Hydrologic Responses to Climate Variations and Change in the Merced, Carson, and American River Basins, Sierra Nevada, California, 1900–2099},
-    author = {Dettinger, Michael D. and Cayan, Daniel R. and Meyer, Mary K. and Jeton, Anne E.},
-    journal = {Climatic Change},
-    year = {2004},
-    volume = {62},
-    number = {1},
-    pages = {283--317},
-    issn = {1573-1480},
-    doi = {10.1023/B:CLIM.0000013683.13346.4f},
-    url = {https://doi.org/10.1023/B:CLIM.0000013683.13346.4f}
+	title = {Simulated Hydrologic Responses to Climate Variations and Change in the Merced, Carson, and American River Basins, Sierra Nevada, California, 1900–2099},
+	author = {Dettinger, Michael D. and Cayan, Daniel R. and Meyer, Mary K. and Jeton, Anne E.},
+	journal = {Climatic Change},
+	year = {2004},
+	volume = {62},
+	number = {1},
+	pages = {283--317},
+	issn = {1573-1480},
+	doi = {10.1023/B:CLIM.0000013683.13346.4f},
+	url = {https://doi.org/10.1023/B:CLIM.0000013683.13346.4f}
 }
 
 
