@@ -29,6 +29,7 @@
 \usepackage{amsmath}
 \usepackage{tabularx}
 \usepackage{booktabs}
+\usepackage{url}
 %\usepackage{subcaption}
 
 \usepackage{makecell}
@@ -328,7 +329,9 @@ temperature, leading to earlier breakup dates \cite{Bieniek2011}. However,
 their analysis used only 4 sites (as opposed to the 25 used in this analysis) 
 and aggregated precipitation seasonally without accounting for the interaction 
 between winter precipitation and temperature that occurs at a finer temporal
-resolution. Our analysis sets out to answer the following questions: 
+resolution. 
+
+Our analysis sets out to answer the following questions: 
 1.) Since ARs have been known to impact Arctic systems by increasing 
 temperatures, is there a change in
 air temperature in different regions of AK corresponding to the 
@@ -407,8 +410,12 @@ Creek at the Kuskokwim River in 2021).
 	$T_{\text{max}}$) from NCEP
 	temperature data at 850, 925 and 1000mb respectively. Light
 	green represents the Daymet temperature profile. Dark blue shows
-	modeled precipitation from Daymet while the light blue stem
-	plots depict AR events. The vertical purple dashed line shows the breakup
+	modeled precipitation from Daymet ($\frac{kg}{m*s^{2}}$) 
+	relative to the y-axis in dark blue
+	on the right. The light blue stem
+	plots depict the IVT of AR events ($\frac{kg}{m*s}$) 
+	relative to the y-axis in light blue
+	on the right. The vertical purple dashed line shows the breakup
 	date for the Kuskokwim River in 2021 for Crooked Creek.}
 \label{fig:concatenated_maps_precip_temp_plot} 
 \end{figure}
@@ -515,7 +522,7 @@ impactful on breakup timing:
 
 \noindent where $\gamma$ is a tunable parameter impacting the width of
 the exponential function; \emph{t} is time in days; 
-\emph{DOY} is the day of year
+\emph{DOY} is the Gregorian day of year
 that the breakup date occurred; \emph{c} is a tunable parameter dictating the
 center placement of the function; $\kappa$ is a normalizing constant.
 Finally, Equation \ref{eq:final_eq} is tuned over the entire 
@@ -602,9 +609,9 @@ over all 25 locations.
 \begin{figure}
 \centering
 \includegraphics[width=1.0\textwidth]{./images/IVT_Precip_proportion_over_time.png}
-\caption{top row: time series of IVT $\left(/frac{kg}{m*s}\right)$ aggregated monthly 
+\caption{top row: time series of IVT $\frac{kg}{m*s}$ aggregated monthly 
 	over all locations.
-	middle row: time series of total precipitation $\left(/frac{kg}{m^{2}}\right)$ 
+	middle row: time series of total precipitation $\frac{kg}{m^{2}}$ 
 	aggregated monthly over all
 	locations. bottom row: proportion of precipitation accounted for by
 	ARs on an annual basis. Light blue depicts the $25^{th}$ to $75^{th}$
@@ -678,7 +685,8 @@ transfer) is uncorrelated.
 \centering
 \includegraphics[width=1.0\textwidth]{./images/concatenated_scatter_bias_plots.png}
 	\caption{top: (left) scatter plot between thermal energy
-	transfer and DOY; (middle) scatter plot of the number of ARs
+	transfer and DOY (the Gregorian day of year
+	that the breakup date occurred); (middle) scatter plot of the number of ARs
 	that occured in the six months prior to the breakup date and
 	DOY; 
 	(right) temporal bias curve for the year 2021 with the breakup
@@ -735,13 +743,13 @@ of high-latitude regions.
 
 \section*{Data Availability Statement}
 Daily Daymet precipitation and temperature data is available through the Oak Ridge 
-National Laboratory Distributed Active Archive at https://daymet.ornl.gov/single-pixel/.
+National Laboratory Distributed Active Archive at \url{https://daymet.ornl.gov/single-pixel/}.
 The National Center for Environmental Protection temperature data can found at
-https://psl.noaa.gov/data/index.html.
+\url{https://psl.noaa.gov/data/index.html}.
 River ice breakup records are maintained by the Alaska Pacific River Forecast Center 
-at https://www.weather.gov/aprfc/breakupMap. The Global Atmospheric River 
+at \url{https://www.weather.gov/aprfc/breakupMap}. The Global Atmospheric River 
 database is maintained by the UCLA Dataverse and can be accessed at 
-https://dataverse.ucla.edu/dataset.xhtml?persistentId=doi:10.25346/S6/YO15ON.
+\url{https://dataverse.ucla.edu/dataset.xhtml?persistentId=doi:10.25346/S6/YO15ON}.
 
 
 
