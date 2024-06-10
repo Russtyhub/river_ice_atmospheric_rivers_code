@@ -38,6 +38,33 @@ Akinsanola, A\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{American Meteorological Society}%
+}{%
+{American Meteorological Society}%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+AR_def}
+\APACinsertmetastar {%
+AR_def}%
+\begin{APACrefauthors}%
+{American Meteorological Society}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {Glossary of Meteorology: Atmospheric River.} {Glossary of
+  meteorology: Atmospheric river.}
+\newblock
+\begin{APACrefURL}
+  \url{https://glossary.ametsoc.org/wiki/Atmospheric_river?__cf_chl_tk=LTK3vMNlWxxKfhHCGpS05IMiQaNMnEAledLyvfTD7T0-1717350416-0.0.1.1-4330}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2024-06-03}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ashton%
 }{%
 Ashton%
@@ -96,6 +123,41 @@ Bieniek, P\BPBI A.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1175/2010JCLI3809.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bin%
+, Duane~E.%
+\BCBL {}\ \BBA {} F.~Martin%
+}{%
+Bin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+guan2018}
+\APACinsertmetastar {%
+guan2018}%
+\begin{APACrefauthors}%
+Bin, G.%
+, Duane~E., W.%
+\BCBL {}\ \BBA {} F.~Martin, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An Intercomparison between Reanalysis and Dropsonde
+  Observations of the Total Water Vapor Transport in Individual Atmospheric
+  Rivers} {An intercomparison between reanalysis and dropsonde observations of
+  the total water vapor transport in individual atmospheric rivers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Hydrometeorology}{19}{2}{321 - 337}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/hydr/19/2/jhm-d-17-0114_1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/JHM-D-17-0114.1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -998,6 +1060,44 @@ Murphy, J\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Nash%
+, Rutz%
+\BCBL {}\ \BBA {} Jacobs%
+}{%
+Nash%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Nash2024}
+\APACinsertmetastar {%
+Nash2024}%
+\begin{APACrefauthors}%
+Nash, D.%
+, Rutz, J\BPBI J.%
+\BCBL {}\ \BBA {} Jacobs, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Atmospheric Rivers in Southeast Alaska: Meteorological
+  Conditions Associated With Extreme Precipitation} {Atmospheric rivers in
+  southeast alaska: Meteorological conditions associated with extreme
+  precipitation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research:
+  Atmospheres}{129}{4}{e2023JD039294}.
+\newblock
+\begin{APACrefURL}
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023JD039294}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{e2023JD039294 2023JD039294}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1029/2023JD039294} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Neiman%
 \ \protect \BOthers {.}}{%
 Neiman%
@@ -1280,42 +1380,6 @@ Saavedra, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Saha%
-\ \protect \BOthers {.}}{%
-Saha%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2010}}%
-}]{%
-NCEP_reanalysis}
-\APACinsertmetastar {%
-NCEP_reanalysis}%
-\begin{APACrefauthors}%
-Saha, S.%
-, Moorthi, S.%
-, Pan, H\BHBI L.%
-, Wu, X.%
-, Wang, J.%
-, Nadiga, S.%
-\BDBL {}Goldberg, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The NCEP Climate Forecast System Reanalysis} {The ncep
-  climate forecast system reanalysis}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Bulletin of the American Meteorological
-  Society}{91}{8}{1015 - 1058}.
-\newblock
-\begin{APACrefURL}
-  \url{https://journals.ametsoc.org/view/journals/bams/91/8/2010bams3001_1.xml}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1175/2010BAMS3001.1} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Shapiro%
 \ \BBA {} Wilk%
 }{%
@@ -1438,32 +1502,6 @@ Thornton, P\BPBI E.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1038/s41597-021-00973-0} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-USDOC%
-}{%
-USDOC%
-}{%
-{\protect \APACyear {2023}}%
-}]{%
-NOAA_AR_summary}
-\APACinsertmetastar {%
-NOAA_AR_summary}%
-\begin{APACrefauthors}%
-USDOC.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{3}{}.
-\newblock
-\APACrefbtitle {What are atmospheric rivers?} {What are atmospheric rivers?}
-\newblock
-\APAChowpublished {National Oceanic and Atmospheric Administration}.
-\newblock
-\begin{APACrefURL}
-  \url{https://www.noaa.gov/stories/what-are-atmospheric-rivers}
-  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

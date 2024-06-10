@@ -121,10 +121,14 @@
 % example, for current addresses).
 
 \authors{Russ Limber\affil{1, 2}, Elias C. Massoud\affil{2}, 
-Jitendra Kumar\affil{2}, Bin Guan\affil{3}, Forrest M. Hoffman\affil{2}}
-\affiliation{1}{The University of Tennessee}
-\affiliation{2}{Oak Ridge National Laboratory}
-\affiliation{3}{University of California, Los Angeles}
+Jitendra Kumar\affil{2}, Bin Guan\affil{3, 4}, Forrest M. Hoffman\affil{2}}
+\affiliation{1}{The University of Tennessee, Knoxville, Knoxville, TN, USA}
+\affiliation{2}{Oak Ridge National Laboratory, Oak Ridge, TN, USA}
+\affiliation{3}{Joint Institute for Regional Earth
+System Science and Engineering, University of California,
+Los Angeles, Los Angeles, CA, USA}
+\affiliation{4}{Jet Propulsion Laboratory, California Institute
+of Technology, Pasadena, CA, USA}
 
 %(repeat as many times as is necessary)
 
@@ -158,13 +162,13 @@ Jitendra Kumar\affil{2}, Bin Guan\affil{3}, Forrest M. Hoffman\affil{2}}
 % These are all under 140 characters
 \begin{keypoints}
 
-\item Atmospheric Rivers (ARs) generally lead to a week-long persistent 
-	increase in daily temperature over Interior Alaska (AK)
+\item Interannually, atmospheric rivers (ARs) can lead to a week-long persistent 
+	increase in daily air temperatures over Interior Alaska (AK)
 
-\item In AK, ARs account for 36\% of total precipitation, 57\% of extreme 
+\item In AK, ARs account for 36\% of annual precipitation, 57\% of extreme 
 	precipitation and explain 48\% of interannual variability of precipitation
 
-\item AR events during the coldest months prolong the annual breakup date of 
+\item AR events during the coldest months delay the annual breakup date of 
 	river ice, while ARs closer to the breakup date have less impact.
 
 \end{keypoints}
@@ -195,21 +199,22 @@ Jitendra Kumar\affil{2}, Bin Guan\affil{3}, Forrest M. Hoffman\affil{2}}
 \begin{abstract}
 	
 	Atmospheric rivers (ARs) transport vast amounts of moisture 
-	from low to high latitude regions. One region particularly 
+	from low to high latitudes. One region particularly 
 	impacted by ARs is Interior Alaska (AK). We analyze the impact 
 	of ARs on the annual river ice breakup date for 25 locations 
-	in AK. We investigate the AR-driven rise in local temperatures 
+	in AK. We investigate the AR-driven rise in local air temperatures 
 	and explore the relationship between ARs and precipitation, 
 	including extremes and interannual variability. We found that 
-	the increase in local temperatures after an AR event can last 
-	for as long as one week. Our results show that ARs account 
+	AR events lead to an increase in local air temperatures
+	for up to one week. Interannually, ARs account 
 	for 36\% of total precipitation, explain 48\% of precipitation 
 	variability, and make up 57\% of extreme precipitation events. 
-	Calculating the heat transfer between ARs and river ice, we 
-	conclude that heavy precipitation events  (HPEs) during the 
-	coldest period of the year prolong river ice breakup dates, 
+	Estimating the heat transfer between winter precipitation
+	and the river ice surface, we 
+	conclude that heavy precipitation events (HPEs) during the 
+	coldest period of the year delay river ice breakup dates, 
 	while HPEs occurring close to the breakup date have little 
-	impact on breakup timing. 
+	impact on breakup timing.
 
 \end{abstract}
 
@@ -217,24 +222,29 @@ Jitendra Kumar\affil{2}, Bin Guan\affil{3}, Forrest M. Hoffman\affil{2}}
 
 \section*{Plain language summary}
 
-	Atmospheric Rivers (ARs) are large storm systems originating in
+	Atmospheric rivers (ARs) are large storm systems originating in
 	tropical regions capable of depositing large amounts of
-	precipitation as far north as the Arctic. 
+	precipitation in high latitude regions. 
 	Using river ice breakup data recorded throughout Interior
-	Alaska (AK) we set out to find whether there exists a link between
-	ARs and annual river ice breakup timing. We determined that 
-	daily temperature increases can last  up to
-	one week after an AR event. We also found that ARs
-	account for 36\% of total annual precipitation from 1980 to 2023, 
+	Alaska (AK) we set out to explore the relationship between
+	ARs and annual river ice breakup timing from 1980 to 2023. 
+	We found that 
+	daily air temperature increases can last up to
+	one week after an AR event. Interannually, ARs
+	account for 36\% of total precipitation, 
 	explain 48\% of the variability of precipitation, and make up 57\% 
 	of extreme precipitation events. We then
-	calculated the total heat transfer between precipitation and river
-	ice and found that heavy precipitation events (HPEs),
-	from both local precipitation and ARs, that occur relatively close to
+	calculated the total heat transfer between precipitation 
+	and the river ice surface. We used the mass and temperature 
+	of precipitation deposited onto the river ice surface to approximate 
+	thermal energy exchange. The magnitude of energy exchange was then
+	correlated to the river ice breakup timing. We found that heavy 
+	precipitation events (HPEs)
+	from both local precipitation and ARs occuring relatively close to
 	river ice breakup dates, have little correlation to the breakup
 	date. However, HPEs that occur during the coldest period of the
-	year (typically late December to early-February) are strongly inversely
-	correlated with river ice breakup timing, and therefore prolong
+	year (typically late December to early February) are strongly inversely
+	correlated with river ice breakup timing and therefore delay
 	the breakup date.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -272,7 +282,7 @@ Jitendra Kumar\affil{2}, Bin Guan\affil{3}, Forrest M. Hoffman\affil{2}}
 
 Atmospheric rivers (ARs) are narrow corridors of intense water vapor
 transport that significantly influence hydrologic events, transporting
-most of the water vapor outside of the Tropics \cite{NOAA_AR_summary}.
+most of the water vapor outside of the Tropics \cite{AR_def}.
 It is estimated that ARs are responsible for as much as 90\% of poleward
 water vapor transport at midlatitudes \cite{other_alg}. ARs contribute to
 extreme precipitation events across various regions worldwide 
@@ -317,7 +327,7 @@ increase in precipitation leading to an increase in
 streamflow alters the hydraulics surrounding river ice breakup timing, 
 potentially accelerating mechanical breakup events \cite{ashton1986river}.
 It has also been proposed that increased snow pack as a result of increased 
-precipitation, contributes to breakup severity \cite{Prowes2002}. Using 
+precipitation contributes to breakup severity \cite{Prowes2002}. Using 
 breakup records throughout Interior Alaska (AK) from the Alaska 
 Pacific River Forecast Center Database
 (the same breakup records used in this analysis) \citeA{Bieniek2011} determined 
@@ -327,7 +337,7 @@ result of increased streamflow. They go on to say that
 increased storm activity in the spring leads to increased surface air 
 temperature, leading to earlier breakup dates \cite{Bieniek2011}. However, 
 their analysis used only 4 sites (as opposed to the 25 used in this analysis) 
-and aggregated precipitation seasonally without accounting for the interaction 
+and aggregated precipitation seasonally, without accounting for the interaction 
 between winter precipitation and temperature that occurs at a finer temporal
 resolution. 
 
@@ -340,7 +350,7 @@ presence of ARs?
 considering how ARs impact total annual precipitation, interannual 
 variability, and extreme events?
 3.) How do ARs impact the timing of river ice breakup, does the presence 
-of ARs accelerate or prolong the timing of river ice breakup?
+of ARs accelerate or delay the timing of river ice breakup?
 
 \section{Data}
 
@@ -351,27 +361,25 @@ transport (IVT) values constructed from 6-hourly values of 3‐D wind and
 water vapor at eight pressure levels between 300 and 1,000
 mb from the National Center for Environmental Protection (NCEP) 
 reanalysis data product \cite{NCEP_NCAR_reanalysis}. 
-AR detection is based on version3 of the tARget algorithm
+AR detection is based on the third version of the tARget algorithm
 \cite{Guan_Waliser2019, bin2022}.
-The IVT values are calculated at the original
-resolution from the NCEP
-meteorological inputs \cite{NCEP_reanalysis}.
 \citeA{alg_for_detecting_AR_moisture_fluxes} developed a global
-AR detection algorithm, which was updated and validated later with in
-situ and dropsonde data \cite{bin2022}. This algorithm is employed for
-our study, which is based on a combination of the IVT magnitude,
+AR detection algorithm, which was updated and validated later with
+dropsonde data \cite{guan2018}. This algorithm is employed for
+our study, which is based on a combination of IVT magnitude,
 direction, and geometry characteristics, to objectively identify ARs.
 Contiguous regions of enhanced IVT transport are first identified from
-magnitude thresholding (i.e., grid cells with IVT above the seasonally
-and locally dependent $85^{th}$ percentile, or $100\frac{kg}{m*s}$, 
+magnitude thresholding (i.e., grid cells above the seasonally
+and locally dependent $85^{\text{th}}$ percentile, or 
+$\mathrm{100\frac{kg}{m*s}}$, 
 whichever is greater) and further filtered
 using directional and geometry criteria requirements. Although the 
-$100\frac{kg}{m*s}$ threshold is applied globally, it is intended for 
-dry (including polar) regions since in other regions the 85th percentile 
-is already larger than $100\frac{kg}{m*s}$. The detection
+$\mathrm{100\frac{kg}{m*s}}$ threshold is applied globally, it is intended for 
+dry (including polar) regions since in other regions the $85^{\text{th}}$ percentile 
+is already larger than $\mathrm{100\frac{kg}{m*s}}$. The detection
 algorithm was applied to NCEP in its native resolution of $2.5 \degree$.
 This detection algorithm had over 90\% agreement in detecting AR
-landfall dates when compared with other AR detection methods, for Western
+landfall dates when compared with other AR detection methods for Western
 North America \cite{Neiman2008}, the United Kingdom \cite{Lavers2011}, 
 and East Antarctica \cite{Gorodetskaya2014}. 
 
@@ -380,12 +388,12 @@ and East Antarctica \cite{Gorodetskaya2014}.
 Precipitation and daily
 minimum and maximum temperatures ($T_{\text{min}}$ and $T_{\text{max}}$ respectively) 
 from Oak Ridge National
-Laboratory's Daymet $1kmx1km$ daily product were used, via the
+Laboratory's Daymet 1kmx1km daily product were used, via the
 Distributed Active Archive Center \cite{daymet}. Daymet precipitation, 
 $T_{\text{min}}$ and $T_{\text{max}}$, were used in our analysis as they
 have a strong agreement with NCEP temperature outputs for our 
 region of interest
-Figure \ref{fig:concatenated_maps_precip_temp_plot}C. Additionally, 
+Figure \ref{fig:maps_crooked_creek}C. Additionally, 
 because Daymet is derived directly from in situ instruments 
 and meteorological stations, it represents a robust 
 dataset for precipitation and temperature predictions across North
@@ -393,31 +401,31 @@ America \cite{daymet2021}. This dataset has been a standard for validation
 among several analyses related to arctic regions \cite{Diro2019, 
 Akinsanola2024}. The annual mean precipitation and 
 temperature for the year 2021 over the AK region are shown in Figure 
-\ref{fig:concatenated_maps_precip_temp_plot}AB, and 
-Figure \ref{fig:concatenated_maps_precip_temp_plot}C 
+\ref{fig:maps_crooked_creek}AB, and 
+Figure \ref{fig:maps_crooked_creek}C 
 shows the temperature profiles, precipitation and AR trends
 for one of those location over one year (Crooked 
 Creek at the Kuskokwim River in 2021). 
 
 \begin{figure}
 \centering
-\includegraphics[width=1.0\textwidth]{./images/maps_and_time_series.png}
-	\caption{top row: (left) map showing summated precipitation for the
-	year 2021; (right) map of average temperature for 2021. bottom row:
+\includegraphics[width=1.0\textwidth]{./images/maps_crooked_creek.png}
+	\caption{(A): map showing aggregated precipitation for the
+	year 2021. (B): map of average temperature for 2021. (C):
 	One of the 25 locations (Crooked Creek on the Kuskokwim
 	River) for the year 2021. Yellow, orange, red represent the
 	temperature profiles (fill plot of $T_{\text{min}}$ -
 	$T_{\text{max}}$) from NCEP
 	temperature data at 850, 925 and 1000mb respectively. Light
 	green represents the Daymet temperature profile. Dark blue shows
-	modeled precipitation from Daymet ($\frac{kg}{m*s^{2}}$) 
+	modeled precipitation from Daymet ($\mathrm{\frac{kg}{m^{2}}}$) 
 	relative to the y-axis in dark blue
 	on the right. The light blue stem
-	plots depict the IVT of AR events ($\frac{kg}{m*s}$) 
+	plots depict the IVT of AR events ($\mathrm{\frac{kg}{m*s}}$) 
 	relative to the y-axis in light blue
 	on the right. The vertical purple dashed line shows the breakup
 	date for the Kuskokwim River in 2021 for Crooked Creek.}
-\label{fig:concatenated_maps_precip_temp_plot} 
+\label{fig:maps_crooked_creek} 
 \end{figure}
 
 \subsection{River ice breakup records}
@@ -428,8 +436,8 @@ While exact coordinates were unavailable, locations
 were estimated based on proximity to weather stations and airports, to 
 maintain spatial consistency with inputs used in Daymet’s meteorological 
 models. There were 25 locations (shown in Figure 
-\ref{fig:concatenated_maps_precip_temp_plot}) identified as 
-having at least 35 breakup 
+\ref{fig:maps_crooked_creek}A and \ref{fig:maps_crooked_creek}B) 
+identified as having at least 35 breakup 
 records between 1980 and 2023 (the current temporal availability of 
 Daymet), although breakup records go as far back as 1896 for some 
 locations. The 35 breakup records threshold was used because it 
@@ -444,7 +452,7 @@ June. This dataset has been used in other analyses such as
 the breakup date for Crooked Creek 
 at the Kuskokwim River in 2021 occurred in early May and
 is depicted in Figure 
-\ref{fig:concatenated_maps_precip_temp_plot}C with a 
+\ref{fig:maps_crooked_creek}C with a 
 vertical purple dashed line.
 
 
@@ -457,23 +465,27 @@ change at a specific location. The presence of an AR is represented
 numerically as a binary value indicating whether or not an AR is 
 active on a particular date. We then estimate how many days this 
 change in temperature lasts. To do this, we used a
-varying temporal window combined with a pairwise t-test. In other 
-words, for each
+varying temporal window combined with a pairwise t-test. 
+For each
 AR occurrence in the dataset, a lookback window and forecast 
 window each equal to \emph{n}
 days in length was created before and after the AR date, respectively,
 whereby: $ n \in \{1, 2, 3, \ldots, 14\}$.
 For values of \emph{n} greater than one day the mean was 
 taken within each window
-for $T_{\text{min}}$ and $T_{\text{max}}$. These aggregated 
+for $T_{\text{min}}$ and $T_{\text{max}}$. These averaged 
 temperatures were then
-calculated over all locations. Aggregated temperature pairs 
+calculated over all locations. Mean temperature pairs 
 were assessed using a one tailed pairwise t-test to check
-whether ARs increased the local temperature over period of 
+whether ARs increase the local temperature over period of 
 time \emph{n} $(\alpha =
-0.05)$. 
+0.05)$. For example, if $\emph{n} = 3$ assessing $T_{\text{min}}$,
+then the mean of $T_{\text{min}}$ three days prior to each AR event
+will be compared to the mean of $T_{\text{min}}$ for
+the three days post each AR event.
 
-We then explored how ARs contribute to precipitation, by
+
+We explored how ARs contribute to precipitation, by
 separating AR-based precipitation from the total amount. We 
 then used the Wilcoxon rank-sum test \cite{Rey2011} to test 
 the hypothesis 
@@ -481,27 +493,34 @@ that AR events tend to produce more precipitation than other
 precipitation events. We opted to use a non-parametric 
 test (Wilcoxon rank-sum test) 
 because the distributions of precipitation were shown to
-not be normally distributed after log transformation using the
-Shapiro-Wilks test, \cite{shapiro_wilk_test}. We also estimated
+not be normal after log transformation using the
+Shapiro-Wilks test \cite{shapiro_wilk_test}. We also estimated
 the interannual variability of precipitation that ARs account for by
 conducting a univariate ordinary least squares regression (OLS). 
 For extremes, we extracted the top 5\% of precipitation events and determined 
 what fraction of those events are associated with ARs. 
 
 To determine the impact that ARs have on river ice breakup timing, 
-we used information on heat transfer estimated 
+we estimate the heat transfer between the river ice (we are assuming
+a layer of ice on top of the Arctic rivers) and 
+the precipitation settling on the surface, 
 using Equation \ref{eq:heat_transport}:
 
 \begin{equation}
-\frac{dQ}{dt} = \rho \cdot m \cdot \Delta T 
+q = \rho \cdot m \cdot \Delta T 
 	\label{eq:heat_transport}
 \end{equation}
 
-\noindent where $Q$ is heat flux ($\frac{J}{m^2}$); $\rho$ specific heat 
-($\frac{J}{g \cdot \degree C}$); $\Delta T$ is the difference of 
-ambient temperature and the river ice surface (which is estimated 
-using $T_{\text{min}}$ as a proxy for ambient) ($\degree C$); $m$ 
-the mass of the precipitation ($kg$). The integral of these values
+\noindent where $q$ is heat flux ($\mathrm{\frac{J}{m^2}}$); 
+$\rho$ the specific heat 
+of the precipitation (assumed to be either water or 
+snow depending on the temperature)
+($\mathrm{\frac{J}{kg \degree C}}$); $\Delta T$ is the difference between 
+the temperature of the precipitation which is approximated 
+using $T_{\text{min}}$ as a proxy, and the river ice surface which is
+assumed to be $\mathrm{0\degree C}$ ($\mathrm{\degree C}$); $m$ 
+the mass of the precipitation per unit area ($\mathrm{\frac{kg}{m^{2}}}$). 
+The integral of these values
 over all precipitation events that occurred six months prior to the
 breakup date is taken with respect to time. A temporal bias function
 (Equation \ref{eq:cases})
@@ -525,16 +544,20 @@ the exponential function; \emph{t} is time in days;
 \emph{DOY} is the Gregorian day of year
 that the breakup date occurred; \emph{c} is a tunable parameter dictating the
 center placement of the function; $\kappa$ is a normalizing constant.
-Finally, Equation \ref{eq:final_eq} is tuned over the entire 
+Finally, Equation \ref{eq:final_eq} solves for $Q_{\text{year, location}}$,
+the total thermal 
+energy exchange for a given location, for a given breakup year.
+Equation \ref{eq:final_eq} is tuned over the entire 
 hyperparameter search space for each
-location, optimized by selecting the parameter values that produce 
-the Pearson correlation 
-coefficient with the greatest absolute value. 
+location and each breakup year, optimized by selecting the 
+parameter values that produce 
+the Pearson correlation coefficient with the greatest absolute value. 
+ 
 
 \begin{equation}
 \label{eq:final_eq}
-	\int_{t_i}^{t_{DOY}} \left(f(t; \gamma, \kappa, DOY, c) \cdot
-	\frac{dQ}{dt}\right) \, dt
+	Q_{\text{year, location}} = \int_{t_i}^{t_{DOY}} \left(f(t; \gamma, \kappa, DOY, c) \cdot
+	q\right) \, dt
 \end{equation}
 
 
@@ -544,10 +567,19 @@ coefficient with the greatest absolute value.
 \subsection{AR impact on temperature}
 
 We applied the pairwise t-test comparing lookback and forecast 
-windows of length \emph{n}. Figure
-\ref{fig:tmin_vs_tmax_subplots} shows the change in p-values for each
-value of \emph{n} (top row) as well as the mean increase in temperature
-from the lookback window to the forecast window (bottom row). The mean
+windows of length \emph{n} for all locations. Figures
+\ref{fig:large}A and \ref{fig:large}B show the change in p-values for each
+value of \emph{n} where the dashed lines represent the mean p-value over 
+the study area and the color transition signifies the interquartile range (IQR). 
+For example, looking at $T_{\text{min}}$ (\ref{fig:large}A), 
+the light blue represents the $\mathrm{25^{th}}$ to the 
+$\mathrm{75^{th}}$ percentile or IQR of p-values, while the blue-grey is 
+the $\mathrm{75^{th}}$ 
+percentile to the maximum p-value given \emph{n}. Same is true for the 
+color transition of $T_{\text{max}}$ in Figure \ref{fig:large}B. 
+Figure \ref{fig:large}C and \ref{fig:large}D shows the mean increase 
+in temperature from the lookback window to the forecast window 
+given \emph{n}. The mean
 temperature increase tends to be higher for $T_{\text{min}}$ post AR than  
 $T_{\text{max}}$, with both plots
 showing a clear downward trend as the length of \emph{n} 
@@ -556,106 +588,117 @@ statistically significant difference in $T_{\text{min}}$
 (based on an $\alpha = 0.05$) roughly 8 days before and after 
 an AR event. 
 This was true for all locations in the study as represented 
-by the fill plot (Figure \ref{fig:tmin_vs_tmax_subplots}A). 
+by the fill plot (Figure \ref{fig:large}A). 
 This increase in 
-temperature can be as high as 1.5 $\degree C$ ($n=2$) (Figure 
-\ref{fig:tmin_vs_tmax_subplots}C). The t-test for
+temperature can be as high as 1.5 $\mathrm{\degree C}$ ($n=2$) (Figure 
+\ref{fig:large}C). The t-test for
  $T_{\text{max}}$ implies that the presence of an AR can increase 
  temperatures for roughly 6 days on average (Figure 
- \ref{fig:tmin_vs_tmax_subplots}B), with an increase as high 
- as 0.75 $\degree C$ ($n={3, 4}$) (Figure 
- \ref{fig:tmin_vs_tmax_subplots}D).    
+ \ref{fig:large}B), with an increase as high 
+ as 0.75 $\mathrm{\degree C}$ ($n={3, 4}$) (Figure 
+ \ref{fig:large}D).    
 
-\begin{figure}
+\begin{figure}[H]
 \centering
-\includegraphics[width=1.0\textwidth]{./images/tmin_vs_tmax_subplots.png}
-\caption{top row: the p-values of the paired t-test given the
-	window size (\emph{n}) surrounding the AR event date (left:
-	$T_{\text{min}}$; right: $T_{\text{max}}$). Dashed lines
-	represent the mean p-value over the study area. For example, looking 
-	at $T_{\text{min}}$ on the left, the light blue represents the $25^{th}$ to the 
-	$75^{th}$ percentile or IQR of p-values, while the blue-grey is the $75^{th}$ 
-	percentile to the maximum p-value given \emph{n}. Same is true for the 
-	color transition of $T_{\text{max}}$. bottom row: the average increase
+\includegraphics[width=1.0\textwidth]{./images/large.png}
+\caption{(A and B): the p-values from the paired t-test given the
+	window size (\emph{n}) surrounding the AR event date (A:
+	$T_{\text{min}}$; B: $T_{\text{max}}$). (C and D): the mean increase
 	in temperature based on AR events, calculated from the lookback 
-	window to the forecast window.}
-\label{fig:tmin_vs_tmax_subplots} 
+	window to the forecast window (C: $T_{\text{min}}$; D: $T_{\text{max}}$).
+	E): time series of IVT $\mathrm{\frac{kg}{m}}$ aggregated monthly 
+	over all locations.
+	(F): time series of total precipitation $\mathrm{\frac{kg}{m^{2}}}$ 
+	aggregated monthly over all
+	locations. (G): proportion of precipitation accounted for by
+	ARs on an annual basis. (H): kernel density plots showing the distribution of
+	local precipitation (dark blue) and precipitation from ARs
+	(light blue). (I): ordinary least squares regression plot
+	using annual, summated precipitation from ARs, to predict total annual
+	summated precipitation.}
+	
+	
+\label{fig:large} 
 \end{figure}
 
 \subsection{AR impact on precipitation}
 
-Figure \ref{fig:IVT_Precip_proportion_over_time} shows the AR-based IVT 
-(Figure \ref{fig:IVT_Precip_proportion_over_time}A) and total precipitation 
-(Figure \ref{fig:IVT_Precip_proportion_over_time}B) through the span of the 
-data record,
-spatially aggregated over all locations. ARs tend to account for 36\% of
-precipitation on average (Figure \ref{fig:IVT_Precip_proportion_over_time}C), 
+Figures \ref{fig:large}E and \ref{fig:large}F show the monthly IVT from 
+AR events and monthly total precipitation through the span of the 
+data record, aggregated over all locations, respectively. Figure \ref{fig:large}G
+shows the proportion of precipitation accounted for by ARs over time, where 
+light blue depicts the IQR of proportions and blue-grey represents 
+proportions outside of the IQR, over all 25 locations. The dashed line 
+represents the mean proportion.
+ARs tend to account for 36\% of
+precipitation on average (Figure \ref{fig:large}G), 
 with a high degree of variability given
-the year and location. In 2005 and 2020, for example, ARs accounted for nearly 
-80\% of the total precipitation in some locations. Furthermore, the results 
+the year and location. In 2005 and 2020 for example, ARs accounted for nearly 
+80\% of the total precipitation in some locations. The results 
 from the Wilcoxon rank-sum test show that
 precipitation from ARs tends to be greater in magnitude than non-AR 
 precipitation
 ($\text{test statistic} = -83.85; \text{ p-value} \approx 0.0)$. In addition, it
 was found that of the top 5\% of high precipitation events (HPEs), 57\% were
-caused by ARs (Figure \ref{fig:concatenated_precip_var_plots}A).
+caused by ARs (Figure \ref{fig:large}H).
 Correlating annual aggregated precipitation from ARs, to total annual
 aggregated precipitation in a univariate OLS, we find that the
-coefficient of variation ($R^{2}$) is equal to 0.48 (Figure 
-\ref{fig:concatenated_precip_var_plots}B). This indicates that ARs
+coefficient of determination ($\mathrm{R^{2}}$) is equal to 0.48 (Figure 
+\ref{fig:large}I). This indicates that ARs
 explain about 48\% of interannual variability in precipitation, 
 over all 25 locations.  
 
-\begin{figure}
-\centering
-\includegraphics[width=1.0\textwidth]{./images/IVT_Precip_proportion_over_time.png}
-\caption{top row: time series of IVT $\frac{kg}{m*s}$ aggregated monthly 
-	over all locations.
-	middle row: time series of total precipitation $\frac{kg}{m^{2}}$ 
-	aggregated monthly over all
-	locations. bottom row: proportion of precipitation accounted for by
-	ARs on an annual basis. Light blue depicts the $25^{th}$ to $75^{th}$
-	percentile (IQR) of proportion values, while the blue-grey represents 
-	proportions outside of the IQR, over all 25 locations. The dashed line 
-	represents the mean proportion.}
-\label{fig:IVT_Precip_proportion_over_time}
-\end{figure}
+%\begin{figure}
+%\centering
+%\includegraphics[width=1.0\textwidth]{./images/IVT_Precip_proportion_over_time.png}
+%\caption{(A): time series of IVT $\mathrm{\frac{kg}{m}}$ aggregated monthly 
+%	over all locations.
+%	(B): time series of total precipitation $\mathrm{\frac{kg}{m^{2}}}$ 
+%	aggregated monthly over all
+%	locations. (C): proportion of precipitation accounted for by
+%	ARs on an annual basis. Light blue depicts the $\mathrm{25^{th}}$ 
+%	to $\mathrm{75^{th}}$
+%	percentile (IQR) of proportion values, while the blue-grey represents 
+%	proportions outside of the IQR, over all 25 locations. The dashed line 
+%	represents the mean proportion.}
+%\label{fig:IVT_Precip_proportion_over_time}
+%\end{figure}
 
 \subsection{Transfer of energy based on Precipitation}
 
 To estimate the impact HPEs have on river ice breakup dates, we use 
 Equation \ref{eq:final_eq} to calculate the heat transfer
-between precipitation and the river ice surface. In essence, this 
-exercise allows us to take the energy input from precipitation 
-(whether AR-based or not) and determine whether or not that integrated 
+between precipitation and the river ice surface. This 
+exercise allows us to separately take the energy input from 
+local precipitation, 
+precipitation via ARs and total precipitation, 
+and determine whether or not that integrated 
 energy accelerates or decelerates the breakup of river ice. 
 We find that there is a strong negative correlation between the heat 
-transfer and the DOY 
+transfer and the \emph{DOY} 
 in which the river ice breaks (Figure
 \ref{fig:concatenated_corr_plots}A). In this context, negative values 
 along the y-axis of Figures \ref{fig:concatenated_corr_plots}A and 
 \ref{fig:concatenated_corr_plots}D 
 are interpreted
 as a negative heat exchange, meaning a cooling effect on the river ice
-surface or a deposition of precipitation below freezing. This is optimized for 
+surface or the depositing of precipitation below freezing along the 
+river ice surface. This is optimized for 
 when the temporally-weighted bias curve
 is positioned during the coldest period of the year - typically between
 late November and early February (Figure \ref{fig:concatenated_corr_plots}C).
-Table \ref{tab:pearson} shows the correlation for each location, after
-tuning parameters \emph{c} and $\gamma$ are applied to Equation \ref{eq:final_eq}.
-Table \ref{tab:pearson} also shows the center of the bias curve \emph{c} (month-day)
-that was selected for at each location, given the integrand for precipitation used in
-Equation \ref{eq:final_eq} (ie. Total Precipitation, Precipitation from ARs, Precipitation
-not from ARs). 
+In other words, the presence of HPEs of greater magnitude, occuring 
+on colder days of the 
+year, show a strong inverse correlation in breakup timing. 
 For example, Crooked Creek on the Kuskokwim River has a
-clear negative trend, with HPE causing a cooling effect on the
-river ice surface, prolonging the DOY. This relationship has a Pearson correlation
-coefficient $ (r_{p} )= -0.84$ and a Spearman correlation coefficient
-$(r_{s}) = -0.80$, indicating that HPEs of greater magnitude, occuring 
-during the coldest period of the year, lead to a delaying of the breakup date. 
+clear negative trend, with HPEs causing a cooling effect on the
+river ice surface, delaying the \emph{DOY}. This relationship has a Pearson 
+correlation
+coefficient $ (r_{p} )=$ -0.84 and a Spearman correlation coefficient
+$(r_{s}) =$ -0.80 (Figure \ref{fig:concatenated_corr_plots}A). 
 The relationship between the total
 number of ARs that occurred six months prior to the breakup date and the
-DOY are shown in the center column 
+\emph{DOY} are shown on the center column 
 (Figure \ref{fig:concatenated_corr_plots}B and 
 \ref{fig:concatenated_corr_plots}E; 
 these two plots are the same by
@@ -668,30 +711,39 @@ use of a bias function (Equation \ref{eq:cases}) is necessary, as simply
 applying the integral of Equation \ref{eq:heat_transport} using an 
 equally weighted temporal bias function (the aggregated total heat 
 transfer) is uncorrelated. 
+Table \ref{tab:pearson} shows the correlation for each location, after
+tuning parameters \emph{c} and $\gamma$ are applied to Equation 
+\ref{eq:final_eq}.
+Table \ref{tab:pearson} also shows the center of the bias curve \emph{c} 
+(month-day)
+that was selected for, at each location, given the integrand for 
+precipitation used in
+Equation \ref{eq:final_eq} (ie. Total Precipitation, Precipitation from ARs, 
+Precipitation not from ARs).  
 
 
-\begin{figure}
-\centering
-\includegraphics[width=1.0\textwidth]{./images/concatenated_precip_var_plots.png}
-\caption{left: kernel density plots showing the distribution of
-	local precipitation (dark blue) and precipitation from ARs
-	(light blue). right: ordinary least squares regression plot
-	using annual, summated precipitation from ARs, to predict total annual
-	summated precipitation.}
-\label{fig:concatenated_precip_var_plots}
-\end{figure}
+%\begin{figure}
+%\centering
+%\includegraphics[width=1.0\textwidth]{./images/concatenated_precip_var_plots.png}
+%\caption{(A): kernel density plots showing the distribution of
+%	local precipitation (dark blue) and precipitation from ARs
+%	(light blue). (B): ordinary least squares regression plot
+%	using annual, summated precipitation from ARs, to predict total annual
+%	summated precipitation.}
+%\label{fig:concatenated_precip_var_plots}
+%\end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=1.0\textwidth]{./images/concatenated_scatter_bias_plots.png}
-	\caption{top: (left) scatter plot between thermal energy
-	transfer and DOY (the Gregorian day of year
-	that the breakup date occurred); (middle) scatter plot of the number of ARs
+	\caption{top row: (A): scatter plot between thermal energy
+	transfer for all precipitation events and \emph{DOY} (the Gregorian day of year
+	that the breakup date occurred); (B): scatter plot of the number of ARs
 	that occured in the six months prior to the breakup date and
-	DOY; 
-	(right) temporal bias curve for the year 2021 with the breakup
-	date represented by the vertical dashed line. bottom: same as
-	the top except depicting the results when a temporal bias
+	\emph{DOY}; 
+	(C): temporal bias curve for the year 2021 with the breakup
+	date represented by the vertical dashed line. bottom row: same as
+	the top row except depicting the results when a temporal bias
 	is not utilized.}
 \label{fig:concatenated_corr_plots}
 \end{figure}
@@ -702,7 +754,7 @@ This study investigated the impact atmospheric rivers (ARs) and heavy precipitat
 (HPEs) have on the breakup dates of 
 river ice in Alaska. We explored the relationship of ARs to temperature increases throughout 
 the study domain, the contribution of ARs to various precipitation metrics, 
-including variability and extremes, and determined the impact of ARs and HPEs on the DOY 
+including variability and extremes, and determined the impact of ARs and HPEs on the \emph{DOY} 
 in which the ice on the surface of Alaskan rivers eventually breaks. 
 
 For temperature increases, we found that ARs generally lead to a week-long persistent 
@@ -711,18 +763,29 @@ for $T_{\text{min}}$ and 0.75°C for $T_{\text{max}}$. This result makes sense, 
 by many past works showing how warm moisture brought on by ARs can warm the cryosphere
 \cite{Wille2021, Ma2023, ARs_lead_to_sea_ice_loss, Zhang2023}. For the contribution to 
 precipitation, our results show that ARs account for a significant portion of precipitation 
-in Alaska, contributing to 36\% of total precipitation on average. They also explain 48\% 
+in Alaska, contributing to 36\% of total precipitation by volume on 
+average. They also explain 48\% 
 of interannual variability and make up 57\% of extreme precipitation events 
-(precipitation events within the top 5\% of deposition). As for 
+(precipitation events within the top 5\% of deposition). These results are
+consistent 
+with past works, such as \citeA{Nash2024} which showed that throughout Southeast Alaska
+as few as 6 annual ARs can account for 68\% - 91\% of precipitation days. As for 
 the relationship between ARs and river ice breakup, we show evidence that intense ARs
-occurring during the coldest period of the year appear to prolong the annual breakup 
+occurring during the coldest period of the year appear to delay the annual breakup 
 date of river ice. Our results do not show that ARs are unique relative to local forms of 
 precipitation in this regard (Table \ref{tab:pearson}) with no evidence that increased 
 precipitation events of any kind closer to the breakup date accelerates the breakup date.
 This is likely attributed to a combination of the heat transfer from precipitation, 
 as well as changes in the river ice surface as a result of snowfall. Increased snow coverage
 will increase the albedo of the river surface, as well as insulate it, mitigating temperature 
-fluctuations during the coldest period of the year. 
+fluctuations during the coldest period of the year. It should be noted that a major caveat of
+our analysis is the assumption that the river ice surface temperature is held constant at
+$\mathrm{0\degree C}$ and that air temperature is a perfect proxy for precipitation. We were unable to 
+find a complete dataset on river ice surface temperatures for the locations and time 
+period of our study. However, we assume that the mass of liquid, snow or ice deposited on 
+the river surface, times its temperature, will be a sufficient indicator of the heat
+exchanged in the system - a process that becomes far more difficult to model when the 
+structure of accumulated snow is taken into consdieration near $\mathrm{0\degree C}$.   
 
 Overall, understanding the role of ARs and other HPEs in the
 timing of river ice break up in Alaska is 
@@ -747,19 +810,22 @@ National Laboratory Distributed Active Archive at \url{https://daymet.ornl.gov/s
 The National Center for Environmental Protection temperature data can found at
 \url{https://psl.noaa.gov/data/index.html}.
 River ice breakup records are maintained by the Alaska Pacific River Forecast Center 
-at \url{https://www.weather.gov/aprfc/breakupMap}. The Global Atmospheric River 
-database is maintained by the UCLA Dataverse and can be accessed at 
-\url{https://dataverse.ucla.edu/dataset.xhtml?persistentId=doi:10.25346/S6/YO15ON}.
-
-
+at \url{https://www.weather.gov/aprfc/breakupMap}. The AR database 
+(\url{https://doi.org/10.25346/S6/YO15ON}) is available via the Global 
+Atmospheric Rivers Dataverse at \url{https://dataverse.ucla.edu/dataverse/ar}.
 
 
 \acknowledgments
-The AR database (https://doi.org/10.25346/S6/YO15ON) was provided by 
-Bin Guan via the Global Atmospheric Rivers Dataverse 
-(https://dataverse.ucla.edu/dataverse/ar). Development 
-of the AR database was supported by NASA and the California 
-Department of Water Resources.
+This work was supported by the U.S. Department of
+Energy, Office of Science, Biological and Environmental Research (BER)
+Regional and Global Model Analysis (RGMA) program, as part of The 
+Interdisciplinary Research for Arctic Coastal Environments (InteRFACE) 
+project. Development of the AR database was supported by NASA and the 
+California 
+Department of Water Resources. NCEP-NCAR Reanalysis 1 data provided by the 
+NOAA PSL, Boulder, Colorado, USA, from their website at 
+\url{https://psl.noaa.gov}.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -800,42 +866,45 @@ Department of Water Resources.
 % Title for the table: Pearson Correlation Coefficients
 \begin{table}[h]  % Place the table 'here' (h) if possible
     \centering  % Center the table
-    \caption{Table showing the Pearson correlation coefficient 
-    with the optimal center placement of the
-    temporal bias (month-day) by locaation [$r_{p}$/center date of bias]}  % Table caption
+    \caption{Table showing the Pearson correlation coefficients 
+    between the total thermal energy exchange (\emph{Q}) as derived by Equation
+    \ref{eq:final_eq}, assuming an exponential temporal bias (Equation 
+    \ref{eq:cases}), and the day of the year the breakup occured (\emph{DOY}),
+    by location. The optimal center placement of the temporal bias (month-day) 
+    is also provided [$r_{p}|$center date of bias]}  % Table caption
     \label{tab:pearson}  % Label for referencing the table
     
     % Start the tabular environment with specified column formatting
-    \begin{tabular}{lccc}
+    \begin{tabular}{llll}
     \toprule
     \textbf{Location} & \textbf{Total} & \textbf{Precipitation} & \textbf{Precipitation} \\
     \textbf{} & \textbf{Precipitation} & \textbf{from ARs} & \textbf{not from ARs} \\
     \midrule
-	Akiak Kuskokwim River         &  -0.78/11-12 &    -0.78/2-5 &    -0.8/1-15 \\
-	Allakaket Koyukuk River       &  -0.81/12-10 &  -0.69/10-23 &    -0.8/12-3 \\
-	Ambler Kobuk River            &    -0.84/2-5 &    -0.67/2-5 &   -0.83/2-12 \\
-	Aniak Kuskokwim River         &   -0.8/11-19 &   -0.81/1-29 &  -0.77/11-12 \\
-	Bethel Kuskokwim River        &   -0.72/12-3 &    -0.75/2-5 &  -0.73/12-10 \\
-	Bettles Koyukuk River         &   -0.79/2-19 &   -0.7/10-23 &   -0.81/2-12 \\
-	Circle Yukon River            &    -0.75/2-5 &   -0.76/1-22 &   -0.74/2-12 \\
-	Crooked Creek Kuskokwim River &  -0.84/11-26 &    -0.76/2-5 &   -0.8/11-26 \\
-	Dawson Yukon River            &  -0.77/10-23 &   -0.67/1-22 &  -0.75/10-23 \\
-	Eagle Yukon River             &  -0.77/10-23 &   -0.79/1-22 &   -0.76/1-29 \\
-	Emmonak Yukon River           &    -0.76/2-5 &   -0.76/1-29 &   -0.71/4-16 \\
-	Fort Yukon Yukon River        &  -0.72/10-23 &    -0.59/2-5 &  -0.72/10-23 \\
-	Galena Yukon River            &  -0.79/11-19 &   -0.75/1-15 &    -0.8/4-16 \\
-	Holy Cross Yukon River        &    -0.75/1-8 &    -0.77/1-8 &    -0.72/1-8 \\
-	Hughes Koyukuk River          &    -0.81/1-1 &   -0.78/1-15 &    -0.78/4-2 \\
-	Kaltag Yukon River            &   -0.84/12-3 &   -0.77/12-3 &   -0.86/1-15 \\
-	Kobuk Kobuk River             &    -0.81/1-8 &   -0.62/4-16 &    -0.81/1-8 \\
-	McGrath Kuskokwim River       &   -0.81/3-26 &    -0.81/2-5 &    -0.82/4-9 \\
-	Mountain Village Yukon River  &   -0.72/1-29 &    -0.76/2-5 &   -0.69/2-19 \\
-	Nenana Tanana River           &    -0.71/1-1 &    -0.73/2-5 &    -0.72/1-1 \\
-	Nikolai Kuskokwim River       &   -0.75/2-12 &     -0.7/2-5 &   -0.74/1-15 \\
-	Red Devil Kuskokwim River     &   -0.79/12-3 &     -0.8/2-5 &   -0.78/12-3 \\
-	Ruby Yukon River              &    -0.83/4-9 &   -0.78/1-15 &   -0.86/4-16 \\
-	Russian Mission Yukon River   &  -0.71/11-26 &  -0.72/12-10 &   -0.68/12-3 \\
-	Tanana Yukon River            &   -0.76/1-22 &     -0.7/2-5 &  -0.77/11-26 \\
+	Akiak Kuskokwim River         &  $-0.78|11$-12 &  $-0.78|2$-5 &    $-0.80|1$-15 \\
+	Allakaket Koyukuk River       &  $-0.81|12$-10 &  $-0.69|10$-23 &  $-0.80|12$-3 \\
+	Ambler Kobuk River            &  $-0.84|2$-5 &    $-0.67|2$-5 &    $-0.83|2$-12 \\
+	Aniak Kuskokwim River         &  $-0.80|11$-19 &  $-0.81|1$-29 &   $-0.77|11$-12 \\
+	Bethel Kuskokwim River        &  $-0.72|12$-3 &   $-0.75|2$-5 &    $-0.73|12$-10 \\
+	Bettles Koyukuk River         &  $-0.79|2$-19 &   $-0.70|10$-23 &  $-0.81|2$-12 \\
+	Circle Yukon River            &  $-0.75|2$-5 &    $-0.76|1$-22 &   $-0.74|2$-12 \\
+	Crooked Creek Kuskokwim River &  $-0.84|11$-26 &  $-0.76|2$-5 &    $-0.80|11$-26 \\
+	Dawson Yukon River            &  $-0.77|10$-23 &  $-0.67|1$-22 &   $-0.75|10$-23 \\
+	Eagle Yukon River             &  $-0.77|10$-23 &  $-0.79|1$-22 &   $-0.76|1$-29 \\
+	Emmonak Yukon River           &  $-0.76|2$-5 &    $-0.76|1$-29 &   $-0.71|4$-16 \\
+	Fort Yukon Yukon River        &  $-0.72|10$-23 &  $-0.59|2$-5 &    $-0.72|10$-23 \\
+	Galena Yukon River            &  $-0.79|11$-19 &  $-0.75|1$-15 &   $-0.80|4$-16 \\
+	Holy Cross Yukon River        &  $-0.75|1$-8 &    $-0.77|1$-8 &    $-0.72|1$-8 \\
+	Hughes Koyukuk River          &  $-0.81|1$-1 &    $-0.78|1$-15 &   $-0.78|4$-2 \\
+	Kaltag Yukon River            &  $-0.84|12$-3 &   $-0.77|12$-3 &   $-0.86|1$-15 \\
+	Kobuk Kobuk River             &  $-0.81|1$-8 &    $-0.62|4$-16 &   $-0.81|1$-8 \\
+	McGrath Kuskokwim River       &  $-0.81|3$-26 &   $-0.81|2$-5 &    $-0.82|4$-9 \\
+	Mountain Village Yukon River  &  $-0.72|1$-29 &   $-0.76|2$-5 &    $-0.69|2$-19 \\
+	Nenana Tanana River           &  $-0.71|1$-1 &    $-0.73|2$-5 &    $-0.72|1$-1 \\
+	Nikolai Kuskokwim River       &  $-0.75|2$-12 &   $-0.70|2$-5 &    $-0.74|1$-15 \\
+	Red Devil Kuskokwim River     &  $-0.79|12$-3 &   $-0.80|2$-5 &    $-0.78|12$-3 \\
+	Ruby Yukon River              &  $-0.83|4$-9 &    $-0.78|1$-15 &   $-0.86|4$-16 \\
+	Russian Mission Yukon River   &  $-0.71|11$-26 &  $-0.72|12$-10 &  $-0.68|12$-3 \\
+	Tanana Yukon River            &  $-0.76|1$-22 &   $-0.70|2$-5 &    $-0.77|11$-26 \\
     \bottomrule
     \end{tabular}
 \end{table}
