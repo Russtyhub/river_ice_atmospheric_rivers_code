@@ -510,11 +510,12 @@ the precipitation settling on the surface,
 using Equation \ref{eq:heat_transport}:
 
 \begin{equation}
-q = \rho \cdot m \cdot \Delta T 
+q_{t} = \rho \cdot m \cdot \Delta T 
 	\label{eq:heat_transport}
 \end{equation}
 
-\noindent where $q$ is heat flux ($\mathrm{\frac{J}{m^2}}$); 
+\noindent where $q_{t}$ is heat flux ($\mathrm{\frac{J}{m^2}}$) at a 
+given day \emph{t}; 
 $\rho$ the specific heat 
 of the precipitation (assumed to be either water or 
 snow depending on the temperature)
@@ -523,12 +524,12 @@ the temperature of the precipitation which is approximated
 using $T_{\text{min}}$ as a proxy, and the river ice surface which is
 assumed to be $\mathrm{0\degree C}$ ($\mathrm{\degree C}$); $m$ 
 the mass of the precipitation per unit area ($\mathrm{\frac{kg}{m^{2}}}$). 
-The integral of these values
-over all precipitation events that occurred six months prior to the
-breakup date is taken with respect to time. A temporal bias function
-(Equation \ref{eq:cases})
+The sum of these values
+for all precipitation events that occurred six months prior to the
+breakup date on a daily basis is calculated.
+A temporal bias function (Equation \ref{eq:cases})
 with tunable parameters is applied to the heat transfer equation to assess 
-the days of the year in which  precipitation events were more 
+the days of the year in which precipitation events were more 
 impactful on breakup timing:
 
 \begin{equation}
@@ -545,7 +546,8 @@ impactful on breakup timing:
 \noindent where $\gamma$ is a tunable parameter impacting the width of
 the exponential function; \emph{t} is time in days; 
 \emph{DOY} is the Gregorian day of year
-that the breakup date occurred; \emph{c} is a tunable parameter dictating the
+that the breakup date occurred; 
+\emph{c} is a tunable parameter dictating the
 center placement of the function; $\kappa$ is a normalizing constant.
 Finally, Equation \ref{eq:final_eq} solves for $Q_{\text{year, location}}$,
 the total thermal 
@@ -555,14 +557,13 @@ hyperparameter search space for each
 location and each breakup year, optimized by selecting the 
 parameter values that produce 
 the Pearson correlation coefficient with the greatest absolute value. 
- 
+Here \emph{i} is the starting day of the time series approximately 
+six months prior to the breakup date. 
 
 \begin{equation}
 \label{eq:final_eq}
-	Q_{\text{year, location}} = \int_{t_i}^{t_{DOY}} \left(f(t; \gamma, \kappa, DOY, c) \cdot
-	q\right) \, dt
+	Q_{\text{year, location}} = \sum_{t=i}^{t=DOY} f(t; \gamma, \kappa, DOY, c) \cdot q_{t}
 \end{equation}
-
 
 
 \section{Results} 
@@ -712,7 +713,7 @@ is insufficient information
 in correlating to breakup timing on its own. The
 bottom row of Figure \ref{fig:concatenated_corr_plots} shows that the
 use of a bias function (Equation \ref{eq:cases}) is necessary, as simply 
-applying the integral of Equation \ref{eq:heat_transport} using an 
+applying the summation of Equation \ref{eq:heat_transport} using an 
 equally weighted temporal bias function (the aggregated total heat 
 transfer) is uncorrelated. 
 Table \ref{tab:pearson} shows the correlation for each location, after
