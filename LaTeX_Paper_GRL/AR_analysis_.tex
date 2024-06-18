@@ -357,18 +357,21 @@ of ARs accelerate or delay the timing of river ice breakup?
 
 \section{Data}
 
-\subsection{AR Catalog}
+\subsection{Atmospheric Rivers Catalog}
 
 Similar to previous studies, we define ARs using integrated vapor
 transport (IVT) values constructed from 6-hourly values of 3‐D wind and
 water vapor at eight pressure levels between 300 and 1,000
-mb from the National Center for Environmental Protection (NCEP) 
+\emph{mb} from the National Center for Environmental Protection (NCEP) 
 reanalysis data product \cite{NCEP_NCAR_reanalysis}. 
-AR detection is based on the third version of the tARget algorithm
+AR detection is based on version 3 of the tARget algorithm
 \cite{Guan_Waliser2019, bin2022}.
+The IVT values are calculated at the original
+resolution from the NCEP
+meteorological inputs \cite{NCEP_reanalysis}.
 \citeA{alg_for_detecting_AR_moisture_fluxes} developed a global
 AR detection algorithm, which was updated and validated later with
-dropsonde data \cite{guan2018}. This algorithm is employed for
+dropsonde data \cite{guan2018}. This algorithm is employed in
 our study, which is based on a combination of IVT magnitude,
 direction, and geometry characteristics, to objectively identify ARs.
 Contiguous regions of enhanced IVT transport are first identified from
@@ -380,7 +383,7 @@ using directional and geometry criteria requirements. Although the
 $\mathrm{100\frac{kg}{m*s}}$ threshold is applied globally, it is intended for 
 dry (including polar) regions since in other regions the $85^{\text{th}}$ percentile 
 is already larger than $\mathrm{100\frac{kg}{m*s}}$. The detection
-algorithm was applied to NCEP in its native resolution of $2.5 \degree$.
+algorithm was applied to NCEP reanalysis data at its native resolution of $2.5 \degree$.
 This detection algorithm had over 90\% agreement in detecting AR
 landfall dates when compared with other AR detection methods for Western
 North America \cite{Neiman2008}, the United Kingdom \cite{Lavers2011}, 
@@ -388,72 +391,69 @@ and East Antarctica \cite{Gorodetskaya2014}.
 
 \subsection{Daymet Daily Surface Weather and Climatological Summaries}
 
-Precipitation and daily
-minimum and maximum temperatures ($T_{\text{min}}$ and $T_{\text{max}}$ respectively) 
-from Oak Ridge National
-Laboratory's Daymet 1kmx1km daily product were used, via the
-Distributed Active Archive Center \cite{daymet}. Daymet precipitation, 
-$T_{\text{min}}$ and $T_{\text{max}}$, were used in our analysis as they
-have a strong agreement with NCEP temperature outputs for our 
-region of interest
-Figure \ref{fig:maps_crooked_creek}C. Additionally, 
-because Daymet is derived directly from in situ instruments 
-and meteorological stations, it represents a robust 
+Daily minimum ($T_{\text{min}}$) and maximum ($T_{\text{max}}$) temperatures and 
+precipitation data were obtained from Daymet \cite{Daymet}. 
+Daymet provides continuous and gridded estimates of daily weather at
+$1km \times 1km$ resolution.  Daymet precipitation, 
+$T_{\text{min}}$ and $T_{\text{max}}$, were selected in this analysis
+due to their strong agreement with NCEP temperature time series for our 
+region of interest (Figure \ref{fig:maps_crooked_creek}C). 
+Daymet is derived by interpolating and extrapolating from in situ instruments 
+and meteorological stations, and represents a robust 
 dataset for precipitation and temperature predictions across North
 America \cite{daymet2021}. This dataset has been a standard for validation 
 among several analyses related to arctic regions \cite{Diro2019, 
-Akinsanola2024}. The annual mean precipitation and 
-temperature for the year 2021 over the AK region are shown in Figure 
-\ref{fig:maps_crooked_creek}AB, and 
-Figure \ref{fig:maps_crooked_creek}C 
-shows the temperature profiles, precipitation and AR trends
-for one of those location over one year (Crooked 
-Creek at the Kuskokwim River in 2021). 
+Akinsanola2024}. Figure~\ref{fig:maps_crooked_creek}
+(A, B) show the annual mean precipitation and temperature for the year
+2021 across Alaska. For one of the study locations, Crooked Creek at the
+Kuskokwim River, Figure\ref{fig:maps_crooked_creek} (C)
+show the time series of precipitation, temperature and AR events for the
+year 2021. 
 
 \begin{figure}
 \centering
 \includegraphics[width=1.0\textwidth]{./images/maps_crooked_creek.png}
-	\caption{(A): map showing aggregated precipitation for the
-	year 2021. (B): map of average temperature for 2021. (C):
+	\caption{(A): map shows annual total precipitation for the
+	year 2021. (B): map of average daily temperature for 2021. (C):
 	One of the 25 locations (Crooked Creek on the Kuskokwim
 	River) for the year 2021. Yellow, orange, red represent the
 	temperature profiles (fill plot of $T_{\text{min}}$ -
 	$T_{\text{max}}$) from NCEP
 	temperature data at 850, 925 and 1000mb respectively. Light
-	green represents the Daymet temperature profile. Dark blue shows
-	modeled precipitation from Daymet ($\mathrm{\frac{kg}{m^{2}}}$) 
-	relative to the y-axis in dark blue
+	green represents the Daymet temperature profile. Dark blue line shows
+	precipitation from Daymet ($\mathrm{\frac{kg}{m^{2}}}$) 
+	relative to the secondary y-axis in dark blue
 	on the right. The light blue stem
 	plots depict the IVT of AR events ($\mathrm{\frac{kg}{m*s}}$) 
-	relative to the y-axis in light blue
+	relative to the secondary y-axis in light blue
 	on the right. The vertical purple dashed line shows the breakup
 	date for the Kuskokwim River in 2021 for Crooked Creek.}
 \label{fig:maps_crooked_creek} 
 \end{figure}
 
-\subsection{River ice breakup records}
+\subsection{River ice breakup observations}
 
-River ice breakup dates 
+Observations for river ice breakup dates 
 were obtained from the Alaska Pacific River Forecast Center database.
-While exact coordinates were unavailable, locations 
+While exact coordinates were unavailable, location coordinates
 were estimated based on proximity to weather stations and airports, to 
 maintain spatial consistency with inputs used in Daymet’s meteorological 
-models. There were 25 locations (shown in Figure 
-\ref{fig:maps_crooked_creek}A and \ref{fig:maps_crooked_creek}B) 
-identified as having at least 35 breakup 
+models. We identified 25 locations (shown in Figure 
+\ref{fig:maps_crooked_creek} (A, B)) in the database that had
+at least 35 breakup 
 records between 1980 and 2023 (the current temporal availability of 
 Daymet), although breakup records go as far back as 1896 for some 
 locations. The 35 breakup records threshold was used because it 
 allowed for the greatest 
 number of locations with the most complete time series 
 necessary for statistical analysis. There is always one breakup 
-date per year, but not every year has a recorded date, so some 
+date per year, but not every year had a recorded date, so some 
 years are represented as empty values in the dataset. On average, 
-recorded break up dates range from mid March to late 
-June. This dataset has been used in other analyses such as 
+recorded break up dates range from mid-March to late-June 
+This dataset has been used in several other studies such as 
 \cite{murphy2022, Brown2018, Bieniek2011}. As an example, 
 the breakup date for Crooked Creek 
-at the Kuskokwim River in 2021 occurred in early May and
+at the Kuskokwim River in 2021 occurred in early-May and
 is depicted in Figure 
 \ref{fig:maps_crooked_creek}C with a 
 vertical purple dashed line.
@@ -467,20 +467,20 @@ the relationship between the presence of an AR and the temperature
 change at a specific location. The presence of an AR is represented 
 numerically as a binary value indicating whether or not an AR is 
 active on a particular date. We then estimate how many days this 
-change in temperature lasts. To do this, we used a
-varying temporal window combined with a pairwise t-test. 
-For each
+change in temperature persists. To do this, we conducted a pairwise
+\emph{t}-test using varying temporal window.
+In other words, for each
 AR occurrence in the dataset, a lookback window and forecast 
 window each equal to \emph{n}
 days in length was created before and after the AR date, respectively,
 whereby: $ n \in \{1, 2, 3, \ldots, 14\}$.
 For values of \emph{n} greater than one day the mean was 
-taken within each window
+calculated within each window
 for $T_{\text{min}}$ and $T_{\text{max}}$. These averaged 
 temperatures were then
 calculated over all locations. Mean temperature pairs 
-were assessed using a one tailed pairwise t-test to check
-whether ARs increase the local temperature over period of 
+were assessed using a one tailed pairwise \emph{t}-test to check
+whether ARs increased the local temperature over period of 
 time \emph{n} $(\alpha =
 0.05)$. For example, if $\emph{n} = 3$ assessing $T_{\text{min}}$,
 then the mean of $T_{\text{min}}$ three days prior to each AR event
@@ -489,7 +489,7 @@ the three days post each AR event.
 
 
 We explored how ARs contribute to precipitation, by
-separating AR-based precipitation from the total amount. We 
+separating AR-based precipitation from the total precipitation amount. We 
 then used the Wilcoxon rank-sum test \cite{Rey2011} to test 
 the hypothesis 
 that AR events tend to produce more precipitation than other
@@ -504,10 +504,13 @@ For extremes, we extracted the top 5\% of precipitation events and determined
 what fraction of those events are associated with ARs. 
 
 To determine the impact that ARs have on river ice breakup timing, 
-we estimate the heat transfer between the river ice (we are assuming
-a layer of ice on top of the Arctic rivers) and 
-the precipitation settling on the surface, 
-using Equation \ref{eq:heat_transport}:
+we estimate the heat transfer between the river ice and 
+the precipitation accumulating on the surface. 
+Assuming presence of frozen layer of ice on river surface, we estimate
+the sensible heat transfer between river surface and incoming
+precipitation using Equation \ref{eq:heat_transport}. Latent heat
+transfer fluxes were assumed to be relatively small and thus ignored in our simplified 
+heat transfer calculations.
 
 \begin{equation}
 q_{t} = \rho \cdot m \cdot \Delta T 
@@ -522,14 +525,18 @@ snow depending on the temperature)
 ($\mathrm{\frac{J}{kg \degree C}}$); $\Delta T$ is the difference between 
 the temperature of the precipitation which is approximated 
 using $T_{\text{min}}$ as a proxy, and the river ice surface which is
-assumed to be $\mathrm{0\degree C}$ ($\mathrm{\degree C}$); $m$ 
+assumed to be at $\mathrm{0\degree C}$; $m$ 
 the mass of the precipitation per unit area ($\mathrm{\frac{kg}{m^{2}}}$). 
-The sum of these values
+\hl{The sum of these values
 for all precipitation events that occurred six months prior to the
-breakup date on a daily basis is calculated.
-A temporal bias function (Equation \ref{eq:cases})
-with tunable parameters is applied to the heat transfer equation to assess 
-the days of the year in which precipitation events were more 
+breakup date on a daily basis is calculated.}
+Heat transfer fluxes were calculated a daily series for a period of six
+months prior to the breakup date. Time of occurrence and thermal
+conditions associated with precipitation events during winter and spring
+have differential impacts to reinforce vs weaken the river ice layer and
+thus the date of the breakup. We fit a temporal bias function (Equation \ref{eq:cases})
+with tunable parameters and applied to the heat transfer equation to assess 
+the days of the year when precipitation events were more 
 impactful on breakup timing:
 
 \begin{equation}
@@ -543,11 +550,11 @@ impactful on breakup timing:
 	\end{cases}
 \end{equation}
 
-\noindent where $\gamma$ is a tunable parameter impacting the width of
+\noindent where $\gamma$ is a parameter impacting the width of
 the exponential function; \emph{t} is time in days; 
 \emph{DOY} is the Gregorian day of year
 that the breakup date occurred; 
-\emph{c} is a tunable parameter dictating the
+\emph{c} is a parameter dictating the
 center placement of the function; $\kappa$ is a normalizing constant.
 Finally, Equation \ref{eq:final_eq} solves for $Q_{\text{year, location}}$,
 the total thermal 
@@ -568,29 +575,40 @@ six months prior to the breakup date.
 
 \section{Results} 
 
-\subsection{AR impact on temperature}
+\subsection{Atmospheric rivers impact on temperature}
 
-We applied the pairwise t-test comparing lookback and forecast 
+We applied the pairwise \emph{t}-test comparing lookback and forecast 
 windows of length \emph{n} for all locations. Figures
-\ref{fig:large}A and \ref{fig:large}B show the change in p-values for each
-value of \emph{n} where the dashed lines represent the mean p-value over 
-the study area and the color transition signifies the interquartile range (IQR). 
-For example, looking at $T_{\text{min}}$ (\ref{fig:large}A), 
-the light blue represents the $\mathrm{25^{th}}$ to the 
-$\mathrm{75^{th}}$ percentile or IQR of p-values, while the blue-grey is 
-the $\mathrm{75^{th}}$ 
-percentile to the maximum p-value given \emph{n}. Same is true for the 
-color transition of $T_{\text{max}}$ in Figure \ref{fig:large}B. 
+\ref{fig:large}A and \ref{fig:large}B show the change in \emph{p}-values for each
+value of \emph{n} where the dashed lines represent the mean \emph{p}-value over 
+the study area and the filled color curved signifies the interquartile range (IQR). 
+%For example, looking at $T_{\text{min}}$ (\ref{fig:large}A), 
+%the light blue represents the $\mathrm{25^{th}}$ to the 
+%$\mathrm{75^{th}}$ percentile or IQR of \emph{p}-values, while the blue-grey is 
+%the $\mathrm{75^{th}}$ 
+%percentile to the maximum \emph{p}-value given \emph{n}. Same is true for the 
+%color transition of $T_{\text{max}}$ in Figure \ref{fig:large}B. 
 Figure \ref{fig:large}C and \ref{fig:large}D shows the mean increase 
 in temperature from the lookback window to the forecast window 
-given \emph{n}. The mean
-temperature increase tends to be higher for $T_{\text{min}}$ post AR than  
-$T_{\text{max}}$, with both plots
-showing a clear downward trend as the length of \emph{n} 
-increases. We found that there is a
-statistically significant difference in $T_{\text{min}}$ 
-(based on an $\alpha = 0.05$) roughly 8 days before and after 
-an AR event. 
+for varying window sizes \emph{n}. 
+
+%The mean
+%temperature increase tends to be higher for $T_{\text{min}}$ post AR than  
+%$T_{\text{max}}$, with both plots
+%showing a clear downward trend as the length of \emph{n} 
+%increases. 
+%We found that there is a
+%statistically significant difference in $T_{\text{min}}$ 
+%(based on an $\alpha = 0.05$) roughly 8 days before and after 
+%an AR event. 
+
+Analysis shows an increase in air temperature during period following an
+AR event, with mean temperature increases higher for $T_{\text{min}}$
+compared to $T_{\text{max}}$, with the difference receding over longer
+time windows. The temperature differences were statistically significant
+for $T_{\text{min}}$ (based on an $\alpha = 0.05$) for up temporal
+windows of 8 days before and after an AR event.
+
 This was true for all locations in the study as represented 
 by the fill plot (Figure \ref{fig:large}A). 
 This increase in 
@@ -607,26 +625,30 @@ temperature can be as high as 1.5 $\mathrm{\degree C}$ ($n=2$) (Figure
 \includegraphics[width=1.0\textwidth]{./images/large.png}
 \caption{(A and B): p-values from the paired t-test given
 	window size (\emph{n}) surrounding the AR event date (A:
-	$T_{\text{min}}$; B: $T_{\text{max}}$). (C and D): mean increase
-	in temperature ($\mathrm{\degree C}$) accompanying each AR, 
-	calculated from the lookback 
+	$T_{\text{min}}$; B: $T_{\text{max}}$). Dashed line represent the
+		mean, while the filled color curves show interquartile range
+		(25th and 75th percentile); 
+	(C and D): mean increase in temperature ($\mathrm{\degree C}$) 
+	accompanying each AR, calculated from the lookback 
 	window to the forecast window (C: $T_{\text{min}}$; D: $T_{\text{max}}$).
-	E): time series of IVT $\mathrm{\frac{kg}{m}}$ aggregated monthly 
+	(E): time series of IVT $\mathrm{\frac{kg}{m}}$ aggregated monthly 
 	over all locations.
 	(F): time series of total precipitation $\mathrm{\frac{kg}{m^{2}}}$ 
-	aggregated monthly over all
-	locations. (G): proportion of precipitation accounted for by
-	ARs on an annual basis. (H): kernel density plots showing the distribution of
+	aggregated monthly over all locations. 
+	(G): proportion of precipitation accounted for by
+	ARs on an annual basis. 
+	(H): kernel density plots showing the distribution of
 	local precipitation (dark blue) and precipitation from ARs
-	(light blue). (I): ordinary least squares regression plot
-	using annual summated precipitation from ARs, to predict total annual
-	summated precipitation.}
+	(light blue). 
+	(I): ordinary least squares regression plot
+	using total annual precipitation from ARs, to predict total annual
+	precipitation.}
 	
 	
 \label{fig:large} 
 \end{figure}
 
-\subsection{AR impact on precipitation}
+\subsection{Atmospheric rivers impact on precipitation}
 
 Figures \ref{fig:large}E and \ref{fig:large}F show the monthly IVT from 
 AR events and monthly total precipitation through the span of the 
