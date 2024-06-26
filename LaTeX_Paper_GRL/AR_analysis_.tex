@@ -541,7 +541,10 @@ thus the date of the breakup.
 We fit a temporal bias function (Equation \ref{eq:cases}), a double
 exponential function, applied to the heat transfer equation to assess 
 the days of the year when precipitation events were more 
-impactful on breakup timing. 
+impactful on breakup timing. Bias function is a symmetric unimodal
+exponential function to help identify the most influencial precipitation
+time period determining the annual time of river ice break up. Bias
+function was fit individually for each of the study locations. 
 
 \begin{equation}
 	\label{eq:cases}
@@ -554,11 +557,11 @@ impactful on breakup timing.
 	\end{cases}
 \end{equation}
 
-\noindent where $\gamma$ is a parameter impacting the width of
+\noindent where $\gamma$ is a scale parameter impacting the width of
 the exponential function; \emph{t} is time in days; 
 \emph{DOY} is the Gregorian day of year
 that the breakup date occurred; 
-\emph{c} is a parameter dictating the
+\emph{c} is a location parameter dictating the
 center placement of the function; $\kappa$ is a normalizing constant.
 Finally, Equation \ref{eq:final_eq} solves for $Q_{\text{year, location}}$,
 the total thermal 
@@ -702,56 +705,87 @@ across all 25 locations.
 
 \subsection{Transfer of energy based on Precipitation}
 
-To estimate the impact HPEs have on river ice breakup dates, we use 
-Equation \ref{eq:final_eq} to calculate the heat transfer
-between precipitation and the river ice surface. This 
-exercise allows us to estimate the energy input from 
-\hl{local precipitation, 
-precipitation via ARs and total precipitation}, 
-and determine whether or not that integrated 
-energy accelerates or decelerates the breakup of river ice. 
+To estimate the impact \st{HPEs} precipitation events have on river ice breakup dates, we use 
+Equation \ref{eq:final_eq} to estimate the heat transfer
+between precipitation and the river ice surface.
+Equation~\ref{eq:final_eq} was solved using double exponential bias
+function to temporally-weigh events of higher influence (Figures~
+		\ref{fig:concatenated_corr_plots}A, B, C), and using
+uniform weights as baseline for comparison (Figures~
+		\ref{fig:concatenated_corr_plots}D, E, F).
+When using a temporal bias function, the relationship between integrated
+heat transfer due to precipitation and time of river ice break up were
+identified with strong correlation (Pearson correlation coefficient
+		$(r_{p} )=$ -0.84 and a Spearman correlation coefficient
+		$(r_{s}) =$ -0.80 at Crooked Creek on the Kuskokwim river
+		(Figure \ref{fig:concatenated_corr_plots}A)).
+In contrast, very weak correlations were identified when fitting the
+relationship using temporally uniform weights (Figure
+		\ref{fig:concatenated_corr_plots}B), thus highlighting the need
+for temporal bias function.
+This exercise allows us to 
+%estimate the energy input from \hl{local precipitation, 
+%precipitation via ARs and total precipitation}, and 
+determine whether or not that integrated 
+energy accelerates or decelerates the breakup of river ice. We performed the
+analysis for all precipitation events, and also by separating the
+precipitation time series into days with and without AR events. 
 We find that there is a strong negative correlation between the heat 
 transfer and the \emph{DOY} 
-on which the river ice breaks (Figure
+on which the river ice break up occurs (Figure
 \ref{fig:concatenated_corr_plots}A). In this context, negative values 
 along the y-axis of Figures \ref{fig:concatenated_corr_plots}A and 
 \ref{fig:concatenated_corr_plots}D 
 are interpreted
-as a negative heat exchange, meaning a cooling effect on the river ice
+as a negative heat exchange, suggesting a net cooling effect on the river ice
 surface as the precipitation below freezing temperature are accumulated
 on the river ice surface. 
-\hl{This is optimized for 
+\st{This is optimized for 
 when the temporally-weighted bias curve
 is positioned during the coldest period of the year - typically between
 late November and early February (Figure
-		\ref{fig:concatenated_corr_plots}C). THIS NEEDS REWORDING}
-In other words, the presence of HPEs of greater magnitude, occuring 
+		{\ref{fig:concatenated_corr_plots}}C). THIS NEEDS REWORDING}
+Peak of the temporally-weighted bias curve are typically located during
+the coldest period of the year, typically betweeen late November and
+early February (Figure {\ref{fig:concatenated_corr_plots}}C).
+In other words, the presence high magnitude precipitation events, occuring 
 on colder days of the 
-year, show a strong inverse correlation in breakup timing. 
-For example, Crooked Creek on the Kuskokwim River has a
-clear negative trend, with HPEs causing a cooling effect on the
-river ice surface, delaying the \emph{DOY}. This relationship has a Pearson 
-correlation
-coefficient $ (r_{p} )=$ -0.84 and a Spearman correlation coefficient
-$(r_{s}) =$ -0.80 (Figure \ref{fig:concatenated_corr_plots}A). 
-The relationship between the total
-number of ARs that occurred six months prior to the breakup date and the
-\emph{DOY} are shown on the center column 
-(Figure \ref{fig:concatenated_corr_plots}B and 
-\ref{fig:concatenated_corr_plots}E; 
-these two plots are the same by
-definition) indicating that the number of AR 
-events that occur within the six months prior to the breakup
-is insufficient information 
-in correlating to breakup timing on its own. The
-bottom row of Figure \ref{fig:concatenated_corr_plots} shows that the
-use of a bias function (Equation \ref{eq:cases}) is necessary, as simply 
-applying the summation of Equation \ref{eq:heat_transport} using an 
-equally weighted temporal bias function (the aggregated total heat 
-transfer) is uncorrelated. 
-Table \ref{tab:pearson} shows the correlation for each location, after
-tuning parameters \emph{c} and $\gamma$ are applied to Equation 
-\ref{eq:final_eq}.
+year, show a strong inverse correlation to the time of breakup. 
+For example (\ref{fig:concatenated_corr_plots}), Crooked Creek on the Kuskokwim River has a
+clear negative trend, with cooling effect of precipitation on the
+river ice surface, delays the \emph{DOY} of the break up. 
+%This
+%relationship (based on Equation~\ref{eq:final_eq}) has a Pearson 
+%correlation
+%coefficient $ (r_{p} )=$ -0.84 and a Spearman correlation coefficient
+%$(r_{s}) =$ -0.80 (Figure \ref{fig:concatenated_corr_plots}A). 
+Frequency of AR events that occurred during period of six months prior to
+the breakup date by itself was insufficient predictor
+(Figures~\ref{fig:concatenated_corr_plots}B, E) of the break up
+date. 
+
+%The relationship between the total
+%number of ARs that occurred in period six months prior to the breakup date and the
+%\emph{DOY} are shown on the center column 
+%(Figure \ref{fig:concatenated_corr_plots}B and 
+%\ref{fig:concatenated_corr_plots}E; 
+%these two plots are the same by
+%definition) indicating that the number of AR 
+%events that occur within the six months prior to the breakup
+%is insufficient information 
+%in correlating to breakup timing on its own. 
+
+%The
+%bottom row of Figure \ref{fig:concatenated_corr_plots} shows that the
+%use of a bias function (Equation \ref{eq:cases}) is necessary, as simply 
+%applying the summation of Equation \ref{eq:heat_transport} using an 
+%equally weighted temporal bias function (the aggregated total heat 
+%transfer) is uncorrelated. 
+
+While Figure~\ref{fig:concatenated_corr_plots} focuses on single
+selected site, Table~\ref{tab:pearson} shows the correlation for each location, after
+tuning parameters \emph{c} and $\gamma$ are optimized and applied to Equation 
+\ref{eq:final_eq} individually at each location.
 Table \ref{tab:pearson} also shows the center of the bias curve \emph{c} 
 (month-day)
 that was selected for, at each location, given the integrand for 
@@ -788,49 +822,57 @@ Precipitation not from ARs).
 
 \section{Conclusion and Discussion}
 
-This study investigated the impact atmospheric rivers (ARs) and heavy precipitation events
-(HPEs) have on the breakup dates of 
-river ice in Alaska. We explored the relationship of ARs to temperature increases throughout 
-the study domain, the contribution of ARs to various precipitation metrics, 
+This study investigated the impact atmospheric rivers (ARs) and \hl{heavy precipitation events
+(HPEs)} have on the timing of river ice breakup across site in Alaska. 
+We explored the impact of ARs on local temperature increases throughout 
+the study domain, the contribution of ARs to precipitation events, 
 including variability and extremes, and determined the impact of ARs and HPEs on the \emph{DOY} 
-in which the ice on the surface of Alaskan rivers eventually breaks. 
+on which the ice on the surface of Alaskan rivers eventually breaks. 
 
-For temperature increases, we found that ARs generally lead to a week-long persistent 
-increase in daily temperature over Alaska, with temperatures rising by as much as 1.5°C 
-for $T_{\text{min}}$ and 0.75°C for $T_{\text{max}}$. This result makes sense, as noted 
-by many past works showing how warm moisture brought on by ARs can warm the cryosphere
-\cite{Wille2021, Ma2023, ARs_lead_to_sea_ice_loss, Zhang2023}. For the contribution to 
-precipitation, our results show that ARs account for a significant portion of precipitation 
+We found that ARs generally lead to up to a week-long persistent 
+increase in daily temperature (minimum and maximum) across Alaska, with temperatures rising by as much as 1.5°C 
+for $T_{\text{min}}$ and 0.75°C for $T_{\text{max}}$. These findings
+are consistent with  
+many past studies that have shown that warm moisture brought on by ARs can warm the cryosphere
+\cite{Wille2021, Ma2023, ARs_lead_to_sea_ice_loss, Zhang2023}. i
+Our analysis also show that ARs account for a significant portion of
+total annual precipitation 
 in Alaska, contributing to 36\% of total precipitation by volume on 
 average. They also explain 48\% 
-of interannual variability and make up 57\% of extreme precipitation events 
+of interannual variability and lead to 57\% of extreme precipitation events 
 (precipitation events within the top 5\% of deposition). These results are
 consistent 
 with past works, such as \citeA{Nash2024} which showed that throughout Southeast Alaska
-as few as 6 annual ARs can account for 68\% - 91\% of precipitation days. As for 
-the relationship between ARs and river ice breakup, we show evidence that intense ARs
+as few as six annual AR events can account for 68\% - 91\% of precipitation days. 
+%As for the relationship between ARs and river ice breakup, 
+Our analysis show evidence that intense ARs
 occurring during the coldest period of the year appear to delay the annual breakup 
 date of river ice. Our results do not show that ARs are unique relative to local forms of 
-precipitation in this regard (Table \ref{tab:pearson}) with no evidence that increased 
+precipitation in this regard (Table \ref{tab:pearson}), with no evidence that increased 
 precipitation events of any kind closer to the breakup date accelerates the breakup date.
 This is likely attributed to a combination of the heat transfer from precipitation, 
-as well as changes in the river ice surface as a result of snowfall. Increased snow coverage
-will increase the albedo of the river surface, as well as insulate it, mitigating temperature 
-fluctuations during the coldest period of the year. It should be noted that a major caveat of
+as well as changes in the river ice surface as a result of snowfall.
+Increased snow accumulation
+increase the albedo of the river surface, as well as provide thermal
+insulation, mitigating the effects of temperature 
+fluctuations during the coldest period of the year. It should be noted that a limitation of
 our analysis is the assumption that the river ice surface temperature is held constant at
-$\mathrm{0\degree C}$ and that air temperature is a perfect proxy for precipitation. We were unable to 
+$\mathrm{0\degree C}$ and that air temperature is a reasonable proxy for
+incoming precipitation. We were unable to 
 find a complete dataset on river ice surface temperatures for the locations and time 
-period of our study. However, we assume that the mass of liquid, snow or ice deposited on 
-the river surface, times its temperature, will be a sufficient indicator of the heat
-exchanged in the system - a process that becomes far more difficult to model when the 
-structure of accumulated snow is taken into consdieration near $\mathrm{0\degree C}$.   
+period of our study. Thus, we assume that the mass of liquid, snow or ice deposited on 
+the river surface, times its temperature, will be a sufficient
+approximate indicator of the heat exchanged in the system \st{- a process that becomes far more difficult to model when the 
+structure of accumulated snow is taken into consideration near
+	$\mathrm{0\degree C}$}.   
 
-Overall, understanding the role of ARs and other HPEs in the
+Understanding the influence of ARs and other HPEs on the
 timing of river ice break up in Alaska is 
 crucial for predicting and managing the impacts of climate change in the region, 
 especially since studies have shown that AR frequency and intensity in this region are 
 expected to increase in a warmer world \cite{Espinoza2018, Massoud2019}. The findings 
-suggest that ARs contribute significantly to the hydrology and climate of Alaska, 
+of our suggest that ARs have significant influence on the climate and
+terrestrial hydrology across Alaska, 
 affecting temperature, precipitation, and river ice dynamics. Further research in this 
 area could help improve our understanding of ARs and their role in shaping the climate 
 of high-latitude regions.
@@ -851,6 +893,9 @@ River ice breakup records are maintained by the Alaska Pacific River Forecast Ce
 at \url{https://www.weather.gov/aprfc/breakupMap}. The AR database 
 (\url{https://doi.org/10.25346/S6/YO15ON}) is available via the Global 
 Atmospheric Rivers Dataverse at \url{https://dataverse.ucla.edu/dataverse/ar}.
+NCEP-NCAR Reanalysis 1 data were obtained from the 
+NOAA Physical Sciences Laboratory, Boulder, Colorado, USA, \url{https://psl.noaa.gov}.
+\hl{WE SHOULD INCLUDE A GITHUB LINK/DOI OF CODES USED IN THIS STUDY}.
 
 
 \acknowledgments
@@ -859,12 +904,12 @@ Energy, Office of Science, Biological and Environmental Research (BER)
 Regional and Global Model Analysis (RGMA) program, as part of The 
 Interdisciplinary Research for Arctic Coastal Environments (InteRFACE) 
 project. Development of the AR database was supported by NASA and the 
-California 
-Department of Water Resources. NCEP-NCAR Reanalysis 1 data provided by the 
-NOAA PSL, Boulder, Colorado, USA, from their website at 
-\url{https://psl.noaa.gov}.
-
-
+California Department of Water Resources. 
+This manuscript has been authored in part by UT-Battelle, LLC, under contract
+DE-AC05-00OR22725 with the US Department of Energy (DOE).
+The publisher acknowledges the US government license to provide
+public access under the DOE Public Access Plan (http://energy.gov/
+downloads/doe-public-access-plan).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % REFERENCES and BIBLIOGRAPHY
