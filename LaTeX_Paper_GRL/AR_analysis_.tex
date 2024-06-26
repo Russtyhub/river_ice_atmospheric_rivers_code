@@ -470,12 +470,12 @@ active on a particular date. We then estimate how many days this
 change in temperature persists. To do this, we conducted a pairwise
 \emph{t}-test using varying temporal window.
 In other words, for each
-AR occurrence in the dataset, a lookback window and forecast 
-window each equal to \emph{n}
-days in length was created before and after the AR date, respectively,
+AR occurrence in the dataset, a pre--AR time window and post--AR
+time window each equal to \emph{n}
+days in length was created before and after the AR event date, respectively,
 whereby: $ n \in \{1, 2, 3, \ldots, 14\}$.
 For values of \emph{n} greater than one day the mean was 
-calculated within each window
+calculated within each time window
 for $T_{\text{min}}$ and $T_{\text{max}}$. These averaged 
 temperatures were then
 calculated over all locations. Mean temperature pairs 
@@ -488,9 +488,11 @@ will be compared to the mean of $T_{\text{min}}$ for
 the three days post each AR event.
 
 
-We explored how ARs contribute to precipitation, by
-separating AR-based precipitation from the total precipitation amount. We 
-then used the Wilcoxon rank-sum test \cite{Rey2011} to test 
+%We explored how ARs contribute to precipitation, by
+%separating AR-based precipitation from the total precipitation amount.
+We explored AR contribution to precipitation by seperating precipitation
+events occuring on days with an active AR.
+We then used the Wilcoxon rank-sum test \cite{Rey2011} to test 
 the hypothesis 
 that AR events tend to produce more precipitation than other
 precipitation events. We opted to use a non-parametric 
@@ -498,10 +500,10 @@ test (Wilcoxon rank-sum test)
 because the distributions of precipitation were shown to
 not be normal after log transformation using the
 Shapiro-Wilks test \cite{shapiro_wilk_test}. We also estimated
-the interannual variability of precipitation that ARs account for by
+the interannual variability of precipitation associated with ARs by
 conducting a univariate ordinary least squares regression (OLS). 
 For extremes, we extracted the top 5\% of precipitation events and determined 
-what fraction of those events are associated with ARs. 
+what fraction of those events occured on days with active AR event. 
 
 To determine the impact that ARs have on river ice breakup timing, 
 we estimate the heat transfer between the river ice and 
@@ -527,17 +529,19 @@ the temperature of the precipitation which is approximated
 using $T_{\text{min}}$ as a proxy, and the river ice surface which is
 assumed to be at $\mathrm{0\degree C}$; $m$ 
 the mass of the precipitation per unit area ($\mathrm{\frac{kg}{m^{2}}}$). 
-\hl{The sum of these values
-for all precipitation events that occurred six months prior to the
-breakup date on a daily basis is calculated.}
-Heat transfer fluxes were calculated a daily series for a period of six
+
+%\hl{The sum of these values
+%for all precipitation events that occurred six months prior to the
+%breakup date on a daily basis is calculated.}
+Heat transfer fluxes were calculated as a daily series for a period of six
 months prior to the breakup date. Time of occurrence and thermal
 conditions associated with precipitation events during winter and spring
 have differential impacts to reinforce vs weaken the river ice layer and
-thus the date of the breakup. We fit a temporal bias function (Equation \ref{eq:cases})
-with tunable parameters and applied to the heat transfer equation to assess 
+thus the date of the breakup.  
+We fit a temporal bias function (Equation \ref{eq:cases}), a double
+exponential function, applied to the heat transfer equation to assess 
 the days of the year when precipitation events were more 
-impactful on breakup timing:
+impactful on breakup timing. 
 
 \begin{equation}
 	\label{eq:cases}
@@ -577,11 +581,12 @@ six months prior to the breakup date.
 
 \subsection{Atmospheric rivers impact on temperature}
 
-We applied the pairwise \emph{t}-test comparing lookback and forecast 
-windows of length \emph{n} for all locations. Figures
+We applied the pairwise \emph{t}-test comparing pre--AR and post--AR
+time windows of length \emph{n} at all locations. Figures
 \ref{fig:large}A and \ref{fig:large}B show the change in \emph{p}-values for each
-value of \emph{n} where the dashed lines represent the mean \emph{p}-value over 
-the study area and the filled color curved signifies the interquartile range (IQR). 
+value of \emph{n} where the dashed lines represent the mean
+\emph{p}-value across
+the study locations and the filled color curved signifies the interquartile range (IQR). 
 %For example, looking at $T_{\text{min}}$ (\ref{fig:large}A), 
 %the light blue represents the $\mathrm{25^{th}}$ to the 
 %$\mathrm{75^{th}}$ percentile or IQR of \emph{p}-values, while the blue-grey is 
@@ -589,9 +594,8 @@ the study area and the filled color curved signifies the interquartile range (IQ
 %percentile to the maximum \emph{p}-value given \emph{n}. Same is true for the 
 %color transition of $T_{\text{max}}$ in Figure \ref{fig:large}B. 
 Figure \ref{fig:large}C and \ref{fig:large}D shows the mean increase 
-in temperature from the lookback window to the forecast window 
-for varying window sizes \emph{n}. 
-
+in temperature from the pre--AR time window to the post--AR time window 
+for varying time window sizes \emph{n}. 
 %The mean
 %temperature increase tends to be higher for $T_{\text{min}}$ post AR than  
 %$T_{\text{max}}$, with both plots
@@ -601,40 +605,43 @@ for varying window sizes \emph{n}.
 %statistically significant difference in $T_{\text{min}}$ 
 %(based on an $\alpha = 0.05$) roughly 8 days before and after 
 %an AR event. 
-
 Analysis shows an increase in air temperature during period following an
 AR event, with mean temperature increases higher for $T_{\text{min}}$
 compared to $T_{\text{max}}$, with the difference receding over longer
 time windows. The temperature differences were statistically significant
 for $T_{\text{min}}$ (based on an $\alpha = 0.05$) for up temporal
-windows of 8 days before and after an AR event.
+windows of 8 days after an AR event. 
+The increase in daily minimum temperature can be as high as 1.5 
+$\mathrm{\degree C}$ ($n=2$) (Figure \ref{fig:large}C). 
+For $T_{\text{max}}$, the differences were statistically significant for up
+to 6 days after an AR event (Figure~\ref{fig:large}B) with an increase
+as high as 0.75 $\mathrm{\degree C}$ ($n={3, 4}$) (Figure~\ref{fig:large}D).
+These statistically significant temperature increase following AR events
+were true at all locations in our study, represented
+by the Figure \ref{fig:large}A fill plot. 
 
-This was true for all locations in the study as represented 
-by the fill plot (Figure \ref{fig:large}A). 
-This increase in 
-temperature can be as high as 1.5 $\mathrm{\degree C}$ ($n=2$) (Figure 
-\ref{fig:large}C). The t-test for
- $T_{\text{max}}$ implies that the presence of an AR can increase 
- temperatures for roughly 6 days on average (Figure 
- \ref{fig:large}B), with an increase as high 
- as 0.75 $\mathrm{\degree C}$ ($n={3, 4}$) (Figure 
- \ref{fig:large}D).    
+%The \emph{t}-test for
+% $T_{\text{max}}$ implies that the presence of an AR can increase 
+% temperatures for roughly 6 days on average (Figure 
+% \ref{fig:large}B), with an increase as high 
+% as 0.75 $\mathrm{\degree C}$ ($n={3, 4}$) (Figure 
+% \ref{fig:large}D).    
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1.0\textwidth]{./images/large.png}
-\caption{(A and B): p-values from the paired t-test given
-	window size (\emph{n}) surrounding the AR event date (A:
+\includegraphics[width=0.8\textwidth]{./images/large.png}
+\caption{(A and B): \emph{p}-values from the paired \emph{t}-test given
+	time window size (\emph{n}) surrounding the AR event date (A:
 	$T_{\text{min}}$; B: $T_{\text{max}}$). Dashed line represent the
 		mean, while the filled color curves show interquartile range
 		(25th and 75th percentile); 
 	(C and D): mean increase in temperature ($\mathrm{\degree C}$) 
-	accompanying each AR, calculated from the lookback 
-	window to the forecast window (C: $T_{\text{min}}$; D: $T_{\text{max}}$).
+	accompanying each AR, calculated between the pre--AR 
+	time window and the post--AR time window (C: $T_{\text{min}}$; D: $T_{\text{max}}$).
 	(E): time series of IVT $\mathrm{\frac{kg}{m}}$ aggregated monthly 
 	over all locations.
 	(F): time series of total precipitation $\mathrm{\frac{kg}{m^{2}}}$ 
-	aggregated monthly over all locations. 
+	aggregated monthly over all study locations. 
 	(G): proportion of precipitation accounted for by
 	ARs on an annual basis. 
 	(H): kernel density plots showing the distribution of
@@ -653,27 +660,29 @@ temperature can be as high as 1.5 $\mathrm{\degree C}$ ($n=2$) (Figure
 Figures \ref{fig:large}E and \ref{fig:large}F show the monthly IVT from 
 AR events and monthly total precipitation through the span of the 
 data record, aggregated over all locations, respectively. Figure \ref{fig:large}G
-shows the proportion of precipitation accounted for by ARs over time, where 
+shows the proportion of total annual precipitation occuring on days with
+active ARs over time, where 
 light blue depicts the IQR of proportions and blue-grey represents 
-proportions outside of the IQR, over all 25 locations. The dashed line 
+proportions outside of the IQR, across all 25 locations. The dashed line 
 represents the mean proportion.
 ARs tend to account for 36\% of
 precipitation on average (Figure \ref{fig:large}G), 
-with a high degree of variability given
-the year and location. In 2005 and 2020 for example, ARs accounted for nearly 
-80\% of the total precipitation in some locations. The results 
+with a high degree of variability across
+years and locations. In 2005 and 2020 for example, nearly 
+80\% of the total precipitation at some locations occured on days with
+active AR events. The results 
 from the Wilcoxon rank-sum test show that
-precipitation from ARs tends to be greater in magnitude than non-AR 
+precipitation during active ARs tends to be greater in magnitude than non-AR 
 precipitation
-($\text{test statistic} = -83.85; \text{ p-value} \approx 0.0)$. In addition, it
-was found that of the top 5\% of high precipitation events (HPEs), 57\% were
-caused by ARs (Figure \ref{fig:large}H).
-Correlating annual aggregated precipitation from ARs, to total annual
-aggregated precipitation in a univariate OLS, we find that the
+($\text{test statistic} = -83.85; \text{ p-value} \approx 0.0)$. In addition,
+we found that of the top 5\% of high precipitation events (HPEs), 57\%
+occured during active ARs (Figure \ref{fig:large}H).
+Correlating total precipitation from AR days, to total annual
+precipitation using a univariate OLS, we find that the
 coefficient of determination ($\mathrm{R^{2}}$) is equal to 0.48 (Figure 
 \ref{fig:large}I). This indicates that ARs
 explain about 48\% of interannual variability in precipitation, 
-over all 25 locations.  
+across all 25 locations.  
 
 %\begin{figure}
 %\centering
@@ -696,24 +705,26 @@ over all 25 locations.
 To estimate the impact HPEs have on river ice breakup dates, we use 
 Equation \ref{eq:final_eq} to calculate the heat transfer
 between precipitation and the river ice surface. This 
-exercise allows us to separately take the energy input from 
-local precipitation, 
-precipitation via ARs and total precipitation, 
+exercise allows us to estimate the energy input from 
+\hl{local precipitation, 
+precipitation via ARs and total precipitation}, 
 and determine whether or not that integrated 
 energy accelerates or decelerates the breakup of river ice. 
 We find that there is a strong negative correlation between the heat 
 transfer and the \emph{DOY} 
-in which the river ice breaks (Figure
+on which the river ice breaks (Figure
 \ref{fig:concatenated_corr_plots}A). In this context, negative values 
 along the y-axis of Figures \ref{fig:concatenated_corr_plots}A and 
 \ref{fig:concatenated_corr_plots}D 
 are interpreted
 as a negative heat exchange, meaning a cooling effect on the river ice
-surface or the depositing of precipitation below freezing along the 
-river ice surface. This is optimized for 
+surface as the precipitation below freezing temperature are accumulated
+on the river ice surface. 
+\hl{This is optimized for 
 when the temporally-weighted bias curve
 is positioned during the coldest period of the year - typically between
-late November and early February (Figure \ref{fig:concatenated_corr_plots}C).
+late November and early February (Figure
+		\ref{fig:concatenated_corr_plots}C). THIS NEEDS REWORDING}
 In other words, the presence of HPEs of greater magnitude, occuring 
 on colder days of the 
 year, show a strong inverse correlation in breakup timing. 
