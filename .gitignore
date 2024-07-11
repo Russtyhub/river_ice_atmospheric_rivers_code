@@ -1,0 +1,4 @@
+private_notes.txt
+*__pycache__/
+*.ipynb_checkpoints
+
