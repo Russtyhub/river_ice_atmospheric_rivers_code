@@ -59,5 +59,7 @@ If you use this work or the provided code, please cite:
 ```
 
 ```
-Limber, R., Massoud, E. C., Guan, B., Hoffman, F. M., & Kumar, J. (2024). Influence of atmospheric rivers on Alaskan river ice. Geophysical Research Letters, 51, e2024GL111544. https://doi.org/10.1029/2024GL111544
+Limber, R., Massoud, E. C., Guan, B., Hoffman, F. M., & Kumar, J. (2024).
+Influence of atmospheric rivers on Alaskan river ice. Geophysical Research Letters,
+51, e2024GL111544. https://doi.org/10.1029/2024GL111544
 ```
