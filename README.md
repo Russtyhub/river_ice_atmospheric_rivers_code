@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Atmospheric rivers (ARs) transport vast amounts of moisture from low to high latitude regions. One region particularly impacted by ARs is Interior Alaska (AK). We analyze the impact of ARs on the annual river ice breakup date for 26 locations in AK. We investigate the AR-driven rise in local air temperatures and explore the relationship between ARs and precipitation, including extremes and interannual variability. We found that AR events lead to an increase in local air temperatures for over one week (by ≈ 1 °C). ARs account for 40% of total precipitation, explain 47% of precipitation variability, and make up 59% of extreme precipitation events, each year. By estimating the heat transfer between winter precipitation and the river ice surface, we conclude that increased precipitation during the coldest period of the year delays river ice breakup dates, while precipitation occurring close to the breakup date has little impact on breakup timing.
+Amospheric rivers (ARs) transport vast amounts of moisture from low to high latitude regions. One region particularly impacted by ARs is Interior Alaska (AK). We analyze the impact of ARs on the annual river ice breakup date for 26 locations in AK. We investigate the AR-driven rise in local air temperatures and explore the relationship between ARs and precipitation, including extremes and interannual variability. We found that AR events lead to an increase in local air temperatures for over one week (by ≈ 1 °C). ARs account for 40% of total precipitation, explain 47% of precipitation variability, and make up 59% of extreme precipitation events, each year. By estimating the heat transfer between winter precipitation and the river ice surface, we conclude that increased precipitation during the coldest period of the year delays river ice breakup dates, while precipitation occurring close to the breakup date has little impact on breakup timing.
 
 ---
 
@@ -49,13 +49,13 @@ If you use this work or the provided code, please cite:
 	author = {Limber, Russ and Massoud, Elias C. and Guan, Bin and Hoffman, Forrest M. and Kumar, Jitendra},
 	title = {Influence of Atmospheric Rivers on Alaskan River Ice},
 	journal = {Geophysical Research Letters},
-	volume = {},
-	number = {},
-	pages = {},
+	volume = {51},
+	pages = {e2024GL111544},
 	keywords = {River Ice, Alaska, Atmospheric Rivers, Precipitation, Daily Temperature, River Ice Breakup},
-	doi = {},
-	url = {},
-	eprint = {},
+	doi = {10.1029/2024GL111544},
+	url = {https://doi.org/10.1029/2024GL111544},
 	year = {2024}
 }
-
+```
+Limber, R., Massoud, E. C., Guan, B., Hoffman, F. M., & Kumar, J. (2024). Influence of atmospheric rivers on Alaskan river ice. Geophysical Research Letters, 51, e2024GL111544. https://doi.org/10.1029/2024GL111544
+```
