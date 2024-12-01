@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# conda activate r62GEDI
 
 import pandas as pd
 import numpy as np
@@ -9,7 +10,7 @@ from datetime import datetime
 from datetime import date, timedelta
 import copy
 
-sys.path.append('/home/r62/repos/russ_repos/Functions')
+sys.path.append('/path/to/functions/')
 from TIME import create_list_of_dates, generate_leap_years, date_from_day_of_year, create_datetime_index
 from REMOTE_SENSING_FUNCTIONS import find_extraction_coordinates
 from STANDARD_FUNCTIONS import runcmd, write_pickle
@@ -18,6 +19,8 @@ Import_NCEP = False
 scaling_factor = 0.08
 aggregation_method = 'sum'
 NORM_METRICS = True
+
+data_path = 'path/to/where/you/are/storing/project/data'
 
 ################ FUNCTIONS ################################################
 
@@ -141,10 +144,10 @@ def get_metrics(NORM_METRICS, aggregation_method, df):
 
 save_dict = {}
 
-break_up_data = pd.read_pickle('/mnt/locutus/remotesensing/r62/river_ice_breakup/Breakup_Data/01_BREAK_UP_DATA_WEBSCRAPED.pkl')
-locations_data = pd.read_csv('/mnt/locutus/remotesensing/r62/river_ice_breakup/Breakup_Data/CMIP6_analysis/Locations_Meta_Data_40_Sites.csv')
-ar_dataset = xr.open_dataset('/mnt/locutus/remotesensing/r62/river_ice_breakup/atmospheric_rivers/NCEP-NCAR/globalARcatalog_NCEP-NCAR_1948-2021_v3.0.nc')
-daymet_directory = '/mnt/locutus/remotesensing/r62/river_ice_breakup/Daymet_25_locations'
+daymet_directory = f'{data_path}/Daymet_26_locations'
+break_up_data = pd.read_pickle(f'{data_path}/01_BREAK_UP_DATA_WEBSCRAPED.pkl')
+locations_data = pd.read_csv(f'{data_path}/Locations_Meta_Data_40_Sites.csv')
+ar_dataset = xr.open_dataset(f'{data_path}/globalARcatalog_NCEP-NCAR_1948-2021_v3.0.nc')
 
 dfs = []
 
@@ -201,13 +204,13 @@ for index, row in locations_data.iterrows():
 	site = SITE.replace(' ', '_')
 	river = RIVER.replace(' ', '_')
 	
-	if os.path.exists(f'{daymet_directory}/{site}_{river}.pkl'):
+	if os.path.exists(f'{data_path}/{site}_{river}.pkl'):
 		print('DAYMET DATA AVAILABLE FOR SITE', SITE)
-		daymet_data = pd.read_pickle(f'{daymet_directory}/{site}_{river}.pkl')
+		daymet_data = pd.read_pickle(f'{data_path}/{site}_{river}.pkl')
 
 		# make sure the calendars agree
 		# Daymet reads in with 365 days/year (no leap years)
-		daymet_data = pd.read_pickle(f'{daymet_directory}/{site}_{river}.pkl')
+		daymet_data = pd.read_pickle(f'{data_path}/{site}_{river}.pkl')
 		# create a datetime index using the year and yday columns
 		daymet_data = create_datetime_index(daymet_data, 'year', 'yday', 'Date_IDX', True)
 		# Since Daymet only goes to the 365 day of the year last day of the year is missing
@@ -234,5 +237,5 @@ for index, row in locations_data.iterrows():
 	dfs.append(df)
 	
 dfs = pd.concat(dfs)
-dfs.to_pickle('/mnt/locutus/remotesensing/r62/river_ice_breakup/atmospheric_rivers/daymet_25_locations_with_IVT')
-write_pickle('/mnt/locutus/remotesensing/r62/river_ice_breakup/atmospheric_rivers/post_function_results.pkl', save_dict)
+dfs.to_pickle(f'{data_path}/daymet_26_locations_with_IVT.pkl')
+write_pickle(f'{data_path}/post_function_results.pkl', save_dict)

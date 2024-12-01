@@ -14,8 +14,8 @@ from datetime import datetime
 from datetime import date, timedelta
 from scipy.stats import shapiro, ranksums, ttest_ind, ttest_rel, pearsonr, spearmanr
 
-sys.path.append('/home/r62/repos/russ_repos/Functions/')
-sys.path.append('/home/r62/repos/russ_repos/river_ice_breakup/')
+sys.path.append('/path/to/functions/')
+data_path = 'path/to/where/you/are/storing/project/data'
 
 from STANDARD_FUNCTIONS import runcmd, create_directory, write_pickle
 from STATISTICS import summary_statistics
@@ -299,10 +299,10 @@ def get_pvalues_for_temp(df):
 	
 	return pvalues_tmin, pvalues_tmax, avgs_by_window
 	
-daymet_directory = '/mnt/locutus/remotesensing/r62/river_ice_breakup/Daymet_25_locations'
-break_up_data = pd.read_pickle('/mnt/locutus/remotesensing/r62/river_ice_breakup/Breakup_Data/01_BREAK_UP_DATA_WEBSCRAPED.pkl')
-locations_data = pd.read_csv('/mnt/locutus/remotesensing/r62/river_ice_breakup/Breakup_Data/CMIP6_analysis/Locations_Meta_Data_40_Sites.csv')
-ar_dataset = xr.open_dataset('/mnt/locutus/remotesensing/r62/river_ice_breakup/atmospheric_rivers/NCEP-NCAR/globalARcatalog_NCEP-NCAR_1948-2021_v3.0.nc')
+daymet_directory = f'{data_path}/Daymet_26_locations'
+break_up_data = pd.read_pickle(f'{data_path}/01_BREAK_UP_DATA_WEBSCRAPED.pkl')
+locations_data = pd.read_csv(f'{data_path}/Locations_Meta_Data_40_Sites.csv')
+ar_dataset = xr.open_dataset(f'{data_path}/AR_ERA5_v4.0.nc')
 
 for FILE in os.listdir(daymet_directory):
 	
@@ -527,4 +527,4 @@ for FILE in os.listdir(daymet_directory):
 			    'avg_before_after' : avg_before_after,
 			    'df' : df}
 	
-	write_pickle(f'/mnt/locutus/remotesensing/r62/river_ice_breakup/atmospheric_rivers/Results/outputs/exponential/{var_name}_{FILE}_River.pkl', pkl_dict)
+	write_pickle(f'{data_path}/Results/outputs/exponential/{var_name}_{FILE}_River.pkl', pkl_dict)
